@@ -1,0 +1,13 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.exclude": {
+      "session-history.md": true,
+      "dump-session.js": true
+    }
+  }
+}

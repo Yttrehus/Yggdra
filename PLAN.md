@@ -61,7 +61,7 @@ Yttre bad specifikt om: dybere forklaring af git-koncepter, GitHub/repo/commit/p
 
 ---
 
-## M2: VS Code — I GANG
+## M2: VS Code ✅
 
 - [x] **Step 1: Extensions** — GitLens, WSL, Remote-SSH, Prettier, Python, ESLint
   - Han spurgte "hvad er GitLens?" og "burde jeg vide noget om disse?" → fik kort forklaring af alle seks
@@ -76,8 +76,9 @@ Yttre bad specifikt om: dybere forklaring af git-koncepter, GitHub/repo/commit/p
   - Ctrl+` virker ikke på dansk layout — åbnede settings i stedet for terminal
   - Åbnede den forkerte keybindings-fil (standard/skrivebeskyttet, 5796 linjer) → crashede sessionen (prompt too long)
   - Løst i ny session: `oem_5` i `C:\Users\Krist\AppData\Roaming\Code\User\keybindings.json`
-- [ ] **Step 4: Workspace-filer** ← NÆSTE
-  - Hvad er `.code-workspace`, hvornår bruges det, hvordan oprettes det
+- [x] **Step 4: Workspace-filer** — forklaret. Ikke nødvendigt endnu (Open Folder dækker ét projekt). Relevant når flere mapper skal samles.
+- [x] **Repo oprettet** — github.com/Yttrehus/Basic-setup (renamed fra test-repo, force-pushed)
+- [x] **CLAUDE.md workflow-regler** — commit+push efter ændringer, PLAN.md som levende dokument, state på disk
 
 ---
 
