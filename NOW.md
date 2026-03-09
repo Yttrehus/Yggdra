@@ -1,35 +1,34 @@
 # NOW — Hvor vi er
 
 **Sidst opdateret:** 2026-03-09
-**Status:** M3 afsluttet, M4 næste
+**Status:** V2 plan implementeret, M4 næste
 
 ## Næste step
 
-M4: Projekt-struktur — ~/dev/ layout, dotfiles-repo, standard per-projekt struktur
+M4: Projekt-struktur — starter med research om professionelle konventioner
 
 ## Seneste session (2026-03-09)
 
 - M3 gennemført: Zsh + Oh My Zsh + Starship + plugins + aliases
-  - Zsh sat som default shell (chsh)
-  - Oh My Zsh installeret
-  - Starship prompt installeret og aktiveret
-  - Plugins: zsh-autosuggestions, zsh-syntax-highlighting
-  - Shell-aliases i .zshrc: gs, ga, gc, gp, gd, gl, ll, .., ...
-- Rettede email-beskrivelse i PLAN.md (hotmail er personlig skrive-mail, ikke GitHub-relateret)
-- Skiftede til workspace-mode (Open Workspace from File)
+- V2 plan designet og implementeret
+  - PLAN.md omdøbt til PLAN.v1.md
+  - Ny PLAN.md (v2) med Popper-loop, done-kriterier, idé-parkering, scope-grænse
+  - references/automation.md oprettet (overblik over alle hooks/scripts)
+  - references/terminal.md + vscode.md oprettet
+- Poppler installeret (PDF-support) — kræver VS Code restart for PATH
+- Research gennemført: GSD, RPI, PRD-first, Yttres AI-biografi
+- Email-beskrivelse rettet i PLAN.v1.md
 
 ## Vigtig kontekst
 
 - Claude Code Bash-tool kører i Windows, ikke WSL
-- Windows git er nu konfigureret med SSH — Claude kan commit+push selv
-- WSL git bruges til manuelle commits fra terminalen
-- Shell-config i WSL: ~/.zshrc (Oh My Zsh + Starship + plugins + aliases)
-- Dotfiles-strategi udskudt til M4
+- Windows git konfigureret med SSH — Claude kan commit+push
+- PostToolUse hook opfanger git commits → minder om NOW.md
+- Poppler installeret men PATH ikke aktiv endnu (kræver restart)
 
 ## Åbne tråde
 
-- VS Code håndbog (Yttre foreslog det)
 - JetBrains Mono font ikke installeret
+- Mermaid Preview extension ikke installeret
 - Notion-struktur venter
-- Context engineering som M5
-- Dotfiles-repo (del af M4)
+- Poppler PATH-verifikation efter restart
