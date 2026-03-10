@@ -152,6 +152,14 @@ gh CLI installeret (winget) og autentificeret som Yttrehus. Dotfiles-repo pushed
 
 Slettet cruft: read-session.js, dump-session.js, session-history.md, chatlog-session4.tmp, habits/ (tom). dump-chatlog.js omskrevet til at gruppere per dato og flette sessions kronologisk — én chatlog-YYYY-MM-DD.md per dag. Oprettet chatlogs/ mappe. Flyttet PLAN.v1.md og git-concepts.md til references/. Oprettet references/README.md med indeks. Opdateret root README.md til aktuel struktur. Root er nu rent: kun state-filer, konventionsfiler, og mapper.
 
+### Skills-arkitektur revideret
+
+Tre ændringer: (1) BS-specifikke skills (checkpoint, session-state) flyttet fra global ~/.claude/skills/ til projekt-niveau .claude/skills/. Princip: skills starter lokalt, promoveres til global når bevist. (2) Feedback-log separeret fra skill-definition — .claude/implementationlogs/ oprettet med checkpoint.md og chatlog-search.md. (3) chatlog-search skill oprettet: søger i chatlogs/ efter specifik kontekst (beslutninger, diskussioner) med tvungen rapportering i implementationlogs.
+
+.gitattributes + .editorconfig tilføjet til BS root fra template/ — fjerner CRLF-warnings der har plaget alle commits.
+
+Diskussion om Claude Code skills-arkitektur: .claude/skills/ filer er reelt instruktionsfiler (kontekst der loades), ikke executable skills. Skill-toolet er for marketplace-plugins. Praktisk ingen forskel for brugeren — "checkpoint" virker ved at Claude læser instruktionen og følger den.
+
 ---
 
 ## Session 6 — 2026-03-10 (fortsættelse)

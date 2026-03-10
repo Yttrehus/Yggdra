@@ -10,50 +10,51 @@ Derefter:
 - M4 step 6: evaluering af /checkpoint og /new-project skills
 - M4 PDCA-evaluering (Check/Act)
 
-## Igangværende
+## Hvad sessionen producerede
 
-M4 step 4: dotfiles-repo — DONE:
-- ~/dev/projects/dotfiles/ oprettet med git + pushed til GitHub (privat, Yttrehus/dotfiles)
-- .zshrc stow-symlinket (WSL /home/yttre/.zshrc → dotfiles/zsh/.zshrc)
-- .gitconfig kopieret ind i dotfiles/git/
-- Scripts flyttet: ~/dev/scripts/ → dotfiles/bin/
-- gh CLI installeret og autentificeret (Yttrehus)
+- **Dotfiles-repo:** ~/dev/projects/dotfiles/ — stow-managed .zshrc, .gitconfig kopi, scripts i bin/, pushed til GitHub (Yttrehus/dotfiles, privat)
+- **Software installeret:** GNU Stow (WSL), GitHub CLI (Windows, autentificeret som Yttrehus)
+- **Workspace-oprydning:** slettet cruft (5 filer + 2 mapper), oprettet chatlogs/, flyttet filer til references/
+- **dump-chatlog.js omskrevet:** grupperer per dato, fletter sessions kronologisk
+- **.gitattributes + .editorconfig tilføjet til BS** (fra template/)
+- **Skills-arkitektur revideret:** BS-specifikke skills flyttet fra global → projekt-niveau, feedback-log separeret til .claude/implementationlogs/, chatlog-search skill oprettet
+- **README.md** opdateret til aktuel struktur, references/README.md oprettet
 
-Workspace-oprydning:
-- Slettet cruft: read-session.js, dump-session.js, session-history.md, chatlog-session4.tmp, habits/
-- Oprettet chatlogs/ — dump-chatlog.js + chatlog-YYYY-MM-DD.md samlet her
-- dump-chatlog.js omskrevet: grupperer per dato, fletter sessions kronologisk
-- PLAN.v1.md + git-concepts.md flyttet til references/
-- references/README.md oprettet med indeks over alle filer
-- README.md i root opdateret til aktuel struktur
+## .claude/ struktur (BS projekt-niveau)
 
-## ~/dev/ konvention (opdateret session 7)
+```
+.claude/
+  skills/              ← instruktioner (hvad)
+    checkpoint.md
+    session-state.md
+    chatlog-search.md
+    infrastructure.md
+    notion.md
+  implementationlogs/  ← brugsjournal (hvordan det gik)
+    checkpoint.md
+    chatlog-search.md
+```
 
-- **projects/** — aktive projekter med eget git repo, CLAUDE.md, PLAN.md, NOW.md
-- **projects/dotfiles/** — config-filer + personlige scripts (stow-managed)
-- **archive/** — afsluttede/pauserede projekter (read-only reference)
-- **sandbox/** — eksperimenter, throwaway kode
-- **docs/external/** — tredjeparts-dokumentation
-- **BLUEPRINT.md** — historisk reference
+Skills starter lokalt i projektet. Promoveres til global (~/.claude/skills/) når bevist på tværs af projekter.
 
 ## Beslutninger taget (denne session)
 
-- GNU Stow til WSL dotfiles (.zshrc), manuel kopi til Windows (.gitconfig)
-- gh CLI installeret (winget) — bruges til GitHub-operationer fremover
-- Workspace-struktur: root kun for state-filer + konventionsfiler, alt andet i mapper
+- GNU Stow til WSL dotfiles, manuel kopi til Windows .gitconfig
+- gh CLI installeret — bruges til GitHub-operationer fremover
+- Workspace-root: kun state-filer + konventionsfiler, alt andet i mapper
+- Skills er projekt-lokale først, globale når bevist
+- implementationlogs/ for brugs-feedback, separeret fra skill-definitioner
+- .claude/skills/ er reelt instruktionsfiler (kontekst for Claude), ikke executable skills
 
 ## Vigtig kontekst
 
 - Claude Code Bash-tool kører i Windows, ikke WSL
 - Windows git konfigureret med SSH — Claude kan commit+push
 - gh CLI autentificeret som Yttrehus (HTTPS)
-- PostToolUse hook opfanger git commits → minder om NOW.md
-- **INGEN session-save hook på PC** — NOW.md skal opdateres manuelt inden session slutter
-- Checkpoint-skill sti: chatlogs/dump-chatlog.js (opdateret)
+- **INGEN session-save hook på PC** — NOW.md skal opdateres manuelt
 
 ## Åbne tråde
 
-- .editorconfig og .gitattributes mangler i Basic Setup selv
 - JetBrains Mono font ikke installeret
 - Mermaid Preview extension ikke installeret
 - Notion-struktur venter
