@@ -1,12 +1,19 @@
 # NOW — Hvor vi er
 
-**Sidst opdateret:** 2026-03-11 15:30 (session 9)
-**Status:** M5 step 1-10 DONE. Project Reformation i DLR-fase — framework designet, klar til triage + implementering.
+**Sidst opdateret:** 2026-03-11 23:10 (session 9, afslutning)
+**Status:** M5 step 1-10 DONE. Project Reformation i DLR-fase — framework designet, triage udført, klar til fil-flytning.
 
 ## Næste step (start her)
 
-**Aktiv tråd:** Project Reformation punkt 4 — triage PLAN.md idé-parkering + map eksisterende filer til ny struktur.
-Derefter: ADR-INDEX.md, navigationslinks i chatlog-engine, M5 step 11-17.
+**Næste session:** Implementér mappestrukturen (den store flytning).
+1. Opret `_backlog/`, `PoC/`, `DLR/`, `SIP/`, `_ARC/` med README.md i hver
+2. Flyt project-reformation/ → DLR/project-reformation/
+3. Flyt auto-chatlog/ → SIP/auto-chatlog/
+4. Opret backlog-briefs (13 stk) med cowork-output som rå input
+5. Opret ADR.md for auto-chatlog, session-drift-pipeline, file-watcher, projekt-omdøbning, skill-arkitektur
+6. Flyt implementation journals → _ARC/, PLAN.v1.md → _ARC/
+7. ADR-INDEX.md i roden
+8. Derefter: M5 step 11-17
 
 ## Hvad sessionen producerede
 
