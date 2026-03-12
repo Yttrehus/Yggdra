@@ -1,4 +1,5 @@
-# ADR-001: Project Reformation
+# ADR: Project Reformation
+<!-- Filnavn: adr.project-reformation.md -->
 
 ## 0. Metadata
 - **Stage:** DLR
@@ -11,7 +12,7 @@
 Project Reformation opstod d. 11/3-2026 under session 9. Det startede ikke som ét projekt men som en kaskade af frustrationer: auto-chatlog var halvfærdig, checkpoint opdaterede NOW.md men glemte PLAN.md, implementation journals eksisterede men var tynde og kontekstløse, og nye idéer druknede i et system der ikke havde infrastruktur til at håndtere dem. Yttre gik fra forstanden over at kontekst forsvandt mellem sessioner — ikke fordi ideerne var dårlige, men fordi der ikke var et stillads der fangede dem. Samtalen eskalerede fra "kan chatloggen opdatere sig selv?" til "hele projektstyringen mangler en livscyklus." En parallel samtale med Google AI Mode validerede idéen om en 4-stage pipeline (PoC → DLR → SIP → BMS) med levende ADR-dokumenter. Det blev klart at Basic Setup ikke bare var "opsætning af et udviklermiljø" — det var ved at blive et framework for hvordan Yttre arbejder med AI.
 
 ## 2. Current State
-DLR-fase. Framework er fuldt designet: pipeline (Backlog→PoC→DLR→SIP→BMS), ADR-template (11 sektioner), governance-README'er (5 stk), brief-format for backlog, triage af 18 idéer udført. Fil-flytning planlagt i detaljer (T112/T153 i chatlog). Intet er rørt i det eksisterende filsystem endnu.
+DLR-fase. Framework er fuldt designet: pipeline (Backlog→PoC→DLR→SIP→BMS), ADR-template (12 sektioner inkl Implementation), governance-README'er (5 stk), brief-format for backlog, triage af 18 idéer udført. Fil-flytning planlagt i detaljer (sektion 8, Implementation). Intet er rørt i det eksisterende filsystem endnu.
 
 Session 10 (2026-03-12) tilføjede: context engineering research (8 kilder, Anthropic officiel + community), repo-omdøbning besluttet (Basic Setup → Yggdra), PLAN.md v3 struktur diskuteret (pipeline-baseret i stedet for modulbaseret), M7 (context engineering) omtænkt som selvstændigt projekt i pipelinen i stedet for modulstep. CLAUDE.md-filer opdateret: context rot fjernet, @import NOW.md tilføjet, compaction-instruktion tilføjet.
 
@@ -53,7 +54,7 @@ Ethvert modul/projekt har en ADR der følger det fra fødsel til arkiv. Fire sta
 - [x] CONTEXT.md design besluttet (NOW+PLAN+PROGRESS → ét dokument, graduated summary)
 - [x] PLAN.md v3 struktur besluttet (pipeline-baseret, lagdelt evolution)
 - [x] Repo-omdøbning besluttet (→ Yggdra)
-- [x] ADR-filnavn konvention: `emne.adr.md`
+- [x] ADR-filnavn konvention: `adr.[emne].md` (type først)
 - [x] Implementation merged ind i ADR (dette dokument)
 
 ### Fase 0.5: Fil-audit
@@ -101,10 +102,10 @@ Opret briefs i `_backlog/` fra idé-parkering + ~/parallel-tasks/ output.
 4. [ ] Commit: "reformation fase 3: briefs oprettet"
 
 ### Fase 4: ADR'er for eksisterende moduler
-Navnekonvention: `emne.adr.md`
+Navnekonvention: `adr.[emne].md`
 
-1. [ ] `SIP/auto-chatlog/auto-chatlog.adr.md`
-2. [ ] `PoC/projekt-omdobning/projekt-omdobning.adr.md`
+1. [ ] `SIP/auto-chatlog/adr.auto-chatlog.md`
+2. [ ] `PoC/projekt-omdobning/adr.projekt-omdobning.md`
 3. [ ] Verificér: ADR-template følges (12 sektioner)
 4. [ ] Commit: "reformation fase 4: ADR'er oprettet"
 
@@ -160,19 +161,12 @@ Den store konsolidering. Bør have sin egen session.
 - 2026-03-12 (session 10): Separat review-session med fokus på state-filer og kontekst-kvalitet. Læste alle chatlog-filer fra session 9 (T001-T158) for fuldt overblik. Tre beslutninger: (1) Repo omdøbes fra "Basic Setup" til "Yggdra" — det ER allerede Yggdra, ét system/ét navn. (2) M7 (context engineering) trækkes ud af PLAN.md's modulstruktur og bliver et selvstændigt projekt i pipelinen (DLR eller PoC). Research udført med 8 kilder (Anthropic officiel, community patterns) — gemt i references/context-engineering-research.md. Kerneresultat: @import syntax, .claude/rules/, compaction-instruktioner, ~80% kontinuitet er realistisk. (3) PLAN.md v3 diskuteret: pipeline-baseret i stedet for modulbaseret. Aktive moduler (M5 rest, M6) beholdes, men resten erstattes af pipeline-overblik. Context rot i begge CLAUDE.md-filer rettet: forældet state fjernet, slettet scripts/-reference, @import NOW.md tilføjet, compaction-instruktion tilføjet. PROGRESS arkiveringspolitik besluttet: "destillér først, arkivér dernæst" — principper trækkes til CLAUDE.md/MEMORY.md før rå materiale flyttes til _ARC/.
 
 ## 10. Backlog
-- README'er/governance-manualer for PoC, DLR, SIP, BMS (punkt 3 i planen)
-- Map eksisterende filer til ny struktur (punkt 4)
-- ADR-INDEX.md i roden
-- Test ADR-template på auto-chatlog og checkpoint som første moduler
 - Navigationslinks i chatlog-engine.js
-- Plan-konsolidering (plan+now+progress → ét dok) — parkeret som eksperiment
 - Lokal LLM (Ollama) til opsummering/nøgleord — parkeret som fremtidigt projekt
-- Opdatér checkpoint-skill til at scanne ADR'er og PLAN.md checkboxes
-- Overvej om project-reformation/ selv skal leve i en PoC/DLR/SIP/BMS-struktur (meta!)
-- Context engineering som selvstændigt projekt i DLR (udtrukket fra M7) — research allerede i references/context-engineering-research.md
-- Repo-omdøbning Basic Setup → Yggdra (besluttet session 10, implementeres ved reformation)
-- PLAN.md v3 design: pipeline-baseret struktur, NOW-sektion integreret, afsluttede moduler → _ARC/PLAN.v2.md
-- PROGRESS arkiveringspolitik: destillér principper til CLAUDE.md/MEMORY.md, derefter flyt rå sessioner til _ARC/
+- Opdatér checkpoint-skill til at scanne ADR'er og CONTEXT.md
+- Context engineering som selvstændigt projekt i DLR — research i references/context-engineering-research.md
+- Push-system (automatisk checkpoint ved Stop/PreCompact) — session-drift-pipeline projekt
+- Graduated summary komprimeringsregler: præcise procenter og tærskel for arkivering
 
 ## 11. Original ADR
 
