@@ -12,7 +12,7 @@
 Project Reformation opstod d. 11/3-2026 under session 9. Det startede ikke som ét projekt men som en kaskade af frustrationer: auto-chatlog var halvfærdig, checkpoint opdaterede NOW.md men glemte PLAN.md, implementation journals eksisterede men var tynde og kontekstløse, og nye idéer druknede i et system der ikke havde infrastruktur til at håndtere dem. Yttre gik fra forstanden over at kontekst forsvandt mellem sessioner — ikke fordi ideerne var dårlige, men fordi der ikke var et stillads der fangede dem. Samtalen eskalerede fra "kan chatloggen opdatere sig selv?" til "hele projektstyringen mangler en livscyklus." En parallel samtale med Google AI Mode validerede idéen om en 4-stage pipeline (PoC → DLR → SIP → BMS) med levende ADR-dokumenter. Det blev klart at Basic Setup ikke bare var "opsætning af et udviklermiljø" — det var ved at blive et framework for hvordan Yttre arbejder med AI.
 
 ## 2. Current State
-DLR-fase, forberedelse komplet (fase 0 ✅). Næste: fil-audit (fase 0.5).
+DLR-fase, fase 0-2 komplet ✅. Mappestruktur + fil-flytning udført. Næste: fase 3 (backlog-briefs).
 
 Framework er fuldt designet: pipeline (Backlog→PoC→DLR→SIP→BMS), ADR-template (12 sektioner), governance-README'er (5 stk), brief-format for backlog, triage af 18 idéer. Filnavn-konvention: `adr.[emne].md`. Implementation-sektion merged ind i ADR (ikke separat fil). Fil-audit tilføjet som forudsætning før noget flyttes — IMPLEMENTATION.md var et intent doc, ikke en manual.
 
@@ -59,41 +59,34 @@ Ethvert modul/projekt har en ADR der følger det fra fødsel til arkiv. Fire sta
 - [x] ADR-filnavn konvention: `adr.[emne].md` (type først)
 - [x] Implementation merged ind i ADR (dette dokument)
 
-### Fase 0.5: Fil-audit
+### Fase 0.5: Fil-audit ✅
 Komplet audit af alle filer i repoet med destination per fil. Gøres FØR fase 1.
 
-1. [ ] Audit: roden (alle filer, hvad er BMS, hvad flyttes)
-2. [ ] Audit: references/ (opslagsværk vs research vs arkiv, freshness)
-3. [ ] Audit: chatlogs/ (relation til SIP/auto-chatlog, pensioneringsplan)
-4. [ ] Audit: .claude/ (skills, hooks, implementation journals → _ARC/)
-5. [ ] Audit: template/ (skal ADR-template og CONTEXT-template ind her?)
-6. [ ] Audit: auto-chatlog/ (hvad eksisterer, hvad mangler)
-7. [ ] Audit: ~/parallel-tasks/ (7 outputs → mapping til specifikke briefs)
-8. [ ] Skriv komplet fil-manifest: hvad → hvor, med begrundelse per fil
+1. [x] Audit: roden (alle filer, hvad er BMS, hvad flyttes)
+2. [x] Audit: references/ (opslagsværk vs research vs arkiv, freshness)
+3. [x] Audit: chatlogs/ (relation til SIP/auto-chatlog, pensioneringsplan)
+4. [x] Audit: .claude/ (skills, hooks, implementation journals → _ARC/)
+5. [x] Audit: template/ (skal ADR-template og CONTEXT-template ind her?)
+6. [x] Audit: auto-chatlog/ (hvad eksisterer, hvad mangler)
+7. [x] Audit: ~/parallel-tasks/ (7 outputs → mapping til specifikke briefs)
+8. [x] Skriv komplet fil-manifest: hvad → hvor, med begrundelse per fil
 
-### Fase 1: Mappestruktur
-Opret mapper med governance-README'er. Intet flyttes endnu.
+**Resultat (session 11):** references/ opløst → manuals/ + research/_ARC/. Al research pre-reformation. Nye briefs: research-architecture, automation-index.
 
-1. [ ] Opret `_backlog/` + governance README
-2. [ ] Opret `PoC/` + governance README
-3. [ ] Opret `DLR/` + governance README
-4. [ ] Opret `SIP/` + governance README
-5. [ ] Opret `_ARC/` + skriv README
-6. [ ] Verificér: alle 5 mapper eksisterer med README.md
-7. [ ] Commit: "reformation fase 1: mappestruktur oprettet"
+### Fase 1-2: Mappestruktur + fil-flytning ✅
+Udført samlet i session 11. Manifestet fra fase 0.5 udvidet med manuals/ og research/.
 
-### Fase 2: Fil-flytning
-Flyt filer ifølge fil-manifestet fra fase 0.5. Roden ER BMS.
-
-1. [ ] `project-reformation/` → `DLR/project-reformation/`
-2. [ ] `auto-chatlog/` → `SIP/auto-chatlog/`
-3. [ ] `.claude/implementation journals/` → `_ARC/implementation-journals/`
-4. [ ] `references/PLAN.v1.md` → `_ARC/PLAN.v1.md`
-5. [ ] `references/git-concepts.md` → `_ARC/` (historisk læremateriale)
-6. [ ] `references/google-ai-samtale-rd-framework.md` → `_ARC/` (kontekst nu i ADR)
-7. [ ] Opdatér `references/README.md` med indeks + freshness-tabel
-8. [ ] Verificér: alle filer fra manifestet er på rette plads
-9. [ ] Commit: "reformation fase 2: filer flyttet til pipeline-struktur"
+1. [x] Opret pipeline-mapper: _backlog/, PoC/, DLR/, SIP/, _ARC/ + README'er
+2. [x] Opret manuals/ + README (levende håndbøger)
+3. [x] Opret research/ + research/_ARC/ + README (afventer research-arkitektur)
+4. [x] `project-reformation/` → `DLR/project-reformation/`
+5. [x] `auto-chatlog/` → `SIP/auto-chatlog/`
+6. [x] `.claude/implementation journals/` → `_ARC/implementation-journals/`
+7. [x] `references/` opløst: guides → manuals/, research → research/_ARC/, historisk → _ARC/
+8. [x] `chatlogs/` pensioneret → `_ARC/chatlogs/` + `_ARC/dump-chatlog.js`
+9. [x] `.firecrawl/` → allerede i .gitignore
+10. [x] .gitignore opdateret (fjernet forældede chatlog-regler)
+11. [x] Verificeret: alle filer på rette plads
 
 ### Fase 3: Backlog-briefs
 Opret briefs i `_backlog/` fra idé-parkering + ~/parallel-tasks/ output.

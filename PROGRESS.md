@@ -4,6 +4,47 @@ Fortællende dagbog. Formålet er at en ny Claude-session kan læse dette og for
 
 ---
 
+## Session 11 — 2026-03-12
+
+### Kontekst
+
+Fil-audit session (reformation fase 0.5). Formålet var at producere et komplet fil-manifest: hver fil og mappe i repoet → destination + begrundelse. Ingen kode, kun analyse og beslutninger.
+
+### Hvad skete der
+
+**Systematisk audit af 7 områder:** Roden, references/, chatlogs/, .claude/, template/, auto-chatlog/, ~/parallel-tasks/. Hvert område gennemgået fil for fil med destination og begrundelse.
+
+**references/ opløses:** Den vigtigste beslutning i sessionen. Yttre identificerede tre distinkte ting musset sammen i én mappe:
+1. **Manualer** (git.md, vscode.md, terminal.md) — levende håndbøger der kan vokse. Startede som cheatsheets men er reelt begyndelsen på en Yggdra-manual. → `manuals/`
+2. **Research** — en praksis/kapabilitet, ikke bare en mappe. Betjener hele pipelinen. Kilder: AI-giganter (Anthropic, OpenAI, Perplexity), forskningsinstitutter, eksperter, communities. Al eksisterende research er pre-reformation og mangler kvalitetssikring. → `research/_ARC/`
+3. **Historisk/absorberet materiale** (PLAN.v1, git-concepts, google-ai-samtale) → `_ARC/`
+
+**Research-arkitektur som fremtidigt projekt:** Yttre beskrev en vision om research som fundamentalt infrastrukturprojekt — lige så vigtigt som Yggdras kernearkitektur. Alle praksisser, strategier og beslutninger bygger på research, men hvor godt er fundamentet? VPS har masser af research der er forældet eller amatøragtigt udført. Alt skal gennemgås, researches på ny, opdateres. Men først skal research-praksis selv være formidabel. → backlog-brief, høj prioritet post-reformation.
+
+**automation.md → backlog:** Filen dokumenterer hooks/workflows men er forældet og fejlplaceret. Erstattes af et kommende system: levende index over alle automatiske processer, for overblik og cruft-forebyggelse. → backlog-brief.
+
+**chatlogs/ pensioneres:** Flyttes til `_ARC/chatlogs/`. Auto-chatlog i SIP overtager funktionen.
+
+**.firecrawl/ ignoreres:** Ikke git-tracked, tilføjes til .gitignore. Tool-cache, ikke projekt-output.
+
+**Git-tracked forklaret:** Yttre spurgte hvad "git-tracked" betyder. Forklaret: tracked = git kender filen og versionerer den. Ikke tracked = kun lokalt. .gitignore = "ignorer altid."
+
+### Beslutninger
+
+- references/ opløses → manuals/ + research/_ARC/ + _ARC/
+- Al eksisterende research er pre-reformation → research/_ARC/
+- research/ starter tom — fyldes når research-arkitektur er på plads
+- automation.md → backlog (kommende automation-index system)
+- brief.research-architecture.md → _backlog/ (høj prioritet post-reformation)
+- brief.automation-index.md → _backlog/
+- .firecrawl/ → .gitignore
+
+### Fil-manifest produceret
+
+Komplet manifest med destination per fil. Godkendt af Yttre. Klar til implementering (fase 1-2).
+
+---
+
 ## Session 3 — 2026-03-10
 
 ### Hvad skete der

@@ -169,6 +169,6 @@ Basic Setup er opsætning af professionelt udviklermiljø. Alt der vokser ud ove
 
 ## Rækkefølge
 
-M4 → M5 → M6 → M7 → M8
+M5 (færdiggør) → Project Reformation til BMS → M6 → M7/CE → M8
 
-M7 samler løbende indsigter undervejs men har sit eget dedikerede modul til sidst.
+**Project Reformation status:** Fase 0.5 (fil-audit) DONE. Fase 1-2 (mappestruktur + fil-flytning) næste. Se `project-reformation/adr.project-reformation.md` sektion 8 for detaljer.

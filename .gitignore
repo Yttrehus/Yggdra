@@ -1,7 +1,3 @@
-# Chatlogs (generated, not source)
-chatlogs/chatlog-*.md
-chatlogs/dump-chatlog.js
-
 # Claude Code local
 .claude/settings.local.json
 
