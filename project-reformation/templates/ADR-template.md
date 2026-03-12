@@ -1,4 +1,5 @@
-# ADR-[XXX]: [Navn]
+# ADR: [Navn]
+<!-- Filnavn: adr.[emne].md -->
 
 ## 0. Metadata
 - **Stage:** Backlog | PoC | DLR | SIP | BMS
