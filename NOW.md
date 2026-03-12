@@ -1,56 +1,59 @@
 # NOW — Hvor vi er
 
-**Sidst opdateret:** 2026-03-12 ~16:00 (session 11)
-**Status:** Project Reformation — fase 0.5 (fil-audit) DONE. Klar til implementering (fase 1-2).
+**Sidst opdateret:** 2026-03-12 ~17:00 (session 12)
+**Status:** Project Reformation — fase 0.5 (fil-audit) v2 DONE + implementeret.
 
 ## Næste step (start her)
 
-**Denne session:** Implementer fil-manifestet (fase 1 → fase 2).
-1. Opret mapper: _backlog/, PoC/, DLR/, SIP/, _ARC/, manuals/, research/ med README'er
-2. Flyt filer ifølge manifestet (se nedenfor)
-3. Slet tømte mapper (references/, chatlogs/, auto-chatlog/, project-reformation/)
-4. Tilføj .firecrawl/ til .gitignore
-5. Commit: "reformation fase 1-2: mappestruktur + fil-flytning"
-6. Derefter: fase 3 (briefs), fase 4 (ADR'er), fase 5 (CONTEXT.md, egen session)
+**Denne session:** Fil-audit v2 er implementeret. Klar til commit.
+1. ✅ Pipeline-mapper samlet under `pipeline/` med numeriske præfikser
+2. ✅ `template/` → `.claude/template/`
+3. ✅ `/new-project` skill opdateret med ny template-sti
+4. Commit: "reformation fase 1-2 v2: pipeline/ + template-flytning"
+5. Derefter: fase 3 (briefs), fase 4 (ADR'er), fase 5 (CONTEXT.md, egen session)
 
-## Fil-manifest (fase 0.5 resultat)
+## Ny struktur (fase 1-2 v2)
 
-### Nye mapper
-- `_backlog/` — idéer og briefs
-- `PoC/` — prototyper
-- `DLR/` — design/development
-- `SIP/` — staging/integration
-- `_ARC/` — arkiv (+ chatlogs/, implementation-journals/)
-- `manuals/` — levende håndbøger (git, vscode, terminal)
-- `research/` — tom nu, afventer research-arkitektur projekt
-  - `research/_ARC/` — al pre-reformation research
+```
+Basic Setup/
+├── CLAUDE.md, NOW.md, PLAN.md, PROGRESS.md, README.md
+├── .editorconfig, .gitattributes, .gitignore, .code-workspace
+│
+├── pipeline/
+│   ├── 0_backlog/
+│   ├── 1_PoC/
+│   ├── 2_DLR/
+│   │   └── project-reformation/
+│   ├── 3_SIP/
+│   │   └── auto-chatlog/
+│   └── 4_ARC/
+│       ├── chatlogs/
+│       ├── implementation-journals/
+│       └── diverse arkiv-filer
+│
+├── manuals/          ← git.md, vscode.md, terminal.md (levende håndbøger)
+├── research/         ← tom, afventer research-arkitektur projekt
+│   └── _ARC/        ← 8 pre-reformation research-filer
+│
+└── .claude/
+    ├── skills/ (6 stk)
+    ├── template/ (8 filer, flyttet fra template/)
+    └── settings.local.json
+```
 
-### Flytninger
-- references/git.md, vscode.md, terminal.md → manuals/
-- references/ (9 research-filer) → research/_ARC/
-- references/PLAN.v1.md, git-concepts.md, google-ai-samtale-rd-framework.md → _ARC/
-- chatlogs/*.md → _ARC/chatlogs/
-- chatlogs/dump-chatlog.js → _ARC/
-- .claude/implementation journals/* → _ARC/implementation-journals/
-- auto-chatlog/* → SIP/auto-chatlog/
-- project-reformation/* → DLR/project-reformation/
-- references/ → slettes (opløst)
-- chatlogs/ → slettes (pensioneret)
-
-### Nye backlog-briefs (fase 3)
-- brief.research-architecture.md — høj prioritet post-reformation
-- brief.automation-index.md — levende automation-overblik
-
-## Hvad session 11 producerede (indtil nu)
+## Hvad session 12 producerede
 
 ### Beslutninger
-- **references/ opløses:** 3 typer (manualer, research, arkiv) var blandet — separeres
-- **manuals/ oprettes:** Levende håndbøger (git, vscode, terminal) der kan vokse
-- **research/ oprettes med _ARC/:** Al eksisterende research er pre-reformation
-- **Research-arkitektur:** Omfattende fremtidigt projekt → backlog, høj prioritet
-- **automation.md → backlog:** Forældet, erstattes af kommende automation-index system
-- **chatlogs/ pensioneres nu:** Flyttes til _ARC/chatlogs/
-- **.firecrawl/ ignoreres:** Ikke git-tracked, tilføjes til .gitignore
+- **pipeline/ som overmappe:** _backlog, PoC, DLR, SIP, _ARC samlet — pipeline er processen, BMS (roden) er resultatet
+- **Numeriske præfikser:** 0_backlog → 4_ARC — kronologisk sortering, visuelt grupperet
+- **template/ → .claude/template/:** Skill-infrastruktur, ikke synlig i roden
+- **research/ er research-architecture projektets hjem:** Starter som backlog-brief, research/_ARC/ er input
+- **automation.md → backlog-brief:** Forældet index, erstattes af kommende system
+
+### Ændringer fra session 11 manifest
+- Pipeline-mapper under `pipeline/` i stedet for i roden
+- `template/` absorberet i `.claude/`
+- Rod reduceret fra 10 synlige mapper til 3 (pipeline, manuals, research)
 
 ## Åbne tråde
 
@@ -59,3 +62,7 @@
 - ~/parallel-tasks/ 7 outputs → mapping til briefs (fase 3)
 - Poppler PATH-verifikation efter restart
 - Prettier mangler .prettierrc
+
+## Nye backlog-briefs (fase 3)
+- brief.research-architecture.md — forskningspraksis, multi-LLM, VPS audit. Høj prioritet post-reformation.
+- brief.automation-index.md — levende automation-overblik, cruft-forebyggelse.

@@ -1,4 +1,4 @@
-# _ARC/ — Arkiv
+# 4_ARC — Arkiv
 
 Afsluttet, erstattet eller forældet materiale. Intet slettes — alt arkiveres med kontekst.
 

@@ -10,7 +10,7 @@ Bootstrapper et nyt projekt med standard-skabelon og feedback-loop.
 
 1. Tjek at mappen ikke eksisterer
 2. Opret projektmappen
-3. Generér filer fra template/:
+3. Generér filer fra .claude/template/:
    - `.editorconfig` — kopiér uændret
    - `.gitattributes` — kopiér uændret
    - `.gitignore` — kopiér uændret

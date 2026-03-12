@@ -9,7 +9,7 @@ Fundamentet. Her lever de etablerede, stabile moduler der er systemets rygrad. A
 - Enhver ændring logges med begrundelse i Changelog (hvorfor, ikke bare hvad)
 - Større ændringer kræver en ny ADR eller en "Superseded"-note i den eksisterende
 - Scaffolding er fjernet — modulet kører på egen kraft
-- Andre moduler (i PoC/DLR/SIP) kan referere til og bygge ovenpå BMS-moduler
+- Andre moduler (i pipeline/1_PoC, 2_DLR, 3_SIP) kan referere til og bygge ovenpå BMS-moduler
 
 ## Krav
 - ADR er komplet med alle 12 sektioner inklusiv Origin Story og Original ADR (sektion 11)

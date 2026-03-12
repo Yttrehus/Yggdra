@@ -1,4 +1,4 @@
-# DLR — Discovery-Led Roadmap
+# 2_DLR — Discovery-Led Roadmap
 
 ## Hvad er dette?
 Laboratoriet. Her omdannes rå idéer til strukturerede planer. Fokus skifter fra "kan det lade sig gøre?" til "hvordan gør vi det rigtigt?" Research, arkitektur-design, og feasibility-tests hører hjemme her. Intet kode rammer produktion fra denne stage — det er tænkning og planlægning.

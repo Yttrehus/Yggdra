@@ -1,4 +1,4 @@
-# SIP — Staged Implementation Plan
+# 3_SIP — Staged Implementation Plan
 
 ## Hvad er dette?
 Sandboxen. Her bliver planer til virkelighed — men i et kontrolleret miljø. Koden kører, data flyder, men med ekstra overvågning og scaffolding. Formålet er at validere om det faktisk virker i praksis, ikke bare i teorien. Fejl her er billige og forventede.

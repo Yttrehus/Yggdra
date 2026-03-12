@@ -6,9 +6,9 @@ Personligt udvikler-fundament. Startede som Windows-opsætning, vokset til frame
 
 ## Pipeline
 
-Projekter følger: _backlog/ → PoC/ → DLR/ → SIP/ → roden (BMS)
-Hver mappe har README.md med governance. ADR bor med det den beskriver.
-ADR-INDEX.md i roden linker til alle ADR'er.
+Projekter følger: pipeline/0_backlog → 1_PoC → 2_DLR → 3_SIP → roden (BMS)
+Hver stage har README.md med governance. ADR bor med det den beskriver.
+ADR-INDEX.md i roden linker til alle ADR'er. Arkiv: pipeline/4_ARC.
 
 ## State-filer
 

@@ -1,4 +1,4 @@
-# PoC — Proof of Concept
+# 1_PoC — Proof of Concept
 
 ## Hvad er dette?
 Inkubatoren. Her lever rå idéer, ufiltrerede tanker og hurtige eksperimenter. Formålet er at besvare ét spørgsmål: *kan dette overhovedet lade sig gøre?* Her er støj velkomment — det er bedre at fange en idé uperfekt end at miste den helt.

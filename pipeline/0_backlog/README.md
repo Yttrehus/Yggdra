@@ -1,4 +1,4 @@
-# _backlog — Briefs
+# 0_backlog — Briefs
 
 ## Hvad er dette?
 Idépuljen. Her lever tanker, drømme og koncepter der endnu ikke er klar til aktiv investering. Ingen tidspres, ingen krav om handling. En brief kan ligge her i måneder og langsomt vokse — eller aldrig forlade mappen. Begge dele er fine.
