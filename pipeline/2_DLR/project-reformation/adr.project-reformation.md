@@ -113,7 +113,7 @@ Navnekonvention: `adr.[emne].md`
 1. [x] `pipeline/3_SIP/auto-chatlog/adr.auto-chatlog.md`
 2. [x] `pipeline/1_PoC/projekt-omdobning/adr.projekt-omdobning.md`
 3. [x] Verificér: ADR-template følges (12 sektioner)
-4. [ ] Commit: "reformation fase 4: ADR'er oprettet"
+4. [x] Commit: "reformation fase 4: ADR'er oprettet"
 
 ### Fase 5: CONTEXT.md
 Den store konsolidering. Bør have sin egen session.
