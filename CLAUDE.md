@@ -4,11 +4,10 @@ Personligt udvikler-fundament. Startede som Windows-opsætning, vokset til frame
 
 @NOW.md
 
-## Pipeline
+## Projekter
 
-Projekter følger: pipeline/0_backlog → 1_PoC → 2_DLR → 3_SIP → roden (BMS)
-Hver stage har README.md med governance. ADR bor med det den beskriver.
-ADR-INDEX.md i roden linker til alle ADR'er. Arkiv: pipeline/4_ARC.
+Alle projekter bor i `projects/`. Hvert projekt har en CONTEXT.md (samme format som rod-CONTEXT.md).
+Idéer starter som briefs i `projects/backlog/`. Arkiv i `projects/archive/`.
 
 ## State-filer
 
@@ -32,4 +31,4 @@ ADR-INDEX.md i roden linker til alle ADR'er. Arkiv: pipeline/4_ARC.
 
 ## Compaction
 
-When compacting, always preserve: current task state, modified files, open decisions, active pipeline stage.
+When compacting, always preserve: current task state, modified files, open decisions, active project context.
