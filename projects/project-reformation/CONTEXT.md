@@ -10,9 +10,36 @@
 Project Reformation opstod d. 11/3-2026 under session 9. Det startede ikke som ét projekt men som en kaskade af frustrationer: auto-chatlog var halvfærdig, checkpoint opdaterede NOW.md men glemte PLAN.md, implementation journals eksisterede men var tynde og kontekstløse, og nye idéer druknede i et system der ikke havde infrastruktur til at håndtere dem. Yttre gik fra forstanden over at kontekst forsvandt mellem sessioner — ikke fordi ideerne var dårlige, men fordi der ikke var et stillads der fangede dem. Samtalen eskalerede fra "kan chatloggen opdatere sig selv?" til "hele projektstyringen mangler en livscyklus." En parallel samtale med Google AI Mode validerede idéen om en pipeline med levende projektdokumenter. Det blev klart at Basic Setup ikke bare var "opsætning af et udviklermiljø" — det var ved at blive et framework for hvordan Yttre arbejder med AI.
 
 ## 2. Current State
-Fase 0-4 komplet ✅. Session 13 simplificerede strukturen radikalt: pipeline-stages og ADR-terminologi erstattet af flad `projects/`-mappe med CONTEXT.md per projekt. Manifestet er implementeret. Næste: fase 5 (rod-CONTEXT.md — bør have sin egen session).
+Strukturen er implementeret og committet. Repoet har nu:
 
-Framework-evolution: session 9-12 byggede pipeline (Backlog→PoC→DLR→SIP→BMS) med ADR-template og governance. Session 13 simplificerede: ét format (CONTEXT.md) overalt, stage som metadata, ingen mappestruktur-encoded pipeline. Briefs i `projects/backlog/` er embryoniske CONTEXT.md'er. Arkiv i `projects/archive/`.
+```
+Basic Setup/
+├── CLAUDE.md, NOW.md, PLAN.md, PROGRESS.md, README.md
+├── projects/
+│   ├── backlog/            ← 13 idé-briefs
+│   ├── archive/            ← historiske filer, gamle chatlogs, journals
+│   ├── auto-chatlog/       ← CONTEXT.md + chatlog-engine + output
+│   ├── project-reformation/← dette dokument
+│   ├── projekt-omdobning/  ← venter på fase 7
+│   ├── manuals/            ← git, vscode, terminal håndbøger
+│   └── research/           ← archive/ med 8 pre-reformation filer
+└── .claude/                ← skills, template, settings
+```
+
+**Hvad er gjort:**
+- Alle filer auditeret og flyttet til `projects/` (manifest v1→v4, tre iterationer)
+- Hvert projekt har CONTEXT.md — samme format overalt (rekursivt design)
+- Idéer samlet som briefs i `projects/backlog/`
+- Historisk materiale i `projects/archive/`
+- Roden reduceret fra 10+ mapper til 2 (projects, .claude)
+
+**Hvad mangler:**
+- **Fase 5:** Rod-CONTEXT.md der erstatter NOW.md + PLAN.md + PROGRESS.md (bør have sin egen session)
+- **Fase 6:** Oprydning (checkpoint-skill, forældreløse filer)
+- **Fase 7:** Omdøb repo til Yggdra
+
+**Hvad ændrede sig undervejs:**
+Startede med 4-stage pipeline (PoC→DLR→SIP→BMS), ADR-dokumenter, governance READMEs per stage, og numeriske mappenavne. Gennem tre iterationer (session 11-13) landede vi på noget simplere: flad `projects/`-mappe, CONTEXT.md i stedet for ADR, status i plain dansk. Pipeline-terminologien var overengineering — det vigtige var at hvert projekt har ét dokument der fanger alt.
 
 ## 3. Problem Statement
 - **Hvad:** Implementationer i Basic Setup har ingen formel livscyklus. De opstår i samtaler, halvimplementeres, og mister kontekst mellem sessioner. PLAN.md afspejler ikke virkeligheden. Implementation journals er tynde.
