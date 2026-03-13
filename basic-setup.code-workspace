@@ -1,18 +1,22 @@
 {
   "folders": [
     {
-      "path": "."
-    }
+      "path": ".",
+    },
+    {
+      "name": "Claude Memory",
+      "path": "../../../.claude/projects/c--Users-Krist-dev-projects-Basic-Setup/memory",
+    },
   ],
   "settings": {
     "files.exclude": {
-      ".firecrawl": true
+      ".firecrawl": true,
     },
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "files.eol": "\n",
     "files.trimTrailingWhitespace": true,
-    "files.insertFinalNewline": true
+    "files.insertFinalNewline": true,
   },
   "extensions": {
     "recommendations": [
@@ -22,7 +26,7 @@
       "ms-vscode-remote.remote-ssh",
       "ms-vscode-remote.remote-wsl",
       "ms-python.python",
-      "tomoki1207.pdf"
-    ]
-  }
+      "tomoki1207.pdf",
+    ],
+  },
 }
