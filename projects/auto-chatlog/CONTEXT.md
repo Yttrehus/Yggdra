@@ -1,7 +1,7 @@
 # Auto-chatlog
 
 ## 0. Metadata
-- **Status:** Active
+- **Status:** I gang — parser fungerer, mangler automatisering og bedre nøgleord
 - **Oprettet:** 2026-03-11
 - **Sidst opdateret:** 2026-03-13 (session 13)
 - **Ejer:** Yttre + Claude

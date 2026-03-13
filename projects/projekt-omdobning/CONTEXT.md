@@ -1,7 +1,7 @@
 # Projekt-omdøbning
 
 ## 0. Metadata
-- **Status:** Active (venter på reformation fase 7)
+- **Status:** Venter — omdøbning sker efter reformation er færdig
 - **Oprettet:** 2026-03-12
 - **Sidst opdateret:** 2026-03-13 (session 13)
 - **Ejer:** Yttre
