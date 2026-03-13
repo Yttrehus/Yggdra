@@ -10,7 +10,7 @@ Personligt udvikler-fundament. Startede som Windows-opsætning (Git, VS Code, te
 ## Hvor er vi
 
 ### Seneste session (14 — 2026-03-13)
-Claude-sessions fra 5 projektmapper samlet i én (c--Users-Krist-dev-projects-Yggdra). Chatlog-engine input-sti opdateret. 2476 beskeder fra 30 sessions. Workspace-fil oprettet i ~/. Gammel memory-cruft fra 4 forældede projektmapper slettet.
+Claude-sessions fra 5 projektmapper samlet i én. Chatlog-engine opgraderet til v3: gap-baseret sektionering (90 min), subagent-genererede abstracts (dato + sektion), danske datoer med ugedage, secret-redaction (built-in + dynamisk via redact-patterns.json + heuristisk token-scanner). ~2500 beskeder fra 30 sessions. Workspace omdøbt til yggdra.code-workspace. Gammel memory-cruft slettet.
 
 ### Session 13 (2026-03-13)
 Manifest v4 implementeret. Tre iterationer af mappestruktur (pipeline/ → Development/ → projects/) landede på det simpleste: flad projects/-mappe, ét projekt = én mappe. ADR-terminologi og pipeline-stages droppet — erstattet af CONTEXT.md overalt med plain dansk status. Manuals og research ind under projects/. Rod reduceret til 2 mapper (projects/ + .claude/). CONTEXT.md template designet (rekursivt, skalerbart). NOW+PLAN+PROGRESS → CONTEXT.md + PROGRESS.md.
@@ -36,7 +36,7 @@ Basic Setup/
 
 ### Aktive projekter
 - **Project Reformation:** Struktur done, CONTEXT.md og oprydning mangler, omdøbning til sidst. → `projects/project-reformation/CONTEXT.md`
-- **Auto-chatlog:** Parser fungerer (2476 beskeder, 30 sessions). Mangler automatisering og bedre nøgleord. → `projects/auto-chatlog/CONTEXT.md`
+- **Auto-chatlog:** v3 fungerer (~2500 beskeder, 30 sessions, subagent-abstracts). Mangler automatisering. → `projects/auto-chatlog/CONTEXT.md`
 
 ### Afsluttede moduler
 - **M1-M3:** Git, VS Code, Terminal (SSH, extensions, WSL, Zsh, Starship)
@@ -81,7 +81,7 @@ Basic Setup/
 ## Changelog
 Komprimeret overblik. Fuld detalje i PROGRESS.md.
 
-- **Session 14** (2026-03-13): Claude-sessions samlet (5 mapper → 1), chatlog-engine opdateret (2476 beskeder/30 sessions), workspace-konsolidering. → PROGRESS.md#session-14
+- **Session 14** (2026-03-13): Sessions samlet (5→1), chatlog-engine v3 (gap-sektioner, subagent-abstracts, secret-redaction), workspace omdøbt. → PROGRESS.md#session-14
 - **Session 13** (2026-03-13): projects/ struktur, ADR→CONTEXT.md, chatlog v2 krav, hukommelsesarkitektur, Claude Memory i workspace. → PROGRESS.md#session-13
 - **Session 12** (2026-03-12): Manifest v1-v3 implementeret, 13 briefs, 2 ADR'er retroaktivt. → PROGRESS.md#session-12
 - **Session 11** (2026-03-12): Fil-audit, references/ opløst, research-arkitektur identificeret. → PROGRESS.md#session-11
