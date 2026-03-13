@@ -23,7 +23,7 @@ Basic Setup/
 ├── projects/
 │   ├── backlog/            ← 13 idé-briefs
 │   ├── archive/            ← historiske filer, chatlogs, journals
-│   ├── auto-chatlog/       ← chatlog-engine + output
+│   ├── auto-chatlog/       ← chatlog-engine (output → chatlog.md i roden)
 │   ├── project-reformation/
 │   ├── projekt-omdobning/
 │   ├── manuals/            ← git, vscode, terminal håndbøger

@@ -16,7 +16,7 @@ Kun denne fil (CLAUDE.md) og CONTEXT.md (via @import). Alt andet læses efter be
 ## Kontekst-kilder (læses efter behov)
 
 - PROGRESS.md — fuld narrativ per session, destilleret
-- projects/auto-chatlog/chatlog.md — komplet sessionsdata inkl. tænkeblokke og tool calls
+- chatlog.md — komplet sessionsdata (roden, genereret af projects/auto-chatlog/chatlog-engine.js)
 - projects/*/CONTEXT.md — projekt-specifik kontekst
 
 ## Workflow
