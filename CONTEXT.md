@@ -2,14 +2,17 @@
 
 ## Metadata
 - **Status:** Project Reformation i gang — struktur implementeret, rod-CONTEXT.md og oprydning mangler. M5 step 11-17 venter.
-- **Sidst opdateret:** 2026-03-13 (session 13, sen aften)
+- **Sidst opdateret:** 2026-03-13 (session 14)
 
 ## Hvad er det
 Personligt udvikler-fundament. Startede som Windows-opsætning (Git, VS Code, terminal, projektstruktur, PC-setup), vokset til framework for hvordan Yttre arbejder med AI og kode. Omdøbes til Yggdra ved reformation fase 7.
 
 ## Hvor er vi
 
-### Seneste session (13 — 2026-03-13)
+### Seneste session (14 — 2026-03-13)
+Claude-sessions fra 5 projektmapper samlet i én (c--Users-Krist-dev-projects-Yggdra). Chatlog-engine input-sti opdateret. 2476 beskeder fra 30 sessions. Workspace-fil oprettet i ~/. Gammel memory-cruft fra 4 forældede projektmapper slettet.
+
+### Session 13 (2026-03-13)
 Manifest v4 implementeret. Tre iterationer af mappestruktur (pipeline/ → Development/ → projects/) landede på det simpleste: flad projects/-mappe, ét projekt = én mappe. ADR-terminologi og pipeline-stages droppet — erstattet af CONTEXT.md overalt med plain dansk status. Manuals og research ind under projects/. Rod reduceret til 2 mapper (projects/ + .claude/). CONTEXT.md template designet (rekursivt, skalerbart). NOW+PLAN+PROGRESS → CONTEXT.md + PROGRESS.md.
 
 Chatlog v2 krav defineret: én fil (chatlog.md), komplet sessionsdata inkl. tænkeblokke og tool calls, session-baseret inddeling, navigationslinks. Hukommelsesarkitektur skitseret: markdown (nu) → vector DB (snart) → knowledge graph (senere). Claude Memory tilføjet til VS Code workspace.
@@ -33,7 +36,7 @@ Basic Setup/
 
 ### Aktive projekter
 - **Project Reformation:** Struktur done, CONTEXT.md og oprydning mangler, omdøbning til sidst. → `projects/project-reformation/CONTEXT.md`
-- **Auto-chatlog:** Parser fungerer (1000+ beskeder, 6+ sessions). Mangler automatisering og bedre nøgleord. → `projects/auto-chatlog/CONTEXT.md`
+- **Auto-chatlog:** Parser fungerer (2476 beskeder, 30 sessions). Mangler automatisering og bedre nøgleord. → `projects/auto-chatlog/CONTEXT.md`
 
 ### Afsluttede moduler
 - **M1-M3:** Git, VS Code, Terminal (SSH, extensions, WSL, Zsh, Starship)
@@ -78,6 +81,7 @@ Basic Setup/
 ## Changelog
 Komprimeret overblik. Fuld detalje i PROGRESS.md.
 
+- **Session 14** (2026-03-13): Claude-sessions samlet (5 mapper → 1), chatlog-engine opdateret (2476 beskeder/30 sessions), workspace-konsolidering. → PROGRESS.md#session-14
 - **Session 13** (2026-03-13): projects/ struktur, ADR→CONTEXT.md, chatlog v2 krav, hukommelsesarkitektur, Claude Memory i workspace. → PROGRESS.md#session-13
 - **Session 12** (2026-03-12): Manifest v1-v3 implementeret, 13 briefs, 2 ADR'er retroaktivt. → PROGRESS.md#session-12
 - **Session 11** (2026-03-12): Fil-audit, references/ opløst, research-arkitektur identificeret. → PROGRESS.md#session-11

@@ -1,30 +1,32 @@
 # Auto-chatlog
 
 ## 0. Metadata
-- **Status:** I gang — parser fungerer, mangler automatisering og bedre nøgleord
+- **Status:** v3 fungerer — gap-baseret sektioner, subagent-abstracts, danske datoer. Mangler automatisering.
 - **Oprettet:** 2026-03-11
-- **Sidst opdateret:** 2026-03-13 (session 13)
+- **Sidst opdateret:** 2026-03-13 (session 14, sen eftermiddag)
 - **Ejer:** Yttre + Claude
 
 ## 1. Origin Story
 Auto-chatlog opstod 11/3-2026 under session 9. Yttre observerede at Claude Codes .jsonl sessionsfiler vokser kontinuerligt men aldrig omdannes til læsbar chatlog automatisk. De manuelle chatlog-dumps (dump-chatlog.js + chatlogs/-mappen) krævede at Claude blev bedt om det eksplicit — og outputtet var en flad sekvens uden tidsopdeling eller navigation. Den første prototype blev bygget direkte i session 9, men Claude gik i bygge-mode for tidligt. Yttre kalibrerede: "spørg før du bygger." Tre design-iterationer fulgte: navigationslinks, referater, retskrivning — alt parkeret som fremtidige forbedringer. Format først, automatisering bagefter.
 
 ## 2. Current State
-chatlog-engine.js v2 fungerer og parser 1400+ beskeder fra 13 sessions. Producerer én fil: `chatlog.md` i repo-roden (state-fil). Kører manuelt. Kun beskeder — mangler tænkeblokke, tool calls, reasoning. 2-timers tidsblokke som inddeling. Nøgleord er frekvensbaseret og utilstrækkelig. live.md og archive.md er afløst.
+chatlog-engine.js v3 parser ~2500 beskeder fra 30 sessions. Producerer `chatlog.md` i repo-roden. Kører manuelt i to trin: engine → subagent.
 
-**V2 implementeret (session 13):**
+**v3 implementeret (session 14):**
 - ✅ Én fil: chatlog.md i roden
-- Komplet sessionsdata: beskeder, tænkeblokke, tool calls, reasoning (MANGLER)
-- Hierarkisk kapitelinddeling:
-  - Overkapitler: sessions (kronologisk, dato-baseret)
-  - Underkapitler: emne-blokke inden for sessionen (Claude analyserer og inddeler ved checkpoint)
-  - Hvert underkapitel: kort beskrivelse + nøgleord
-- Navigation:
-  - Hovedindeks: links ned til sessions
-  - Session-kapitel: link til hovedindeks + prev/next session + underkapitel-indeks
-  - Underkapitel: link til hovedindeks + link til eget session-kapitel-indeks
-- Claude tilføjer session-opsummering + nøgleord som del af manuel checkpoint
-- Fremtidig integration med vector DB for semantisk søgning
+- ✅ Gap-baseret sektionering (90 min pause = nyt afsnit, på tværs af sessions)
+- ✅ Subagent-genererede abstracts (1-4 sætninger per dag, 1-2 per sektion)
+- ✅ Danske datoer i hovedindeks ("fredag d. 13/3-2026")
+- ✅ Sessions fra 5 Claude-projektmapper samlet i én
+- Kun beskeder — mangler tænkeblokke, tool calls, reasoning
+- Navigation: hovedindeks → dato-kapitler → sektioner med prev/next
+
+**Filer:**
+- `chatlog-engine.js` — parser JSONL → chatlog.md + sections-digest.json
+- `sections-digest.json` — komprimeret input til subagent (genereres af engine)
+- `abstracts.json` — subagent-genererede abstracts (læses af engine)
+
+**Workflow:** `node chatlog-engine.js --digest` → spawn subagent → `node chatlog-engine.js`
 
 ## 3. Problem Statement
 - **Hvad:** Claude Code sessionsfiler (.jsonl) er maskinlæsbare men ikke menneskelæsbare. Der er ingen automatisk omdannelse til chatlog. Manuelle dumps glemmes, og outputtet mangler tidsopdeling og navigation.
@@ -34,11 +36,12 @@ chatlog-engine.js v2 fungerer og parser 1400+ beskeder fra 13 sessions. Producer
 Én chatlog.md med komplet sessionsdata (inkl. tænkeblokke og tool calls). Session-baseret inddeling med navigationslinks. Opdateres automatisk. Nøgleord via LLM. Semantisk søgbar via vector DB. Yttre kan finde en specifik diskussion på under 30 sekunder.
 
 ## 5. Architecture & Trade-offs
-- **Beslutning:** Node.js parser der læser alle .jsonl sessions og formaterer som én markdown-fil med hovedindeks, dato-kapitler og tidsblokke.
-- **Brute-force rebuild:** Hele chatloggen rebuildes fra scratch ved hver kørsel. Simpelt, korrekt, men skalerer ikke til hundredvis af sessions. Inkrementel opdatering er fremtidig forbedring.
+- **Node.js engine + Claude subagent:** Engine parser JSONL og laver struktur (billigt, deterministisk). Subagent skriver abstracts (dyrt, intelligent). Adskillelsen betyder at engine kan køre ofte, subagent kun ved behov.
+- **Gap-baseret sektionering:** 90 min pause mellem beskeder = nyt afsnit. Virker på tværs af sessions (kl 23→01 = ét afsnit, 6 timer senere = nyt). Erstatter faste 2-timers blokke.
+- **Brute-force rebuild:** Hele chatloggen rebuildes fra scratch ved hver kørsel. Simpelt, korrekt, men skalerer ikke til hundredvis af sessions.
 - **Dansk tid:** UTC konverteres til Europe/Copenhagen. Vigtigt for korrekt datoskift.
 - **Truncation:** Beskeder over 5000 tegn afkortes. Balancerer læsbarhed mod fuldstændighed.
-- **System-noise filtrering:** <system-reminder>, <ide_*>, <local-command>, <command-name> tags springes over.
+- **System-noise filtrering:** `<system-reminder>`, `<ide_*>`, `<local-command>`, `<command-name>` tags springes over.
 
 ## 6. Evaluation
 - Kan Yttre finde en specifik diskussion i chatlog.md under 30 sekunder?
@@ -55,19 +58,22 @@ chatlog-engine.js v2 fungerer og parser 1400+ beskeder fra 13 sessions. Producer
 ### Fase 1: Parser-prototype ✅
 - [x] chatlog-engine.js — parser .jsonl → chatlog.md
 - [x] Dansk tid (UTC+1)
-- [x] 2-timers tidsblokke i archive
-- [x] Index-tabel med nøgleord per dato
-- [x] Sub-index per tidsblok
 - [x] System-noise filtrering
 - [x] Truncation af lange beskeder
 
-### Fase 2: Automatisering
-- [ ] File-watcher mode (--watch flag, designet men ikke bygget)
-- [ ] Eller: PostToolUse hook ved git commit (se projects/backlog/brief.session-drift-pipeline.md)
+### Fase 2: v3 — gap-baseret + subagent ✅
+- [x] Gap-baseret sektionering (90 min threshold, cross-session)
+- [x] Subagent-abstracts (dato-niveau + sektions-niveau)
+- [x] Danske datoer med ugedage i indeks
+- [x] Sessions samlet fra 5 projektmapper
+- [x] --digest flag for subagent-workflow
 
-### Fase 3: Intelligens
-- [ ] LLM-baseret nøgleord/referat (lokal LLM, Ollama — se brief i backlog)
-- [ ] Navigationslinks mellem tidsblokke
+### Fase 3: Automatisering
+- [ ] File-watcher mode eller PostToolUse hook
+- [ ] Automatisk subagent-kørsel ved nye sessions
+
+### Fase 4: Intelligens
+- [ ] Tænkeblokke, tool calls, reasoning i output
 - [ ] Retskrivning af bruger-input
 - [ ] Session-ID markering ved parallelle sessions
 
@@ -77,14 +83,16 @@ chatlog-engine.js v2 fungerer og parser 1400+ beskeder fra 13 sessions. Producer
 - 2026-03-11 (session 11): Flytning til egen projektmappe. Gammel chatlogs/ pensioneret til archive/.
 - 2026-03-12 (session 12): 1098 beskeder fra 6 sessions. Datoskift håndteret korrekt.
 - 2026-03-13 (session 13): Strukturændring: projects/auto-chatlog/. ADR → CONTEXT.md. V2 krav defineret. V2 implementeret: live.md+archive.md → chatlog.md i roden. Hovedindeks + dato-kapitler + prev/next navigation.
+- 2026-03-13 (session 14, tidlig): Sessions fra 5 Claude-projektmapper samlet i c--Users-Krist-dev-projects-Yggdra/. Input-sti opdateret. 2476 beskeder fra 30 sessions.
+- 2026-03-13 (session 14, sen): v3 implementeret: gap-baseret sektionering (90 min), subagent-abstracts (dato + sektion), danske datoer. Frekvens-nøgleord erstattet. 2-timers blokke erstattet.
 
 ## 10. Backlog
-- Navigationslinks mellem tidsblokke
-- Lokal LLM til opsummering/nøgleord
-- File-watcher eller hook-baseret automatisering
+- Automatisering (file-watcher eller hook)
+- Tænkeblokke, tool calls, reasoning i output
 - Inkrementel opdatering (ikke brute-force rebuild)
 - Session-ID markering ved parallelle sessions
 - Retskrivning af bruger-input
+- Semantisk søgning via vector DB
 
 ## 11. Original Design
 Denne CONTEXT.md er skrevet retroaktivt i session 12 som del af reformation fase 4. Ingen original dokumentation eksisterede — auto-chatlog startede som en ad-hoc prototype i session 9.
