@@ -1,8 +1,8 @@
 # Yggdra (Basic Setup)
 
 ## Metadata
-- **Status:** Project Reformation i gang — struktur implementeret, rod-CONTEXT.md og oprydning mangler. M5 step 11-17 venter.
-- **Sidst opdateret:** 2026-03-13 (session 14)
+- **Status:** Reformation fase 6 næsten done. Fase 7 (omdøb repo) venter. M5 step 11-17 derefter.
+- **Sidst opdateret:** 2026-03-13 (session 14, aften)
 
 ## Hvad er det
 Personligt udvikler-fundament. Startede som Windows-opsætning (Git, VS Code, terminal, projektstruktur, PC-setup), vokset til framework for hvordan Yttre arbejder med AI og kode. Omdøbes til Yggdra ved reformation fase 7.
@@ -10,7 +10,7 @@ Personligt udvikler-fundament. Startede som Windows-opsætning (Git, VS Code, te
 ## Hvor er vi
 
 ### Seneste session (14 — 2026-03-13)
-Claude-sessions fra 5 projektmapper samlet i én. Chatlog-engine opgraderet til v3: gap-baseret sektionering (90 min), subagent-genererede abstracts (dato + sektion), danske datoer med ugedage, secret-redaction (built-in + dynamisk via redact-patterns.json + heuristisk token-scanner). ~2500 beskeder fra 30 sessions. Workspace omdøbt til yggdra.code-workspace. Gammel memory-cruft slettet.
+Chatlog-engine v3: gap-sektioner, subagent-abstracts, danske datoer, secret-redaction. Sessions fra 5 projektmapper samlet i én (~2500 beskeder, 30 sessions). Checkpoint og chatlog-search integreret i auto-chatlog-projektet. Skills audit: forældede stier rettet, checkpoint/chatlog-search forenklet til pointere. Archive ryddet: journals, manuelle chatlogs, dump-scripts slettet (alt i git). Template opdateret: NOW.md+PLAN.md → CONTEXT.md. architecture.R&D fået CONTEXT.md.
 
 ### Session 13 (2026-03-13)
 Manifest v4 implementeret. Tre iterationer af mappestruktur (pipeline/ → Development/ → projects/) landede på det simpleste: flad projects/-mappe, ét projekt = én mappe. ADR-terminologi og pipeline-stages droppet — erstattet af CONTEXT.md overalt med plain dansk status. Manuals og research ind under projects/. Rod reduceret til 2 mapper (projects/ + .claude/). CONTEXT.md template designet (rekursivt, skalerbart). NOW+PLAN+PROGRESS → CONTEXT.md + PROGRESS.md.
@@ -25,7 +25,7 @@ Basic Setup/
 ├── CLAUDE.md, README.md
 ├── projects/
 │   ├── backlog/            ← 13 idé-briefs
-│   ├── archive/            ← historiske filer, chatlogs, journals
+│   ├── .archive/            ← architecture.R&D (med CONTEXT.md)
 │   ├── auto-chatlog/       ← chatlog-engine (output → chatlog.md i roden)
 │   ├── project-reformation/
 │   ├── projekt-omdobning/
@@ -35,7 +35,7 @@ Basic Setup/
 ```
 
 ### Aktive projekter
-- **Project Reformation:** Struktur done, CONTEXT.md og oprydning mangler, omdøbning til sidst. → `projects/project-reformation/CONTEXT.md`
+- **Project Reformation:** Fase 6 (oprydning) næsten done, fase 7 (omdøbning) venter. → `projects/project-reformation/CONTEXT.md`
 - **Auto-chatlog:** v3 fungerer (~2500 beskeder, 30 sessions, subagent-abstracts). Mangler automatisering. → `projects/auto-chatlog/CONTEXT.md`
 
 ### Afsluttede moduler
@@ -49,7 +49,7 @@ Basic Setup/
 - **M8:** Skabeloner (nyt projekt på under 5 min)
 
 ## Hvad mangler
-- [ ] Reformation fase 6: oprydning (checkpoint-skill → CONTEXT-check, forældreløse filer)
+- [x] Reformation fase 6: oprydning — checkpoint/chatlog-search integreret, archive ryddet, template opdateret, skills rettet ✅
 - [ ] Reformation fase 7: omdøb repo til Yggdra
 - [ ] M5 step 11-17
 - [ ] M6, M7/CE, M8
@@ -76,12 +76,12 @@ Basic Setup/
 - Prettier mangler .prettierrc
 - /new-project utestet i praksis
 - chatlog-search: for tidligt at evaluere
-- Checkpoint-skill: skal opdateres til CONTEXT-check
+- Checkpoint-skill: integreret i auto-chatlog ✅
 
 ## Changelog
 Komprimeret overblik. Fuld detalje i PROGRESS.md.
 
-- **Session 14** (2026-03-13): Sessions samlet (5→1), chatlog-engine v3 (gap-sektioner, subagent-abstracts, secret-redaction), workspace omdøbt. → PROGRESS.md#session-14
+- **Session 14** (2026-03-13): Chatlog-engine v3, sessions samlet, checkpoint+chatlog-search integreret i auto-chatlog, archive ryddet, template opdateret, reformation fase 6 afsluttet. → PROGRESS.md#session-14
 - **Session 13** (2026-03-13): projects/ struktur, ADR→CONTEXT.md, chatlog v2 krav, hukommelsesarkitektur, Claude Memory i workspace. → PROGRESS.md#session-13
 - **Session 12** (2026-03-12): Manifest v1-v3 implementeret, 13 briefs, 2 ADR'er retroaktivt. → PROGRESS.md#session-12
 - **Session 11** (2026-03-12): Fil-audit, references/ opløst, research-arkitektur identificeret. → PROGRESS.md#session-11

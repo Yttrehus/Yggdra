@@ -16,23 +16,21 @@ Bootstrapper et nyt projekt med standard-skabelon og feedback-loop.
    - `.gitignore` — kopiér uændret
    - `<navn>.code-workspace` — kopiér fra `project.code-workspace`, omdøb
    - `CLAUDE.md` — udfyld projektnavn + kort beskrivelse fra prompten
-   - `PLAN.md` — udfyld projektnavn, lad steps være tomme
-   - `NOW.md` — udfyld dato og "Projekt oprettet"
+   - `CONTEXT.md` — udfyld projektnavn, dato, "Projekt oprettet"
 4. `git init` + `git add -A` + initial commit
 5. Bekræft: "Projektet er klar i [sti]"
 
 ## Feedback-loop (indbygget i skabelonen)
 
-Hvert projekt har en sektion i PLAN.md under PDCA-evaluering:
+Hvert projekt har en sektion i CONTEXT.md under skabelon-feedback:
 
 ```markdown
 ## Skabelon-feedback
-
 Ved PDCA-evaluering, besvar:
 - Hvilke template-filer blev brugt som de var?
-- Hvilke blev ændret inden for de første 2 sessioner? Hvad manglede/var forkert?
+- Hvilke blev ændret inden for de første 2 sessioner?
 - Hvilke blev aldrig åbnet?
-- Forslag til ændringer i template/ baseret på dette projekt?
+- Forslag til ændringer i template/?
 ```
 
 Denne feedback bruges til at justere template/ og denne skill over tid. Mønstret:
@@ -47,13 +45,6 @@ Denne feedback bruges til at justere template/ og denne skill over tid. Mønstre
 | navn | ja | — | Projektets mappenavn (kebab-case) |
 | sti | nej | ~/dev/projects/ | Hvor projektet oprettes |
 | beskrivelse | nej | — | Kort beskrivelse til CLAUDE.md (kan promptes) |
-
-## Eksempler
-
-```
-/new-project rejseselskab-api
-/new-project qdrant-explorer ~/dev/sandbox/ "Eksperimenter med Qdrant semantic search"
-```
 
 ## Begrænsninger
 

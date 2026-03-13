@@ -2,6 +2,8 @@
 
 Kort beskrivelse af hvad projektet er og gør.
 
+@CONTEXT.md
+
 ## Kontekst
 
 - Teknisk stack (sprog, frameworks, tools)
@@ -16,6 +18,6 @@ Kort beskrivelse af hvad projektet er og gør.
 
 ## Workflow
 
-- PLAN.md er det levende dokument — opdater efter hvert step
-- NOW.md opdateres ved naturlige pauser og session-slut
+- CONTEXT.md opdateres ved pauser, beslutninger, session-slut
 - Commit + push efter hver logisk ændring
+- Spørg før du bygger. Diskussion færdig → bekræftelse → kode.

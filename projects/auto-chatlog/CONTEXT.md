@@ -25,8 +25,35 @@ chatlog-engine.js v3 parser ~2500 beskeder fra 30 sessions. Producerer `chatlog.
 - `chatlog-engine.js` — parser JSONL → chatlog.md + sections-digest.json
 - `sections-digest.json` — komprimeret input til subagent (genereres af engine)
 - `abstracts.json` — subagent-genererede abstracts (læses af engine)
+- `redact-patterns.json` — dynamiske secret-patterns (tilføjes af subagent)
 
 **Workflow:** `node chatlog-engine.js --digest` → spawn subagent → `node chatlog-engine.js`
+
+**Checkpoint-integration** (trigger: `/checkpoint` eller ved milestone/pause):
+1. Opdatér state-filer: rod-CONTEXT.md, PROGRESS.md, relevante projekt-CONTEXT.md
+2. Kør `node chatlog-engine.js --digest`
+3. Spawn subagent (haiku) til abstracts + token-review:
+   - Læs `sections-digest.json`
+   - Skriv dato-abstracts (1-4 sætninger) + sektions-abstracts (1-2 sætninger) til `abstracts.json`
+   - Hvis `suspiciousTokens` i digest: vurdér og tilføj bekræftede til `redact-patterns.json`
+4. Kør `node chatlog-engine.js` (full build med nye abstracts)
+5. Git commit + push
+6. Bekræft kort: hvad blev gemt, hvad er næste step
+
+**Regler:**
+- Opdatér KUN filer med reelle ændringer — ingen no-op commits
+- CONTEXT.md: kort og præcis. En ny session skal kunne starte ved at læse den.
+- PROGRESS.md: narrativt. Hvad *skete* og *hvorfor*.
+- Afkryds hvert step med det samme — ikke i batches.
+
+**Chatlog-search** (trigger: "hvad sagde vi om X?", "hvornår blev Y besluttet?"):
+1. Læs `abstracts.json` — scan dato- og sektions-abstracts for relevante emner
+2. Identificér den/de relevante sektioner (sektions-id fra abstracts)
+3. Brug Grep-tool (ikke bash grep) til at søge i `chatlog.md` — afgræns til relevant sektion
+4. Præsentér: dato, tidspunkt, hvem (YTTRE/CLAUDE), relevant passage
+5. Hvis ikke fundet i chatlog: søg i PROGRESS.md → CONTEXT.md → `projects/*/CONTEXT.md` → `git log`
+- Vis kun det relevante — aldrig hele filer
+- Hvis søgningen tager mere end 3 forsøg, overvej om søgeordene er for generiske
 
 ## 3. Problem Statement
 - **Hvad:** Claude Code sessionsfiler (.jsonl) er maskinlæsbare men ikke menneskelæsbare. Der er ingen automatisk omdannelse til chatlog. Manuelle dumps glemmes, og outputtet mangler tidsopdeling og navigation.
