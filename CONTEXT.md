@@ -1,19 +1,26 @@
 # Yggdra
 
 ## Metadata
-- **Status:** Session 21. VPS V4 (4 research loops, 30 iter) afsluttet og hentet. 19 research-filer til PC. TRIAGE.md opdateret med V4 handlinger.
-- **Sidst opdateret:** 2026-03-15 (session 21)
+- **Status:** Session 22. Backlog burn planlagt. VPS V6 deployet (7 iter). PC-plan klar (8 briefs).
+- **Sidst opdateret:** 2026-03-15 (session 22)
 
 ## Hvad er det
 Personligt udvikler-fundament. Startede som "Basic Setup" (Windows-opsætning), vokset til framework for hvordan Yttre arbejder med AI og kode.
 
 ## Hvor er vi
 
-### Seneste session (21 — 2026-03-15)
+### Seneste session (22 — 2026-03-15)
+Backlog burn — mål: luk max briefs i én session.
+- **VPS V6 deployet:** 7 iterationer (RSS bug, heartbeat, temporal decay, reranking, health check, blog feeds, automation inventory) → `/root/Yggdra/yggdra-pc/v6-backlog-burn/`
+- **PC-plan klar:** `projects/0_backlog/RDY.backlog-burn.md` — taxonomy migration, terminal-auto, Notion, automation-index, context-eng hooks, luk briefs
+- **Forventet:** 8 briefs lukket + 6 V4 handlinger done
+- **VPS IKKE startet endnu** — Yttre starter manuelt
+
+### Session 21 (2026-03-15)
 VPS V4 research loops (4 parallelle, 30 iterationer, alle PASS) evalueret og hentet til PC:
-- **llm-landskab:** 7 provider-profiler, COMPARISON.md, RECOMMENDATION.md → `projects/research/llm-landskab/`
-- **ai-frontier:** 5 topic-filer, GAPS.md (8 gaps), WHAT_IF.md (10 forslag) → `projects/research/ai-frontier/`
-- **videns-vedligeholdelse:** HOLISTIC_EVALUATION, PIPELINE_DESIGN, DECAY_MODEL, SOURCE_REGISTRY, MAINTENANCE_PROTOCOL, YGGDRA_SCAN → `projects/research/videns-vedligeholdelse/`
+- **llm-landskab:** 7 provider-profiler, COMPARISON.md, RECOMMENDATION.md → `projects/LIB.research/llm-landskab/`
+- **ai-frontier:** 5 topic-filer, GAPS.md (8 gaps), WHAT_IF.md (10 forslag) → `projects/LIB.research/ai-frontier/`
+- **videns-vedligeholdelse:** HOLISTIC_EVALUATION, PIPELINE_DESIGN, DECAY_MODEL, SOURCE_REGISTRY, MAINTENANCE_PROTOCOL, YGGDRA_SCAN → `projects/LIB.research/videns-vedligeholdelse/`
 - **youtube-pipeline-v2:** frame_extractor.py PoC + 3 nye kanaler (på VPS, ikke hentet)
 - **TRIAGE.md:** Opdateret med 7 V4 handlinger + 4 afsluttede briefs
 - **Backlog:** 9 forbrugte VPS-filer arkiveret
@@ -116,6 +123,7 @@ Yggdra/
 ## Changelog
 Komprimeret overblik. Fuld detalje i PROGRESS.md.
 
+- **Session 22** (2026-03-15): Backlog burn planlagt. VPS V6 deployet (7 iter: RSS+heartbeat+decay+reranking+healthcheck+feeds+inventory). PC-plan: 8 briefs lukkes. RDY.backlog-burn.md skrevet. → PROGRESS.md#session-22
 - **Session 21** (2026-03-15): VPS V4 (4 loops, 30 iter) evalueret og hentet. 19 research-filer: llm-landskab (7 profiler+COMPARISON+RECOMMENDATION), ai-frontier (5 topics+GAPS+WHAT_IF), videns-vedligeholdelse (6 filer inkl. HOLISTIC_EVALUATION). TRIAGE.md opdateret med 7 handlinger. 9 forbrugte backlog-filer arkiveret. → PROGRESS.md#session-21
 - **Session 20** (2026-03-14): VPS v2+v3 evalueret, output hentet til PC. 3 skills, TI-projekt, research INDEX v3, BLUEPRINT.md, TRIAGE.md, vps-sandbox CONTEXT.md. → PROGRESS.md#session-20
 - **Session 19** (2026-03-14): VPS sandbox v2 deployed (3 projekter), v1 kvalitetsauditeret, prompt evalueret+justeret, github-workflow handoff absorberet. → PROGRESS.md#session-19

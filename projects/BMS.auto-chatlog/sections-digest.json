@@ -417,8 +417,8 @@
     {
       "id": 17,
       "date": "2026-03-14",
-      "timeRange": "21:15–23:03",
-      "msgCount": 83,
+      "timeRange": "21:15–23:07",
+      "msgCount": 86,
       "userSamples": [
         "[21:15] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]e[undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]r[undefined][",
         "[21:18] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]T[undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]h[undefined][",
@@ -437,6 +437,56 @@
         "[21:20] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]#[undefined][[undefined]u[undefined]n[undefined]d[undefin",
         "[21:44] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]T[undefined][[undefined]u[undefined]n[undefined]d[undefin",
         "[21:47] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]G[undefined][[undefined]u[undefined]n[undefined]d[undefin"
+      ]
+    },
+    {
+      "id": 18,
+      "date": "2026-03-15",
+      "timeRange": "02:46–04:59",
+      "msgCount": 189,
+      "userSamples": [
+        "[02:47] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]T[undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]h[undefined][",
+        "[02:55] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]j[undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]e[undefined][",
+        "[02:57] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]s[undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]e[undefined][",
+        "[02:59] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]b[undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]a[undefined][",
+        "[03:00] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined][[undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]R[undefined][",
+        "[03:00] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]<[undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]t[undefined][",
+        "[03:03] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]h[undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]a[undefined][",
+        "[03:12] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined][[undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]R[undefined][",
+        "[03:12] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]h[undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]v[undefined][",
+        "[03:18] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]<[undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]t[undefined]["
+      ],
+      "assistantSamples": [
+        "[02:46] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]J[undefined][[undefined]u[undefined]n[undefined]d[undefin",
+        "[02:46] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]D[undefined][[undefined]u[undefined]n[undefined]d[undefin",
+        "[02:47] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]A[undefined][[undefined]u[undefined]n[undefined]d[undefin",
+        "[02:49] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]L[undefined][[undefined]u[undefined]n[undefined]d[undefin",
+        "[02:49] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]A[undefined][[undefined]u[undefined]n[undefined]d[undefin"
+      ]
+    },
+    {
+      "id": 19,
+      "date": "2026-03-15",
+      "timeRange": "09:32–09:56",
+      "msgCount": 46,
+      "userSamples": [
+        "[09:32] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]a[undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]l[undefined][",
+        "[09:33] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]s[undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]c[undefined][",
+        "[09:33] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]r[undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]2[undefined][",
+        "[09:34] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined][[undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]R[undefined][",
+        "[09:34] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]f[undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]o[undefined][",
+        "[09:35] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]h[undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]v[undefined][",
+        "[09:39] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]k[undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]a[undefined][",
+        "[09:39] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]d[undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]i[undefined][",
+        "[09:40] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]n[undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]o[undefined][",
+        "[09:41] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]l[undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]æ[undefined]["
+      ],
+      "assistantSamples": [
+        "[09:33] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]D[undefined][[undefined]u[undefined]n[undefined]d[undefin",
+        "[09:33] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]H[undefined][[undefined]u[undefined]n[undefined]d[undefin",
+        "[09:34] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]D[undefined][[undefined]u[undefined]n[undefined]d[undefin",
+        "[09:35] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]D[undefined][[undefined]u[undefined]n[undefined]d[undefin",
+        "[09:35] [undefined][[undefined]u[undefined]n[undefined]d[undefined]e[undefined]f[undefined]i[undefined]n[undefined]e[undefined]d[undefined]][undefined]D[undefined][[undefined]u[undefined]n[undefined]d[undefin"
       ]
     }
   ],
@@ -487,7 +537,13 @@
       "date": "2026-03-14",
       "prettyDate": "lørdag d. 14/3-2026",
       "sectionCount": 3,
-      "totalMsgs": 555
+      "totalMsgs": 558
+    },
+    {
+      "date": "2026-03-15",
+      "prettyDate": "søndag d. 15/3-2026",
+      "sectionCount": 2,
+      "totalMsgs": 235
     }
   ]
 }

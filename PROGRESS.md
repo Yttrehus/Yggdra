@@ -4,7 +4,31 @@ Fortællende dagbog. Formålet er at en ny Claude-session kan læse dette og for
 
 ---
 
-## Session 20 (2026-03-14)
+## Session 22 (2026-03-15)
+
+Backlog burn planlagt. VPS V6 deployet. Taxonomy-migration staged fra session 21 verificeret.
+
+**Backlog burn brief skrevet.** Hele backloggen gennemlæst og organiseret i én RDY-brief (`RDY.backlog-burn.md`). Planen har to dele: VPS Ralph loop (7 iterationer, autonom) og PC-opgaver (7 blokke). Samlet forventet lukning: 8 briefs + 6 V4 handlinger.
+
+**VPS V6 deployet.** CLAUDE.md, LOOP_PLAN.md, LOOP_STATE.md uploadet til `/root/Yggdra/yggdra-pc/v6-backlog-burn/`. 7 iterationer:
+1. Fix RSS bug + genaktivér heartbeat
+2. Temporal decay i get_context.py
+3. Cohere reranking (kan BLOCKE hvis API key mangler)
+4. Pipeline health check i daily_sweep.py
+5. Blog RSS feeds + rens sources
+6. Automation inventory (VPS-side)
+7. Review alle ændringer
+
+**Taxonomy rename:** Session 21 havde staged `2_research → LIB.research` renames. Ikke committet endnu — venter på session 22 PC-blok P1.
+
+**Beslutninger:**
+- Context-engineering fase 1: Gap-analyse viser at 3/4 hooks allerede eksisterer fra VPS-æraen. Reelt gap er kun PostToolUse chatlog-trigger
+- Webscraping-audit: Lukkes direkte — Firecrawl skill er allerede installeret og dækker behovet
+- Cohere reranking: Sandsynligvis BLOCKED (ingen API key), men prompten håndterer det gracefully
+
+---
+
+## Session 21 (2026-03-15)
 
 VPS sandbox v2 og v3 afsluttet. Output evalueret, guld hentet til PC, resten sorteret fra.
 
