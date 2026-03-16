@@ -1,159 +1,88 @@
-# Research Architecture — INDEX
+# Overlevering fra VPS — 8.–16. marts 2026
 
-Samlet oversigt over /root/Yggdra/research/ (81 .md filer, ~28.000 linjer).
-Formål: Hurtigt finde den rigtige fil uden at scanne mappen.
+> **Hvad er det:** Alt der blev produceret på VPS-instansen (72.62.61.51) over 8.–16. marts 2026 — 12 Claude Code sessions, 17 research-filer, og en 60 min voice memo. VPS kørte autonome research-loops (V1–V6) og producerede destillater om hukommelse, agenter, pipelines, psykologi og domæne-research.
+>
+> **Bruges til i dag:** Referencemateriale for Yggdra-beslutninger. Research-destillaterne er indekseret i Qdrant `knowledge` collection. Chatlogs og voice memo i `episodes`. INDEX.md (denne fil) er oversigten over alt indhold.
 
-## Crown Jewels
+Alt der blev produceret og diskuteret på VPS-instansen over weekenden. Samlet her til PC-Claude.
 
-| Fil | Linjer | Hvad | Key Insight |
-|-----|--------|------|-------------|
-| HOW_TO_BUILD_AGENTS.md | 1075 | Samlet bog-manuskript | Scaffolding leverer ~80% af værdien — modellen kun 20%. 95% af enterprise AI-pilots fejler fordi de ignorerer dette |
-| LAYER1_PASS2_WITH_ABSTRACTS.md | 828 | AI Memory Systems survey | Qdrant er det rationelle valg for self-hosted solo-projekter under 100M vektorer |
-| LAYER2_PASS1_SOURCES.md | 787 | Bred kildekortlægning | Troværdige kilder = uafhængige communities (r/LocalLLaMA, ANN-Benchmarks), ikke vendor-docs |
-| PRE_DEEP_RESEARCH_REPORT.md | 752 | Snapshot før bog-start | Layer 1-2 besvarer "hvad findes" — Layer 3 (deep research) mangler for handlingsanvisende konklusioner |
-| memory_bridge_research.md | 674 | Menneske↔AI hukommelse | Capture, storage og retrieval er tre separate designudfordringer — ikke ét samlet problem |
-| agents_langgraph_deep_dive.md | 666 | LangGraph deep dive | LangGraph 1.0 erstatter flade ReAct-loops med eksplicit state-maskinekontrol over grene og cykler |
-| RESEARCH_INDEX.md | ~200 | Legacy katalog | Erstattet af denne fil |
+---
 
-## Kategorier
+## Dokumentation (denne mappe)
 
-### 1. Bog-kapitler (34 filer, ~14.000 linjer)
+| Fil | Hvad |
+|-----|------|
+| **progress.md** | Narrativ dagbog — hvad skete, i hvilken rækkefølge, og hvorfor |
+| **context.md** | Current state — infrastruktur, sikkerhed, research, hvad der mangler |
+| **chatlog.md** | Kondenseret chatlog fra alle 12 sessions |
+| **REFLEKSION.md** | Hvad VPS-Claude lærte om Kristoffer — personligt, ærligt, ufiltreret |
+| **SESSION_22_PLAN.md** | Konsolideret plan fra session 22 med blue/red/neutral evaluering |
 
-Hele manuskriptet til "How to Build AI Agents". Kapitel 1-10 + danske versioner (KAP1-2) + research-noter per kapitel.
+## Session-filer (JSONL)
 
-| Kapitel | Hovedfil | Key Insight |
-|---------|----------|-------------|
-| CH1 Research Methodology | CH1_RESEARCH_METHODOLOGY.md | Seriøs research kræver ≥3 uafhængige primærkilder — de fleste stopper ved ét søgeresultat |
-| CH2 Context Window | CH2_CONTEXT_WINDOW.md | Brug max 40% af annonceret window — kvalitetsklip er pludseligt, ikke gradvist |
-| CH3 Claude Code | CH3_CLAUDE_CODE.md | 20K tokens høj-signal kontekst slår 1M tokens fyld. Kontekst > kapabilitet |
-| CH4 LLM Landscape | CH4_LLM_LANDSCAPE.md | Anthropic+Google dominerer 2026 Elo. ChatGPT faldet fra 86,7% til 64,5% markedsandel |
-| CH5 RAG & Embeddings | CH5_EMBEDDINGS_VECTOR_DBS.md | text-embedding-3-small er standard; voyage-3.5-lite er dark horse (bedre MTEB, 4× kontekst) |
-| CH6 Agents & Automation | CH6_AGENTS_AUTOMATION.md | 8 cron-jobs med 0 fejl slår enhver LLM-agent til deterministiske opgaver |
-| CH7 Prompting | CH7_ADVANCED_PROMPTING.md | "Context engineering" > "prompt engineering" — prompten er ~5% af kontekstvinduet |
-| CH8 Tools Ecosystem | CH8_AI_TOOLS_ECOSYSTEM.md | 3-4 tools dækker 90% af behov — differentiator er workflow-integration, ikke modelintelligens |
-| CH9 Setup & Infrastructure | CH9_SETUP_INFRASTRUCTURE.md | Over-investering i infra, under-investering i produktion. Bedste infra = den du glemmer |
-| CH10 Visualization | CH10_VISUALIZATION_UNDERSTANDING.md | IBM Watson ($62M, 80% failure) var kommunikationsproblem — "understands" importerede forkerte forventninger |
-| Danske versioner | KAP1+KAP2 | Danske oversættelser af CH1-2 |
-| Samlet manuskript | HOW_TO_BUILD_AGENTS.md | Se Crown Jewels |
+Rå Claude Code session-data. Kan parses med `python3 -c "import json; ..."`.
 
-**Kronologi:** Bog-projektet startede feb 2026. CH1-CH10 skrevet i rækkefølge. Research-noter (ch7_, ch9_, ch10_) er baggrundsmateriale der informerede kapitlerne.
+| Fil | Dato | Størrelse | Indhold |
+|-----|------|-----------|---------|
+| `aff0966e...2026-03-14.jsonl` | 8.–10. mar | 6.5 MB | "How to Build Agents" — research, manual, PDF-produktion |
+| `1f86132c...2026-03-16.jsonl` | 15.–16. mar | 4.2 MB | Den store session — personlig besked, psykologi, research, sikkerhed |
+| `f9506441...2026-03-14.jsonl` | 8.–10. mar | 1.3 MB | Claude Code Ecosystem rapport (PDF) |
+| `89c484f6...2026-03-14.jsonl` | 14. mar | 1.1 MB | V1-loop + autonom delegation |
+| `22ea4223...2026-03-14.jsonl` | 14. mar | 637 KB | V2-loop continuation, VPS-admin |
+| `172373bf...2026-03-14.jsonl` | 9. mar | 606 KB | AI-biografi (ChatGPT-integration) |
+| `94b3eadb...2026-03-14.jsonl` | 14. mar | 473 KB | TI kildeindeksering |
+| `525d1317...2026-03-14.jsonl` | 14. mar | 353 KB | Ralph Loop V2 (10 iterationer, 45 filer) |
+| `7041cf04...2026-03-14.jsonl` | 14. mar | 159 KB | Qdrant-guide til PC |
+| `0b39188c...2026-03-14.jsonl` | 14. mar | 68 KB | Research-agenter (Notion + metodik) |
+| `b2a02afb...2026-03-15.jsonl` | 15. mar | 32 KB | Usage-check ($16.68 total) |
+| `cea36c18...2026-03-14.jsonl` | 14. mar | 4 KB | Fejlet session (auth error) |
 
-### 2. Memory & Autonomi Research (8 filer, ~4.000 linjer)
+## Research-filer (MD)
 
-Kernen af Ydrasils hukommelsesarkitektur. Spænder fra akademisk AI-memory til praktisk session-resume.
+### Psykologi & Personlighed
+| Fil | Linjer | Indhold |
+|-----|--------|---------|
+| `klinisk_profilering_frameworks.md` | 450 | Tilknytningsteori, skematerapi, IFS, polyvagal, mentalisering, ACE — 45+ kilder |
+| `mbti_vs_big_five_evidens.md` | 170 | MBTI er pseudovidenskab, Big Five er evidensbaseret, INFJ-fælden |
+| `hyperempati_klinisk_psykologi.md` | 180 | C-PTSD, parentificering, hypervigilans, fawn-respons |
 
-| Fil | Linjer | Fokus | Key Insight |
-|-----|--------|-------|-------------|
-| ai_memory_research.md | 619 | AI Long-Term Memory | De fleste systemer implementerer kun én dimension — misser cross-session persistens |
-| human_memory_research.md | 609 | Menneskehukommelse & AI | Glemsel er en feature — retrieval-baseret arkitektur slår total persistens |
-| memory_bridge_research.md | 674 | Menneske↔AI bro | Capture, storage, retrieval = tre separate udfordringer |
-| AI_MEMORY_SYSTEMS_SURVEY.md | 540 | AI Memory survey | Qdrant rationelt for self-hosted <100M vektorer |
-| memory_autonomy_research_2026-02-23.md | ~400 | Mem0/LightRAG/OpenClaw | Mem0 bedste match til stack; OpenClaw-principper bedste arkitektoniske blueprint (tool fravalgt, principper adopteret) |
-| context_window_workarounds_2026.md | ~380 | Context workarounds | "Lost in the middle" + cost-scaling → disk-offload + hierarkisk summarization |
+### AI Agents & Memory
+| Fil | Linjer | Indhold |
+|-----|--------|---------|
+| `DESTILLAT_memory_retrieval.md` | 553 | Konsolidering af 12 filer, 70+ kilder, evidensniveauer markeret |
+| `DESTILLAT_agents_automation.md` | 501 | Konsolidering af 13 filer, frameworks, compounding reliability |
 
-**Vigtig beslutning (23/2-2026):** Mem0, LightRAG og GraphRAG fravalgt pga. svagt evidensgrundlag. OpenClaw-principper (heartbeat, hybrid search, temporal decay) adopteret i stedet.
+### Pipeline & Arkitektur
+| Fil | Linjer | Indhold |
+|-----|--------|---------|
+| `zero_token_pipeline_architecture.md` | 498 | Regelbaserede pipelines uden tokenforbrug, kørbar Python-kode |
+| `personal_data_pipeline_best_practices.md` | 215 | Willison/Dogsheep, karlicoss/HPI, praktiske patterns |
 
-### 3. Agent Research (6 filer, ~3.500 linjer)
+### Visual AI
+| Fil | Linjer | Indhold |
+|-----|--------|---------|
+| `visual_llm_landscape_2026.md` | 386 | Multimodale modeller: generering stærk, forståelse fake. Steelman+red team |
 
-Frameworks, evaluering, og implementation patterns for AI-agenter.
+### Politik & Økonomi
+| Fil | Linjer | Indhold |
+|-----|--------|---------|
+| `skattepenge_ekspertkilder_2026.md` | 300 | Danske institutioner, akademikere, åbne datasæt, CPI er perceptionsbaseret |
 
-| Fil | Linjer | Fokus | Key Insight |
-|-----|--------|-------|-------------|
-| agents_langgraph_deep_dive.md | 666 | LangGraph arkitektur | State-maskinekontrol over grene og cykler — LangChains nye standard |
-| agents_evaluation_observability.md | 639 | Agent eval | METR: devs troede de var 20-30% hurtigere med AI — var 19% *langsommere*. Self-report er ubrugelig |
-| agents_framework_comparison.md | 546 | Framework sammenligning | CrewAI: dual-model (Crews+Flows) — mental model er organisatorisk, ikke programmessig |
-| agents_context_engineering.md | 493 | Context Engineering | 100:1 input/output-ratio i produktion. Filsystemet som ekstern hukommelse er mest undervurderet |
-| agent_implementation_notes.md | ~200 | Implementation noter | 80% tid på tool-definitions, 20% på agent-logik. Fejl-wrapping i tools er kritisk |
+### Meta & Evaluering
+| Fil | Linjer | Indhold |
+|-----|--------|---------|
+| `RESEARCH_DEEP_STUDY_2026-03-15.md` | 303 | Hvad vi ved, mangler, overlapper + 20 nye kilder |
+| `RESEARCH_CATALOG.md` | 222 | 79 filer kategoriseret, 3 duplikater, 63% HIGH kvalitet |
+| `RED_TEAM_EVALUERING_2026-03-15.md` | 200 | Brutal vurdering af alt output |
 
-### 4. Surveys & Kildekortlægning (7 filer, ~4.500 linjer)
+### Domæne
+| Fil | Linjer | Indhold |
+|-----|--------|---------|
+| `openclaw_deep_dive_2026-03-15.md` | 150 | OpenClaw arkitektur, 90% allerede implementeret i Yggdra |
+| `solo_dev_google_maps_ai_2026.md` | 150 | VROOM, Route Optimization API, Google Cloud |
 
-Brede undersøgelser der kortlægger felter systematisk.
-
-| Fil | Linjer | Felt | Key Insight |
-|-----|--------|------|-------------|
-| LAYER1_PASS2_WITH_ABSTRACTS.md | 828 | AI Memory survey | Se Crown Jewels |
-| LAYER2_PASS1_SOURCES.md | 787 | Kilder kortlægning | Se Crown Jewels |
-| LAYER2_PASS2_VERIFICATION.md | 600 | Kildeverificering | Tier 1 = uafhængige communities, ikke autoritative vendors |
-| brainmap_research_report.md | ~330 | Mind mapping | Brainmap ≠ mindmap: graf (krydsende associationer) > træ (hierarki) |
-| brainmap_research_report_v2.md | ~350 | Brainmap v2 | GRINDE-frameworket (Justin Sung) = mest transferable system til personlig vidensstrukturering |
-| knowledge_visualization_survey.md | ~320 | Knowledge Viz | Markedet skifter mod AI auto-generering, men forbliver hierarkisk — modsat hvad kognitionsvidenskab anbefaler |
-| knowledge_visualization_survey_pass2.md | ~300 | Knowledge Viz pass 2 | Argument mapping (Toulmin) = manglende lag: gemmer *hvad* man ved, men ikke *hvorfor* |
-
-### 5. Tools & Økosystem (7 filer, ~2.500 linjer)
-
-Konkrete værktøjer evalueret i kontekst af Ydrasil.
-
-| Fil | Linjer | Værktøj | Key Insight |
-|-----|--------|---------|-------------|
-| claude_code_ecosystem_2026.md | 740 | Claude Code økosystem | 25+ repos, 1.500+ skills kortlagt — identificerer gaps i Yggdra vs best practice |
-| CLAUDE_CODE_BEST_PRACTICES.md | ~280 | Claude Code best practices | CLAUDE.md under 60 linjer er idealet — context window er den vigtigste ressource |
-| AI_CLAUDE_ANTHROPIC_2026.md | ~240 | Anthropic & Claude | Opus 4.5 er 50-75% bedre til tool-calling ved samme pris |
-| IMAGE_TOOLS_RESEARCH_2026.md | ~200 | Billedgenerering | Tre tiers: GPT Image 1 Mini, Midjourney, Stable Diffusion — billig iteration uden specialsetup |
-| notion-best-practices.md | ~180 | Notion | Power-feature = Relations (vidensgraf). AI kun meningsfyldt på Business ($20/md) |
-| whisper_pricing_2026.md | ~100 | Speech-to-Text | Groq Whisper 8-9× billigere end OpenAI ($4 vs $36/100h). Klar anbefaling |
-| ai_tools_uge10_2026.md | ~150 | AI tools uge 10 | Context Mode MCP: 98% komprimering, 30min→3h sessioner, men virker ikke på MCP-responses |
-
-### 6. Person-research (5 filer, ~1.200 linjer)
-
-Dybe dyk i specifikke eksperters tankegang og metoder.
-
-| Fil | Linjer | Person | Key Insight |
-|-----|--------|--------|-------------|
-| NATE_JONES_5_VIDEOER_2026-02.md | ~270 | Nate B. Jones | "Attention drowning" — signal drukner i støj. Separate collections er svaret |
-| NATE_JONES_EXTRA_VIDEOER_2026-02.md | ~250 | Nate B. Jones | Timidity > fejl som risiko: byg mange ting hurtigt, acceptér fejl som læring |
-| nate_jones_memory_video.md | ~200 | Nate Jones | Ingen generel algoritme for relevans — byg din egen hukommelsesarkitektur |
-| armin_ronacher_agent_philosophy_2026.md | ~220 | Armin Ronacher | 4 tools (Read/Write/Edit/Bash) + state som filer > model-hukommelse |
-| mario_zechner_pi_research_2026-03-06.md | ~230 | Mario Zechner | Bash-over-MCP er mere robust. Evidensbaseret minimalisme |
-
-### 7. Metodologi (6 filer, ~1.800 linjer)
-
-Hvordan man researcher, skriver, og auditerer.
-
-| Fil | Linjer | Fokus | Key Insight |
-|-----|--------|-------|-------------|
-| academic_writing_standards.md | 680 | Akademisk skrivestil | APA 7th edition: forfatter-dato, hængende indrykning, DOI som https://doi.org/... |
-| AI_WORKFLOW_RESEARCH_2026.md | 565 | Personal Knowledge Mgmt | Fabric (200+ patterns, CLI-first) = state-of-the-art; Miesslers PAI er næste lag |
-| RESEARCH_METHODOLOGY_META.md | ~370 | Meta-research | Amatør vs professionel = struktur, ikke intelligens. Definér spørgsmål FØR data |
-| AUDIT_FRAMEWORK_RESEARCH.md | ~200 | Audit-praksis | Mangler 3 dimensioner: sikkerhed, operational resilience, monitoring |
-| research-methodology.md | ~150 | Methodology (kort) | Scoping Review (Arksey & O'Malley) = bedste default for solo-forskere |
-
-### 8. Infrastruktur (3 filer, ~1.100 linjer)
-
-Hardware, lokal AI, autonomi-opsætning.
-
-| Fil | Linjer | Fokus | Key Insight |
-|-----|--------|-------|-------------|
-| LOCAL_AI_HARDWARE_OPTIONS_2026.md | 503 | Lokal AI hardware | Mac Mini M4 Pro 64GB (~21.300 DKK) eller brugt PC+RTX 3090 (~9.000 DKK) |
-| autonomous_ai_setup.md | 450 | OpenClaw og autonomi | Memory tiers (hot/warm/cold) + hooks til episodisk log = scaffolding > model |
-| LOCAL_AI_INFRASTRUCTURE_2026.md | ~290 | Lokal AI-infra | Scaffolding > Model: kontekststyring har større indflydelse end grundmodel |
-
-### 9. Projekt-state (3 filer, ~1.000 linjer)
-
-Snapshots af projektstatus på bestemte tidspunkter.
-
-| Fil | Linjer | Snapshot | Key Insight |
-|-----|--------|---------|-------------|
-| PRE_DEEP_RESEARCH_REPORT.md | 752 | State før bog-start | Layer 1-2 afsluttet → 3 kernespørgsmål som fundament for Layer 3 |
-| MASTER_PLAN.md | ~180 | Research Master Plan | Alle 10 kapitler skrevet. Advisor brain embeddet: 321 Nate Jones + 3.082 Miessler chunks |
-| voice_app_project_state.md | ~100 | Voice App state | Hybrid D: voice→VPS(Groq)→Claude+Qdrant→ElevenLabs→headset. 10-15h daglig brug |
-
-### 10. LaTeX/Build (15 filer)
-
-Kompileringsartefakter for bog og rapporter. Ikke research-indhold.
-Filer: .aux, .log, .out, .toc, .tex, .pdf + md_to_latex.py, prepare_for_pandoc.py, template.latex
-
-## Hurtigreference
-
-| Jeg vil... | Gå til... |
-|------------|-----------|
-| Forstå bogens struktur | HOW_TO_BUILD_AGENTS.md |
-| Finde et specifikt kapitel | CH{1-10}_*.md |
-| Researche AI memory | ai_memory_research.md → memory_bridge_research.md |
-| Evaluere agent-frameworks | agents_framework_comparison.md → agents_langgraph_deep_dive.md |
-| Finde kilder og eksperter | LAYER2_PASS1_SOURCES.md |
-| Verificere en kilde | LAYER2_PASS2_VERIFICATION.md |
-| Lære research-metodik | RESEARCH_METHODOLOGY_META.md |
-| Se hvad der blev besluttet om memory | memory_autonomy_research_2026-02-23.md |
-| Evaluere lokal AI hardware | LOCAL_AI_HARDWARE_OPTIONS_2026.md |
-| Se Claude Code patterns | claude_code_ecosystem_2026.md |
-| Forstå en persons tankegang | armin_ronacher_*, mario_zechner_*, NATE_JONES_* |
+### Audit
+| Fil | Linjer | Indhold |
+|-----|--------|---------|
+| `automation_deep_audit_2026-03-15.md` | 100 | 18 cron jobs, 5 Docker, fixes, anbefalinger |
+| `audit_2026-03-15.md` | ~50 | Ugentlig audit |
