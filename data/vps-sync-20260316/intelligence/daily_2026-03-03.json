@@ -1,0 +1,150 @@
+{
+  "date": "2026-03-03",
+  "items_fetched": 34,
+  "items_relevant": 22,
+  "items_critical": 1,
+  "top_items": [
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Claude Status Update : Elevated errors in claude.ai, cowork, platform, claude code on 2026-03-03T04:43:56.000Z",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rjg5n2/claude_status_update_elevated_errors_in_claudeai/",
+      "date": "2026-03-03",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>This is an automatic post triggered within 2 minutes of an official Claude system status update. </p> <p>Incident: Elevated errors in claude.ai, cowork, platform, claude code</p> <p>Check on progress and whether or not the incident has been resolved yet here : <a hr",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "ac5b280dce8a",
+      "is_critical": true
+    },
+    {
+      "source": "arxiv",
+      "title": "Organizing, Orchestrating, and Benchmarking Agent Skills at Ecosystem Scale",
+      "url": "http://arxiv.org/abs/2603.02176v1",
+      "date": "2026-03-02",
+      "summary": "The rapid proliferation of Claude agent skills has raised the central question of how to effectively leverage, manage, and scale the agent skill ecosystem. In this paper, we propose AgentSkillOS, the first principled framework for skill selection, orchestration, and ecosystem-level management. Agent",
+      "relevance_score": 17,
+      "matched_keywords": [
+        "claude",
+        "rag",
+        "agent",
+        "api",
+        "benchmark"
+      ],
+      "hash": "918bf3ae9e0d",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Claude is down",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rir4n5/claude_is_down/",
+      "date": "2026-03-02",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Claude went down today and I didn’t think much of it at first. I refreshed the page, waited a bit, tried again. Nothing. Then I checked the API. Still nothing. That’s when it hit me how much of my daily workflow quietly depends on one model working perfectly. I use ",
+      "relevance_score": 9,
+      "matched_keywords": [
+        "claude",
+        "api",
+        "workflow"
+      ],
+      "hash": "94327d4eb075",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "Scaling Retrieval Augmented Generation with RAG Fusion: Lessons from an Industry Deployment",
+      "url": "http://arxiv.org/abs/2603.02153v1",
+      "date": "2026-03-02",
+      "summary": "Retrieval-Augmented Generation (RAG) systems commonly adopt retrieval fusion techniques such as multi-query retrieval and reciprocal rank fusion (RRF) to increase document recall, under the assumption that higher recall leads to better answer quality. While these methods show consistent gains in iso",
+      "relevance_score": 9,
+      "matched_keywords": [
+        "rag",
+        "retrieval"
+      ],
+      "hash": "a988a0311b05",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "Cognitive Prosthetic: An AI-Enabled Multimodal System for Episodic Recall in Knowledge Work",
+      "url": "http://arxiv.org/abs/2603.02072v1",
+      "date": "2026-03-02",
+      "summary": "Modern knowledge workplaces increasingly strain human episodic memory as individuals navigate fragmented attention, overlapping meetings, and multimodal information streams. Existing workplace tools provide partial support through note-taking or analytics but rarely integrate cognitive, physiologica",
+      "relevance_score": 8,
+      "matched_keywords": [
+        "rag",
+        "memory"
+      ],
+      "hash": "657e315dd516",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "Exploring Plan Space through Conversation: An Agentic Framework for LLM-Mediated Explanations in Planning",
+      "url": "http://arxiv.org/abs/2603.02070v1",
+      "date": "2026-03-02",
+      "summary": "When automating plan generation for a real-world sequential decision problem, the goal is often not to replace the human planner, but to facilitate an iterative reasoning and elicitation process, where the human's role is to guide the AI planner according to their preferences and expertise. In this ",
+      "relevance_score": 8,
+      "matched_keywords": [
+        "agent",
+        "agentic"
+      ],
+      "hash": "706cf7debc2f",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "Cognitive Prosthetic: An AI-Enabled Multimodal System for Episodic Recall in Knowledge Work",
+      "url": "http://arxiv.org/abs/2603.02072v1",
+      "date": "2026-03-02",
+      "summary": "Modern knowledge workplaces increasingly strain human episodic memory as individuals navigate fragmented attention, overlapping meetings, and multimodal information streams. Existing workplace tools provide partial support through note-taking or analytics but rarely integrate cognitive, physiologica",
+      "relevance_score": 8,
+      "matched_keywords": [
+        "rag",
+        "memory"
+      ],
+      "hash": "657e315dd516",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "Anthropic Cowork feature creates 10GB VM bundle on macOS without warning",
+      "url": "https://github.com/anthropics/claude-code/issues/22543",
+      "date": "2026-03-02",
+      "summary": "HN score: 359, comments: 182",
+      "hn_score": 359,
+      "relevance_score": 5,
+      "matched_keywords": [
+        "anthropic"
+      ],
+      "hash": "2d0af7b3e517",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "I see Claude's writing everywhere and it's starting to feel like an AI condom, I hate it",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rjeqg3/i_see_claudes_writing_everywhere_and_its_starting/",
+      "date": "2026-03-03",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Claude has a very distinctive writing style and I'm starting to see it everywhere. Reddit posts, blog posts, slack messages, texts, emails, powerpoint slides, product descriptions, landing page copy, et cetera, all of it is starting to sound like Claude lately, or l",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "claude"
+      ],
+      "hash": "8b19d2db5a3d",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Claude is down again since the last 1 hour at least",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rjfx4k/claude_is_down_again_since_the_last_1_hour_at/",
+      "date": "2026-03-03",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>It has not been working since an hour at least. I am not able to login to any new devices either.</p> </div><!-- SC_ON --> &#32; submitted by &#32; <a href=\"https://www.reddit.com/user/the-solution-is-ssd\"> /u/the-solution-is-ssd </a> <br /> <span><a href=\"https://w",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "claude"
+      ],
+      "hash": "81ef228a1789",
+      "is_critical": false
+    }
+  ]
+}

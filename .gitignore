@@ -12,3 +12,7 @@ projects/ydrasil/sessions/
 projects/ydrasil/vps-chatlog.md
 projects/lib.ydrasil/sessions/
 projects/lib.ydrasil/vps-chatlog.md
+analysis.jsonl
+prompts.jsonl
+episodes.jsonl
+*.jsonl

@@ -1,0 +1,157 @@
+{
+  "date": "2026-03-04",
+  "items_fetched": 30,
+  "items_relevant": 22,
+  "items_critical": 0,
+  "top_items": [
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "OpenAI's post-training lead leaves and joins Anthropic: he helped ship GPT-5, 5.1, 5.2, 5.3-Codex, o3 and o1 and will return to hands-on RL research at Anthropic",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rk7fwq/openais_posttraining_lead_leaves_and_joins/",
+      "date": "2026-03-04",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rk7fwq/openais_posttraining_lead_leaves_and_joins/\"> <img alt=\"OpenAI's post-training lead leaves and joins Anthropic: he helped ship GPT-5, 5.1, 5.2, 5.3-Codex, o3 and o1 and will return to hands-on RL research at Anthropic\" src=",
+      "relevance_score": 15,
+      "matched_keywords": [
+        "claude",
+        "anthropic",
+        "openai",
+        "gpt"
+      ],
+      "hash": "e46e1ab19246",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "Learning When to Act or Refuse: Guarding Agentic Reasoning Models for Safe Multi-Step Tool Use",
+      "url": "http://arxiv.org/abs/2603.03205v1",
+      "date": "2026-03-03",
+      "summary": "Agentic language models operate in a fundamentally different safety regime than chat models: they must plan, call tools, and execute long-horizon actions where a single misstep, such as accessing files or entering credentials, can cause irreversible harm. Existing alignment methods, largely optimize",
+      "relevance_score": 14,
+      "matched_keywords": [
+        "agent",
+        "agentic",
+        "tool use",
+        "safety",
+        "alignment"
+      ],
+      "hash": "ac6993d50a48",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Claude and Claude Code traffic grew faster than expected this week",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rjyp7d/claude_and_claude_code_traffic_grew_faster_than/",
+      "date": "2026-03-03",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rjyp7d/claude_and_claude_code_traffic_grew_faster_than/\"> <img alt=\"Claude and Claude Code traffic grew faster than expected this week\" src=\"https://preview.redd.it/j1qrmp9srvmg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=f9",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "eb26cfb504f9",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "Saarthi for AGI: Towards Domain-Specific General Intelligence for Formal Verification",
+      "url": "http://arxiv.org/abs/2603.03175v1",
+      "date": "2026-03-03",
+      "summary": "Saarthi is an agentic AI framework that uses multi-agent collaboration to perform end-to-end formal verification. Even though the framework provides a complete flow from specification to coverage closure, with around 40% efficacy, there are several challenges that need to be addressed to make it mor",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "rag",
+        "agent",
+        "agentic"
+      ],
+      "hash": "969b8c78f5e4",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "Saarthi for AGI: Towards Domain-Specific General Intelligence for Formal Verification",
+      "url": "http://arxiv.org/abs/2603.03175v1",
+      "date": "2026-03-03",
+      "summary": "Saarthi is an agentic AI framework that uses multi-agent collaboration to perform end-to-end formal verification. Even though the framework provides a complete flow from specification to coverage closure, with around 40% efficacy, there are several challenges that need to be addressed to make it mor",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "rag",
+        "agent",
+        "agentic"
+      ],
+      "hash": "969b8c78f5e4",
+      "is_critical": false
+    },
+    {
+      "source": "github",
+      "title": "anthropics/claude-code v2.1.66 — v2.1.66",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.66",
+      "date": "2026-03-04",
+      "summary": "\n",
+      "repo": "anthropics/claude-code",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "claude",
+        "anthropic"
+      ],
+      "hash": "b4b8e80472c2",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "Code2Math: Can Your Code Agent Effectively Evolve Math Problems Through Exploration?",
+      "url": "http://arxiv.org/abs/2603.03202v1",
+      "date": "2026-03-03",
+      "summary": "As large language models (LLMs) advance their mathematical capabilities toward the IMO level, the scarcity of challenging, high-quality problems for training and evaluation has become a significant bottleneck. Simultaneously, recent code agents have demonstrated sophisticated skills in agentic codin",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "agent",
+        "agentic",
+        "bot"
+      ],
+      "hash": "6aa70dcf721d",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "And so they killed my sub for SuperWhisper",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rjnvz5/and_so_they_killed_my_sub_for_superwhisper/",
+      "date": "2026-03-03",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rjnvz5/and_so_they_killed_my_sub_for_superwhisper/\"> <img alt=\"And so they killed my sub for SuperWhisper\" src=\"https://preview.redd.it/v2yyoq7wotmg1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=b9ac9f0d8fe741e36075b0845390c1",
+      "relevance_score": 9,
+      "matched_keywords": [
+        "claude",
+        "whisper"
+      ],
+      "hash": "a37c9faba366",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "APRES: An Agentic Paper Revision and Evaluation System",
+      "url": "http://arxiv.org/abs/2603.03142v1",
+      "date": "2026-03-03",
+      "summary": "Scientific discoveries must be communicated clearly to realize their full potential. Without effective communication, even the most groundbreaking findings risk being overlooked or misunderstood. The primary way scientists communicate their work and receive feedback from the community is through pee",
+      "relevance_score": 8,
+      "matched_keywords": [
+        "agent",
+        "agentic"
+      ],
+      "hash": "0f7957e79c6d",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "APRES: An Agentic Paper Revision and Evaluation System",
+      "url": "http://arxiv.org/abs/2603.03142v1",
+      "date": "2026-03-03",
+      "summary": "Scientific discoveries must be communicated clearly to realize their full potential. Without effective communication, even the most groundbreaking findings risk being overlooked or misunderstood. The primary way scientists communicate their work and receive feedback from the community is through pee",
+      "relevance_score": 8,
+      "matched_keywords": [
+        "agent",
+        "agentic"
+      ],
+      "hash": "0f7957e79c6d",
+      "is_critical": false
+    }
+  ]
+}

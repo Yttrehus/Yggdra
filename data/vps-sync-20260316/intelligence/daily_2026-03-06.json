@@ -1,0 +1,157 @@
+{
+  "date": "2026-03-06",
+  "items_fetched": 25,
+  "items_relevant": 20,
+  "items_critical": 0,
+  "top_items": [
+    {
+      "source": "arxiv",
+      "title": "Leveraging LLM Parametric Knowledge for Fact Checking without Retrieval",
+      "url": "http://arxiv.org/abs/2603.05471v1",
+      "date": "2026-03-05",
+      "summary": "Trustworthiness is a core research challenge for agentic AI systems built on Large Language Models (LLMs). To enhance trust, natural language claims from diverse sources, including human-written text, web content, and model outputs, are commonly checked for factuality by retrieving external knowledg",
+      "relevance_score": 17,
+      "matched_keywords": [
+        "rag",
+        "retrieval",
+        "agent",
+        "agentic"
+      ],
+      "hash": "3a007e39e587",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "Leveraging LLM Parametric Knowledge for Fact Checking without Retrieval",
+      "url": "http://arxiv.org/abs/2603.05471v1",
+      "date": "2026-03-05",
+      "summary": "Trustworthiness is a core research challenge for agentic AI systems built on Large Language Models (LLMs). To enhance trust, natural language claims from diverse sources, including human-written text, web content, and model outputs, are commonly checked for factuality by retrieving external knowledg",
+      "relevance_score": 17,
+      "matched_keywords": [
+        "rag",
+        "retrieval",
+        "agent",
+        "agentic"
+      ],
+      "hash": "3a007e39e587",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Claude Code told me \"No.\"",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rm57cg/claude_code_told_me_no/",
+      "date": "2026-03-06",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rm57cg/claude_code_told_me_no/\"> <img alt=\"Claude Code told me &quot;No.&quot;\" src=\"https://preview.redd.it/pdotj7sg0dng1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=7b6545ff591602bb88713487ae43ab5e728698e4\" title=\"Claude Co",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "71df2245ddb2",
+      "is_critical": false
+    },
+    {
+      "source": "github",
+      "title": "anthropics/claude-code v2.1.70 — v2.1.70",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.70",
+      "date": "2026-03-06",
+      "summary": "## What's changed\n\n- Fixed API 400 errors when using `ANTHROPIC_BASE_URL` with a third-party gateway — tool search now correctly detects proxy endpoints and disables `tool_reference` blocks\n- Fixed `API Error: 400 This model does not support the effort parameter` when using custom Bedrock inference profiles or other model identifiers not matching standard Claude naming patterns\n- Fixed empty model responses immediately after `ToolSearch` — the server renders tool schemas with system-prompt-style",
+      "repo": "anthropics/claude-code",
+      "relevance_score": 12,
+      "matched_keywords": [
+        "claude",
+        "anthropic",
+        "api"
+      ],
+      "hash": "25726d60b2ab",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "Survive at All Costs: Exploring LLM's Risky Behaviors under Survival Pressure",
+      "url": "http://arxiv.org/abs/2603.05028v1",
+      "date": "2026-03-05",
+      "summary": "As Large Language Models (LLMs) evolve from chatbots to agentic assistants, they are increasingly observed to exhibit risky behaviors when subjected to survival pressure, such as the threat of being shut down. While multiple cases have indicated that state-of-the-art LLMs can misbehave under surviva",
+      "relevance_score": 12,
+      "matched_keywords": [
+        "agent",
+        "agentic",
+        "bot",
+        "cost"
+      ],
+      "hash": "e2333bac491b",
+      "is_critical": false
+    },
+    {
+      "source": "anthropic",
+      "title": "Show HN: DocMCP – Index any docs site locally, search it from Claude via MCP",
+      "url": "https://news.ycombinator.com/item?id=47266075",
+      "date": "2026-03-05",
+      "summary": "HN points: 2, comments: 0",
+      "relevance_score": 11,
+      "matched_keywords": [
+        "claude",
+        "mcp"
+      ],
+      "hash": "6ec4653a5ec4",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "A statement from Anthropic CEO Dario Amodei",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rlzchv/a_statement_from_anthropic_ceo_dario_amodei/",
+      "date": "2026-03-06",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rlzchv/a_statement_from_anthropic_ceo_dario_amodei/\"> <img alt=\"A statement from Anthropic CEO Dario Amodei\" src=\"https://external-preview.redd.it/-UMAYEsz0RkJ9RxLxQbpKq-gtbmqv3s1rn5AYE7TZxc.png?width=640&amp;crop=smart&amp;auto=w",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "claude",
+        "anthropic"
+      ],
+      "hash": "55242ceb8a83",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Did you know Kojima named the Anthropic CEO?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rlnfqv/did_you_know_kojima_named_the_anthropic_ceo/",
+      "date": "2026-03-05",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rlnfqv/did_you_know_kojima_named_the_anthropic_ceo/\"> <img alt=\"Did you know Kojima named the Anthropic CEO?\" src=\"https://preview.redd.it/xpvhjorvf9ng1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=70120a9302c16bd6119ee0ace0f",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "claude",
+        "anthropic"
+      ],
+      "hash": "28378800d981",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Pentagon Formally Labels Anthropic Supply-Chain Risk, Escalating Conflict",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rls9rh/pentagon_formally_labels_anthropic_supplychain/",
+      "date": "2026-03-05",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rls9rh/pentagon_formally_labels_anthropic_supplychain/\"> <img alt=\"Pentagon Formally Labels Anthropic Supply-Chain Risk, Escalating Conflict\" src=\"https://external-preview.redd.it/4MgNW8sCqmCKt7Jqh0xFYz0uFeXux5aRQkWoS-1bEbk.jpeg?w",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "claude",
+        "anthropic"
+      ],
+      "hash": "df8ee0437c22",
+      "is_critical": false
+    },
+    {
+      "source": "github",
+      "title": "danielmiessler/fabric v1.4.429 — v1.4.429",
+      "url": "https://github.com/danielmiessler/Fabric/releases/tag/v1.4.429",
+      "date": "2026-03-05",
+      "summary": "## Changes\n\n### PR [#2046](https://github.com/danielmiessler/Fabric/pull/2046) by [ksylvan](https://github.com/ksylvan): refactor: add `GetRaw` method to encapsulate raw pattern loading logic\n\n- Add `GetRaw` method to `PatternsEntity` for unprocessed pattern retrieval\n- Replace inline raw pattern loading logic in server handler with `GetRaw`\n- Remove manual `Pattern` struct construction from `PatternsHandler.Get`\n- Simplify server handler by delegating storage access to database layer\n- Add test",
+      "repo": "danielmiessler/fabric",
+      "relevance_score": 9,
+      "matched_keywords": [
+        "rag",
+        "retrieval"
+      ],
+      "hash": "937953b2cbd1",
+      "is_critical": false
+    }
+  ]
+}

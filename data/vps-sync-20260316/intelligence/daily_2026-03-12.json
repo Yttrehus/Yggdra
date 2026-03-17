@@ -1,0 +1,160 @@
+{
+  "date": "2026-03-12",
+  "items_fetched": 34,
+  "items_relevant": 24,
+  "items_critical": 0,
+  "top_items": [
+    {
+      "source": "github",
+      "title": "anthropics/claude-code v2.1.74 — v2.1.74",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.74",
+      "date": "2026-03-12",
+      "summary": "## What's changed\n\n- Added actionable suggestions to `/context` command — identifies context-heavy tools, memory bloat, and capacity warnings with specific optimization tips\n- Added `autoMemoryDirectory` setting to configure a custom directory for auto-memory storage\n- Fixed memory leak where streaming API response buffers were not released when the generator was terminated early, causing unbounded RSS growth on the Node.js/npm code path\n- Fixed managed policy `ask` rules being bypassed by user ",
+      "repo": "anthropics/claude-code",
+      "relevance_score": 20,
+      "matched_keywords": [
+        "claude",
+        "anthropic",
+        "rag",
+        "memory",
+        "api"
+      ],
+      "hash": "65280180a8d1",
+      "is_critical": false
+    },
+    {
+      "source": "github",
+      "title": "anthropics/claude-code v2.1.73 — v2.1.73",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.73",
+      "date": "2026-03-11",
+      "summary": "## What's changed\n\n- Added `modelOverrides` setting to map model picker entries to custom provider model IDs (e.g. Bedrock inference profile ARNs)\n- Added actionable guidance when OAuth login or connectivity checks fail due to SSL certificate errors (corporate proxies, `NODE_EXTRA_CA_CERTS`)\n- Fixed freezes and 100% CPU loops triggered by permission prompts for complex bash commands\n- Fixed a deadlock that could freeze Claude Code when many skill files changed at once (e.g. during `git pull` in ",
+      "repo": "anthropics/claude-code",
+      "relevance_score": 18,
+      "matched_keywords": [
+        "claude",
+        "anthropic",
+        "claude code"
+      ],
+      "hash": "236259b60832",
+      "is_critical": false
+    },
+    {
+      "source": "anthropic",
+      "title": "Show HN: Reviewd – A free, local alternative to Claude Code Review(no API costs)",
+      "url": "https://github.com/simion/reviewd",
+      "date": "2026-03-11",
+      "summary": "HN points: 4, comments: 0",
+      "relevance_score": 17,
+      "matched_keywords": [
+        "claude",
+        "claude code",
+        "api",
+        "cost"
+      ],
+      "hash": "0e35ff4f8670",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/MachineLearning",
+      "title": "[P] Post-retrieval translation preserves embedding quality better than pre-translation for multilingual pipelines, here is what I found building OmniRAG.",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rriz2b/p_postretrieval_translation_preserves_embedding/",
+      "date": "2026-03-12",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p><strong>What my project does:</strong></p> <p>OmniRAG is a RAG framework supporting 27+ languages with offline voice I/O. The core technical decision was post-retrieval translation over pre-translation to maintain semantic integrity during vector search.</p> <p><str",
+      "relevance_score": 15,
+      "matched_keywords": [
+        "embedding",
+        "rag",
+        "retrieval",
+        "pipeline"
+      ],
+      "hash": "e2bb22a321a6",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: A context-aware permission guard for Claude Code",
+      "url": "https://github.com/manuelschipper/nah/",
+      "date": "2026-03-11",
+      "summary": "HN score: 85, comments: 33",
+      "hn_score": 85,
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "1d58edd77035",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "I delayed my product launch for months because I couldn't afford demo videos. Spent a weekend with Claude Code and Remotion. Now my reels are getting thousands of views.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rr47ya/i_delayed_my_product_launch_for_months_because_i/",
+      "date": "2026-03-11",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>My product was ready. The code worked, it solved a genuine problem, but I had nothing to show people.</p> <p>No demo videos. No illustrations. No motion graphics. Just a working app and a few users.</p> <p>So I did what any sane founder does, I emailed motion design",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "1c6c5b9480d9",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "4 months of Claude Code and honestly the hardest part isn’t coding",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rr1069/4_months_of_claude_code_and_honestly_the_hardest/",
+      "date": "2026-03-11",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I’ve been building a full iOS app with Claude Code for about 5 months now. 220k lines, real users starting to test it. The thing nobody talks about is that the coding is actually the easy part at this point.</p> <p>The hard part is making design decisions. Claude Co",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "99fc90911fb5",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Stop paying $1,000+ for \"AI Bootcamps\". Anthropic (makers of Claude) just dropped a 100% free academy.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rqopis/stop_paying_1000_for_ai_bootcamps_anthropic/",
+      "date": "2026-03-11",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rqopis/stop_paying_1000_for_ai_bootcamps_anthropic/\"> <img alt=\"Stop paying $1,000+ for &quot;AI Bootcamps&quot;. Anthropic (makers of Claude) just dropped a 100% free academy.\" src=\"https://preview.redd.it/ptpfmidgtdog1.png?width",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "claude",
+        "anthropic"
+      ],
+      "hash": "a2e1e08d44ab",
+      "is_critical": false
+    },
+    {
+      "source": "anthropic",
+      "title": "My API cost was at $13.19 when my persistent Claude named himself Thales",
+      "url": "https://news.ycombinator.com/item?id=47342703",
+      "date": "2026-03-11",
+      "summary": "HN points: 2, comments: 1",
+      "relevance_score": 9,
+      "matched_keywords": [
+        "claude",
+        "api",
+        "cost"
+      ],
+      "hash": "d19c9a710a3b",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "COMIC: Agentic Sketch Comedy Generation",
+      "url": "http://arxiv.org/abs/2603.11048v1",
+      "date": "2026-03-11",
+      "summary": "We propose a fully automated AI system that produces short comedic videos similar to sketch shows such as Saturday Night Live. Starting with character references, the system employs a population of agents loosely based on real production studio roles, structured to optimize the quality and diversity",
+      "relevance_score": 8,
+      "matched_keywords": [
+        "agent",
+        "agentic"
+      ],
+      "hash": "411641dc71b2",
+      "is_critical": false
+    }
+  ]
+}

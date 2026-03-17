@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "query": "Ebbinghaus glemselskurve retention procent",
+    "type": "exact",
+    "expected_file": "DESTILLAT_memory_retrieval.md",
+    "expected_section": "1.4 Glemsel — En Feature, Ikke en Bug",
+    "relevance": "top-1",
+    "rationale": "Ebbinghaus is a specific term appearing in very few files. Tests exact keyword matching for academic references. Also in human_memory_research.md."
+  },
+  {
+    "id": 2,
+    "query": "Vehicle Routing Problem Google Maps Route Optimization API",
+    "type": "exact",
+    "expected_file": "solo_dev_google_maps_ai_2026.md",
+    "expected_section": "1. Google Maps Platform",
+    "relevance": "top-1",
+    "rationale": "VRP is a unique term only in this file. Tests whether exact technical terms retrieve the correct domain-specific document."
+  },
+  {
+    "id": 3,
+    "query": "Pete Walker fawn-respons fjerde traumerespons",
+    "type": "exact",
+    "expected_file": "hyperempati_klinisk_psykologi.md",
+    "expected_section": "Fawn-responsen (Pete Walker)",
+    "relevance": "top-1",
+    "rationale": "Pete Walker and fawn response are highly specific clinical psychology terms. Only in 2-3 files. Tests retrieval from a non-technical domain."
+  },
+  {
+    "id": 4,
+    "query": "Groq Whisper v3 Turbo pris per minut audio",
+    "type": "exact",
+    "expected_file": "whisper_pricing_2026.md",
+    "expected_section": "Samlet Prisoversigt",
+    "relevance": "top-1",
+    "rationale": "Exact pricing query. Only one file contains STT pricing tables. Tests retrieval of structured tabular data."
+  },
+  {
+    "id": 5,
+    "query": "Pittenger 1993 MBTI test-retest reliabilitet 50 procent",
+    "type": "exact",
+    "expected_file": "mbti_vs_big_five_evidens.md",
+    "expected_section": "1. Centrale Artikler der Underminerer MBTIs Videnskabelige Grundlag",
+    "relevance": "top-1",
+    "rationale": "Pittenger 1993 is a specific academic citation. Tests whether author+year retrieves the correct review document."
+  },
+  {
+    "id": 6,
+    "query": "Hvordan fungerer hukommelse i AI-systemer sammenlignet med mennesker?",
+    "type": "semantic",
+    "expected_file": "DESTILLAT_memory_retrieval.md",
+    "expected_section": "1. Menneskehukommelse",
+    "relevance": "top-3",
+    "rationale": "Broad conceptual question. Should match the destillat (best overview), human_memory_research.md, memory_bridge_research.md. Tests semantic understanding across the memory cluster."
+  },
+  {
+    "id": 7,
+    "query": "Hvad er forskellen mellem en workflow og en agent?",
+    "type": "semantic",
+    "expected_file": "DESTILLAT_agents_automation.md",
+    "expected_section": "1.1 Den afgørende distinktion: Workflows vs. Agents",
+    "relevance": "top-1",
+    "rationale": "Core conceptual distinction. The destillat has the clearest formulation. Also in HOW_TO_BUILD_AGENTS.md, CH6 files. Tests whether semantic search surfaces the most authoritative source."
+  },
+  {
+    "id": 8,
+    "query": "Hvordan kan en solo-udvikler bygge datapipelines uden at bruge LLM tokens?",
+    "type": "semantic",
+    "expected_file": "zero_token_pipeline_architecture.md",
+    "expected_section": "1. Problemformulering",
+    "relevance": "top-1",
+    "rationale": "Natural language question mapping to a specific research file. The phrase 'without LLM tokens' should semantically match 'zero-token'. Tests conceptual paraphrase retrieval."
+  },
+  {
+    "id": 9,
+    "query": "Hvilke open source frameworks kan man bruge til at bygge multi-agent systemer?",
+    "type": "semantic",
+    "expected_file": "agents_framework_comparison.md",
+    "expected_section": "1. CrewAI",
+    "relevance": "top-3",
+    "rationale": "Should match the framework comparison (CrewAI, LangGraph, AutoGen etc.) and possibly CH6 files. Tests whether conceptual question retrieves the comparative overview."
+  },
+  {
+    "id": 10,
+    "query": "Hvordan bygger man personlig videnssøgning med embeddings og vektor-databaser?",
+    "type": "semantic",
+    "expected_file": "personal_data_pipeline_best_practices.md",
+    "expected_section": "1. De Store Navne og Deres Tilgange",
+    "relevance": "top-3",
+    "rationale": "Should match personal_data_pipeline (Willison/Dogsheep), CH5_RAG files, and AI_MEMORY_SYSTEMS_SURVEY. Tests whether the practical file ranks above theoretical chapters."
+  },
+  {
+    "id": 11,
+    "query": "heartbeat daemon proaktiv AI overvågning",
+    "type": "cross-topic",
+    "expected_file": "openclaw_deep_dive_2026-03-15.md",
+    "expected_section": "3. Heartbeat-Pattern i Detalje",
+    "relevance": "top-3",
+    "rationale": "Heartbeat appears in 12 files across agents, memory, and infrastructure. Should match openclaw (detailed), DESTILLAT_agents (summarized), zero_token (cost analysis). Tests cross-topic retrieval."
+  },
+  {
+    "id": 12,
+    "query": "context window begrænsninger og workarounds for lange samtaler",
+    "type": "cross-topic",
+    "expected_file": "context_window_workarounds_2026.md",
+    "expected_section": null,
+    "relevance": "top-3",
+    "rationale": "Context window is discussed in memory files, agent files, Claude Code files, and CH2. Should retrieve the dedicated workarounds file plus DESTILLAT_memory and CH2_CONTEXT_WINDOW. Tests breadth of cross-topic hits."
+  },
+  {
+    "id": 13,
+    "query": "RAG evaluering metrics precision faithfulness",
+    "type": "cross-topic",
+    "expected_file": "CH5_RAG_PRODUCTION.md",
+    "expected_section": "5.2 RAG Evaluation",
+    "relevance": "top-3",
+    "rationale": "RAG evaluation is covered in CH5_RAG_PRODUCTION (detailed), CH5_RAG_PRACTICE (exercises), RAGAS appears in 9 files. Tests whether the production chapter with concrete metrics ranks highest."
+  },
+  {
+    "id": 14,
+    "query": "Armin Ronacher Flask PI minimal agent tools filosofi",
+    "type": "cross-topic",
+    "expected_file": "armin_ronacher_agent_philosophy_2026.md",
+    "expected_section": "1. PI — Det minimale agent-fundament",
+    "relevance": "top-3",
+    "rationale": "Ronacher is in his dedicated file, DESTILLAT_agents, mario_zechner_pi file. Tests whether a person-name query retrieves the dedicated profile AND the cross-references."
+  },
+  {
+    "id": 15,
+    "query": "Dogsheep SQLite Willison embeddings personlig data",
+    "type": "cross-topic",
+    "expected_file": "personal_data_pipeline_best_practices.md",
+    "expected_section": "Simon Willison — Datasette + Dogsheep + LLM CLI",
+    "relevance": "top-3",
+    "rationale": "Dogsheep appears in 5 files. Primary source is personal_data_pipeline but also in DESTILLAT_memory and zero_token. Tests whether specific tool name retrieves practical file over theoretical ones."
+  },
+  {
+    "id": 16,
+    "query": "blockchain cryptocurrency trading bitcoin",
+    "type": "negative",
+    "expected_file": null,
+    "expected_section": null,
+    "relevance": "should-not-match",
+    "rationale": "No file in the corpus covers crypto/blockchain. Tests that the system returns low-confidence results rather than hallucinating relevance. Expect empty or very low scores."
+  },
+  {
+    "id": 17,
+    "query": "opskrift på rugbrød med surdej",
+    "type": "negative",
+    "expected_file": null,
+    "expected_section": null,
+    "relevance": "should-not-match",
+    "rationale": "Completely off-topic query (sourdough bread recipe). No file should match. Tests whether the system correctly returns no results or very low relevance scores."
+  },
+  {
+    "id": 18,
+    "query": "memory",
+    "type": "negative",
+    "expected_file": "DESTILLAT_memory_retrieval.md",
+    "expected_section": null,
+    "relevance": "top-5",
+    "rationale": "Ambiguous single-word query. 'Memory' appears in 30+ files. Tests whether the system handles extreme ambiguity gracefully — ideally ranking the destillat or survey highest, not random chapter files."
+  },
+  {
+    "id": 19,
+    "query": "agent framework comparison benchmark cost performance",
+    "type": "negative",
+    "expected_file": "agents_framework_comparison.md",
+    "expected_section": null,
+    "relevance": "top-5",
+    "rationale": "Broad multi-keyword query that matches many files partially. Tests ranking quality: the dedicated comparison file should outrank chapter files that only mention frameworks in passing."
+  },
+  {
+    "id": 20,
+    "query": "Nate Jones intent gap agenter fejler",
+    "type": "negative",
+    "expected_file": "NATE_JONES_ANALYSE.md",
+    "expected_section": "VIDEO 2: The Intent Gap — Why Agents Fail",
+    "relevance": "top-3",
+    "rationale": "Edge case: this file is in docs/, not research/. Tests whether the ingestion pipeline included docs/ files. If it only indexed research/, this will fail — revealing a coverage gap."
+  }
+]

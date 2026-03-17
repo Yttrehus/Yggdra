@@ -1,0 +1,269 @@
+{
+  "timestamp": "2026-03-15T08:00:21.035583",
+  "upstream_sources": [
+    {
+      "name": "Nate B Jones",
+      "type": "person",
+      "count": 1,
+      "contexts": [
+        "Kanalnavn på YouTube hvor videoen er placeret"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Cole Medin",
+      "type": "channel",
+      "count": 1,
+      "contexts": [
+        "Videoens kanal: Cole Medin (Build a Robust AI Driven Data Pipeline in Minutes (No Code))"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "n8n",
+      "type": "tool",
+      "count": 1,
+      "contexts": [
+        "Tool-navn: n8n — nævnt som et eksempel på no-code/low-code værktøj til dataintegration."
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Manus",
+      "type": "person/channel",
+      "count": 1,
+      "contexts": [
+        "Nævnt som en agent der finder information."
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Meta",
+      "type": "company",
+      "count": 1,
+      "contexts": [
+        "Virksomhed nævnt i forbindelse med markedsværdier og aktiekurser"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "type": "company",
+      "count": 1,
+      "contexts": [
+        "Virksomhed nævnt i forbindelse med markedsværdier og aktiekurser"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Tesla",
+      "type": "company",
+      "count": 1,
+      "contexts": [
+        "Virksomhed nævnt i forbindelse med markedsværdier, aktiekurser og Tesla-konflikten"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    }
+  ],
+  "hot_sources": [],
+  "github_activity": [
+    {
+      "repo": "anthropics/claude-code",
+      "type": "release",
+      "tag": "v2.1.76",
+      "name": "v2.1.76",
+      "published": "2026-03-14T01:23:58Z",
+      "body_preview": "## What's changed\n\n- Added MCP elicitation support — MCP servers can now request structured input mid-task via an interactive dialog (form fields or browser URL)\n- Added new `Elicitation` and `ElicitationResult` hooks to intercept and override responses before they're sent back\n- Added `-n` / `--nam",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.76"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "type": "release",
+      "tag": "v2.1.75",
+      "name": "v2.1.75",
+      "published": "2026-03-13T17:09:08Z",
+      "body_preview": "\n",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.75"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "type": "hot_issue",
+      "title": "[Bug] Claude ignores explicit instructions and makes autonomous decisions instead of following specified processes",
+      "comments": 6,
+      "url": "https://github.com/anthropics/claude-code/issues/16506",
+      "updated": "2026-03-15T07:57:13Z"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "type": "hot_issue",
+      "title": "Remote Control: session not connecting from mobile app",
+      "comments": 14,
+      "url": "https://github.com/anthropics/claude-code/issues/28758",
+      "updated": "2026-03-15T07:55:49Z"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "type": "hot_issue",
+      "title": "[BUG] Phone verification",
+      "comments": 45,
+      "url": "https://github.com/anthropics/claude-code/issues/34229",
+      "updated": "2026-03-15T07:54:21Z"
+    },
+    {
+      "repo": "danielmiessler/fabric",
+      "type": "release",
+      "tag": "v1.4.434",
+      "name": "v1.4.434",
+      "published": "2026-03-09T16:02:19Z",
+      "body_preview": "## Changes\n\n### PR [#2052](https://github.com/danielmiessler/Fabric/pull/2052) by [praxstack](https://github.com/praxstack) and [ksylvan](https://github.com/ksylvan): feat(bedrock): dynamic region fetching and AWS_PROFILE conflict fix\n\n- Added dynamic Bedrock region fetching from `botocore`'s `endpo",
+      "url": "https://github.com/danielmiessler/Fabric/releases/tag/v1.4.434"
+    },
+    {
+      "repo": "danielmiessler/fabric",
+      "type": "release",
+      "tag": "v1.4.433",
+      "name": "v1.4.433",
+      "published": "2026-03-07T23:26:21Z",
+      "body_preview": "## Changes\n\n### PR [#2054](https://github.com/danielmiessler/Fabric/pull/2054) by [pretyflaco](https://github.com/pretyflaco): fix(ollama): Map thinking levels to Ollama API and convert single system-role messages\n\n- Fix(ollama): map thinking levels and convert single system-role messages\n\n### Direc",
+      "url": "https://github.com/danielmiessler/Fabric/releases/tag/v1.4.433"
+    },
+    {
+      "repo": "qdrant/qdrant",
+      "type": "release",
+      "tag": "v1.17.0",
+      "name": "v1.17.0",
+      "published": "2026-02-20T11:11:50Z",
+      "body_preview": "# Change log\r\n\r\n## Features 🏋️\r\n\r\n* [milestone#38](https://github.com/qdrant/qdrant/milestone/38?closed=1) - Relevance Feedback ([docs](https://qdrant.tech/documentation/concepts/search-relevance/#relevance-feedback))\r\n* [milestone#44](https://github.com/qdrant/qdrant/milestone/44?closed=1) - API fo",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.17.0"
+    },
+    {
+      "repo": "qdrant/qdrant",
+      "type": "release",
+      "tag": "v1.16.3",
+      "name": "v1.16.3",
+      "published": "2025-12-19T17:45:42Z",
+      "body_preview": "# Change log\r\n\r\n## Improvements\r\n\r\n- https://github.com/qdrant/qdrant/pull/7755, https://github.com/qdrant/qdrant/pull/7588 - Respect search and point retrieve timeout when trying to access segments\r\n- https://github.com/qdrant/qdrant/pull/7685 - Respect telemetry timeout when fetching shard statist",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.16.3"
+    },
+    {
+      "repo": "qdrant/qdrant",
+      "type": "hot_issue",
+      "title": "Allow Qdrant to run on read-only FS",
+      "comments": 27,
+      "url": "https://github.com/qdrant/qdrant/issues/3321",
+      "updated": "2026-03-15T06:19:57Z"
+    },
+    {
+      "repo": "qdrant/qdrant",
+      "type": "hot_issue",
+      "title": "Per-collection metrics for Prometheus",
+      "comments": 30,
+      "url": "https://github.com/qdrant/qdrant/issues/3322",
+      "updated": "2026-03-15T04:07:18Z"
+    },
+    {
+      "repo": "picovoice/porcupine",
+      "type": "release",
+      "tag": "v4.0",
+      "name": "v4.0",
+      "published": "2025-12-11T18:45:45Z",
+      "body_preview": "- Improved engine performance\r\n- Added support for running on GPU or multiple CPU cores\r\n- Node.js min version bumped to 18\r\n- iOS min version bumped to 16\r\n- Flutter min version bumped to 3.10\r\n- React Native min version bumped to 0.73\r\n- Ended support for Unity",
+      "url": "https://github.com/Picovoice/porcupine/releases/tag/v4.0"
+    },
+    {
+      "repo": "picovoice/porcupine",
+      "type": "release",
+      "tag": "v3.0",
+      "name": "v3.0",
+      "published": "2023-10-26T19:17:54Z",
+      "body_preview": "- Improvements to error reporting\r\n- Upgrades to authorization and authentication system\r\n- Various bug fixes and improvements\r\n- Added Farsi support for microcontrollers\r\n- Node min support bumped to 16\r\n- Unity editor min support bumped to 2021\r\n- Patches to .NET support",
+      "url": "https://github.com/Picovoice/porcupine/releases/tag/v3.0"
+    },
+    {
+      "repo": "modelcontextprotocol/servers",
+      "type": "release",
+      "tag": "2026.1.26",
+      "name": "Release 2026.1.26",
+      "published": "2026-01-27T12:11:26Z",
+      "body_preview": "# Release : v2026.1.26\n\n## Updated packages\n- @modelcontextprotocol/server-everything@2026.1.26\n- @modelcontextprotocol/server-memory@2026.1.26\n- mcp-server-time@2026.1.26\n",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.1.26"
+    },
+    {
+      "repo": "modelcontextprotocol/servers",
+      "type": "release",
+      "tag": "2026.1.14",
+      "name": "Release 2026.1.14",
+      "published": "2026-01-14T16:35:35Z",
+      "body_preview": "# Release : v2026.1.14\n\n## Updated packages\n- @modelcontextprotocol/server-everything@2026.1.14\n- @modelcontextprotocol/server-filesystem@2026.1.14\n- mcp-server-git@2026.1.14\n",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.1.14"
+    },
+    {
+      "repo": "modelcontextprotocol/specification",
+      "type": "release",
+      "tag": "2025-11-25",
+      "name": "2025-11-25",
+      "published": "2025-11-25T21:17:42Z",
+      "body_preview": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 c",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25"
+    },
+    {
+      "repo": "modelcontextprotocol/specification",
+      "type": "release",
+      "tag": "2025-11-25-RC",
+      "name": "2025-11-25-RC",
+      "published": "2025-11-15T06:06:55Z",
+      "body_preview": "This release marks the **release candidate (RC)** `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available in [draft form](https://modelcontextprotocol.io/specification/draft).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 draft changelog](https://modelcontextp",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25-RC"
+    },
+    {
+      "repo": "modelcontextprotocol/specification",
+      "type": "hot_issue",
+      "title": "SEP-2395: MCPS — Cryptographic Security Layer for MCP",
+      "comments": 7,
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/2395",
+      "updated": "2026-03-14T21:55:57Z"
+    },
+    {
+      "repo": "modelcontextprotocol/specification",
+      "type": "hot_issue",
+      "title": "SEP-1932: DPoP Profile for MCP",
+      "comments": 10,
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/pull/1932",
+      "updated": "2026-03-14T16:37:14Z"
+    },
+    {
+      "repo": "anthropics/anthropic-sdk-python",
+      "type": "release",
+      "tag": "v0.84.0",
+      "name": "v0.84.0",
+      "published": "2026-02-25T05:22:10Z",
+      "body_preview": "## 0.84.0 (2026-02-25)\n\nFull Changelog: [v0.83.0...v0.84.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.83.0...v0.84.0)\n\n### Features\n\n* **api:** change array_format to brackets ([925d2ad](https://github.com/anthropics/anthropic-sdk-python/commit/925d2ad6b76ad7c15de07b9b2768738775f",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.84.0"
+    },
+    {
+      "repo": "anthropics/anthropic-sdk-python",
+      "type": "release",
+      "tag": "v0.83.0",
+      "name": "v0.83.0",
+      "published": "2026-02-19T19:26:11Z",
+      "body_preview": "## 0.83.0 (2026-02-19)\n\nFull Changelog: [v0.82.0...v0.83.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.82.0...v0.83.0)\n\n### Features\n\n* **api:** Add top-level cache control (automatic caching) ([a940123](https://github.com/anthropics/anthropic-sdk-python/commit/a940123da34ac33f0b6",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.83.0"
+    }
+  ],
+  "new_source_suggestions": [],
+  "briefing": "YDRASIL - Daglig brief (uge 12)\n\n1. TOP SIGNAL:\nDet væsentligste er, at GPT-baserede agent-løsninger bliver stadig mere avancerede og autonome, især med nye opdateringer til Claude-code (seneste v17.76). Bug-rapportering viser, at Claude stadig kan ignorere instruktioner, hvilket kan skabe risici i vores implementeringer. Samtidig understreges vigtigheden af at forbedre kontekststyring og retrieval-teknikker for at opnå mere robuste AI-Agenter.\n\n2. UPSTREAM ALERT:\nVores kilder indikerer, at Nate B Jones fortsat er den mest indflydelsesrige stemme – især omkring agent-arkitekturer og hierarkisk opbygning. Cole Medin fremhæver progressive dataleveringsteknikker. Der er også øget gated metadata og muligheden for no-code/low-code værktøjer som n8n, hvilket potentielt kan forenkle integration og deployment. Endeligt er der øget fokus på markedskilder som Meta, Microsoft og Tesla, specielt i relation til værdievurderinger og markedsnyheder.\n\n3. TECH RADAR:\n- Claude-code v2.1.76 udgivet med forbedret MCP-elicitation og forbedret responskontrol.\n- Dernæst en række hot issues med Claude, især fejl i instruktionsfølgning og stabilitet ved mobil-integration, hvilket kræver overvågning.\n- Nye værktøjer som n8n kan potentielt forbedre vores workflow med no-code dataintegration.\n\n4. ANBEFALEDE HANDLINGER:\n- Overvåg Claude-code hot fixes og bugs for tidlig problemløsningsimplementering.\n- Udforsk mulighederne med n8n for at automatisere dataintegration og opbygning af workflow uden kode.\n- Revider vores kontekst- og retrieval-strategier baseret på nye metoder fra AI Automators for at øge agent-robusthed.\n\n5. NYE KILDER AT FØLGE:\n- Nate B Jones: Hans analyser og arkitekturer fortsætter med at være centrale for forståelsen af agent-strukturer.\n- Cole Medin: Fokus på progressive disclosure og data pipelines kan inspirere vores datamanagement.\n- GitHub: Watch især Claude-code releases og hot issues for hurtig at kunne reagere på bugs og forbedringer.\n\nKort sagt: Bevar fokus på stabilitet og retrieval-udvikling, mens vi følger de nye Claude-opdateringer og inkorporerer no-code værktøjer for effektivitet.\n\n**SLUT**"
+}

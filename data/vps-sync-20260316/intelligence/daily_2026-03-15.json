@@ -1,0 +1,157 @@
+{
+  "date": "2026-03-15",
+  "items_fetched": 57,
+  "items_relevant": 23,
+  "items_critical": 0,
+  "top_items": [
+    {
+      "source": "substack/latent.space",
+      "title": "Retrieval After RAG: Hybrid Search, Agents, and Database Design — Simon Hørup Eskildsen of Turbopuffer",
+      "url": "https://www.latent.space/p/turbopuffer",
+      "date": "2026-03-12",
+      "summary": " Turbopuffer came out of a reading app.  In  2022 ,  Simon  was helping his friends at Readwise scale their infra for a highly requested feature: article recommendations and semantic search. Readwise was paying  ~$5k/month  for their relational database and vector search would cost  ~$20k/month  mak",
+      "relevance_score": 15,
+      "matched_keywords": [
+        "rag",
+        "retrieval",
+        "agent",
+        "cost"
+      ],
+      "hash": "35b0216b9330",
+      "is_critical": false
+    },
+    {
+      "source": "rss/Hugging Face Blog",
+      "title": "Beyond Semantic Similarity: Introducing NVIDIA NeMo Retriever’s Generalizable Agentic Retrieval Pipeline",
+      "url": "https://huggingface.co/blog/nvidia/nemo-retriever-agentic-retrieval",
+      "date": "2026-03-13",
+      "summary": "",
+      "relevance_score": 14,
+      "matched_keywords": [
+        "retrieval",
+        "agent",
+        "agentic",
+        "pipeline"
+      ],
+      "hash": "21f7fc7663bd",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "I used Claude Code to reverse engineer a 13-year-old game binary and crack a restriction nobody had solved — the community is losing it",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ru3irp/i_used_claude_code_to_reverse_engineer_a/",
+      "date": "2026-03-15",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ru3irp/i_used_claude_code_to_reverse_engineer_a/\"> <img alt=\"I used Claude Code to reverse engineer a 13-year-old game binary and crack a restriction nobody had solved — the community is losing it\" src=\"https://external-preview.re",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "c5a7b4c43b28",
+      "is_critical": false
+    },
+    {
+      "source": "rss/Simon Willison",
+      "title": "My fireside chat about agentic engineering at the Pragmatic Summit",
+      "url": "https://simonwillison.net/2026/Mar/14/pragmatic-summit/#atom-everything",
+      "date": "2026-03-14",
+      "summary": " I was a speaker last month at the  Pragmatic Summit  in San Francisco, where I participated in a fireside chat session about  Agentic Engineering  hosted by Eric Lui from Statsig. \n\n The video is  available on YouTube . Here are my highlights from the conversation. \n\n \n\n Stages of AI adoption \n\n We",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "rag",
+        "agent",
+        "agentic"
+      ],
+      "hash": "245510c1b75a",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Ink – Deploy full-stack apps from AI agents via MCP or Skills",
+      "url": "https://ml.ink/",
+      "date": "2026-03-11",
+      "summary": "HN score: 28, comments: 5",
+      "hn_score": 28,
+      "relevance_score": 10,
+      "matched_keywords": [
+        "mcp",
+        "agent"
+      ],
+      "hash": "47c25238de73",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Anthropic just told you exactly when their servers are struggling, and they're paying you to help fix it",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rtwiux/anthropic_just_told_you_exactly_when_their/",
+      "date": "2026-03-14",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rtwiux/anthropic_just_told_you_exactly_when_their/\"> <img alt=\"Anthropic just told you exactly when their servers are struggling, and they're paying you to help fix it\" src=\"https://preview.redd.it/1upd46mg23pg1.png?width=640&amp;",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "claude",
+        "anthropic"
+      ],
+      "hash": "125670692167",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Anthropic just wiped out another wave of startups, mostly in education. Custom charts, diagrams, and interactive visuals in Claude, learning mode.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rtxrt7/anthropic_just_wiped_out_another_wave_of_startups/",
+      "date": "2026-03-14",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rtxrt7/anthropic_just_wiped_out_another_wave_of_startups/\"> <img alt=\"Anthropic just wiped out another wave of startups, mostly in education. Custom charts, diagrams, and interactive visuals in Claude, learning mode.\" src=\"https:/",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "claude",
+        "anthropic"
+      ],
+      "hash": "3a9f6d10a9e0",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/LocalLLaMA",
+      "title": "Agents given the choice between natural language and structured queries abandoned NL within minutes",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rtxkm1/agents_given_the_choice_between_natural_language/",
+      "date": "2026-03-14",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>So, Saw an interesting finding shared by the team at Cala on LinkedIn that just shipped an MCP server with three ways for agents to access their knowledge graph: natural language queries, a structured query language, and direct entity/relationship traversal.</p> <p>",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "mcp",
+        "agent"
+      ],
+      "hash": "5d88cd252405",
+      "is_critical": false
+    },
+    {
+      "source": "rss/Simon Willison",
+      "title": "1M context is now generally available for Opus 4.6 and Sonnet 4.6",
+      "url": "https://simonwillison.net/2026/Mar/13/1m-context/#atom-everything",
+      "date": "2026-03-13",
+      "summary": "   1M context is now generally available for Opus 4.6 and Sonnet 4.6   \nHere's what surprised me: \n \n Standard pricing now applies across the full 1M window for both models, with no long-context premium. \n \n OpenAI and Gemini both  charge more  for prompts where the token count goes above a certain ",
+      "relevance_score": 9,
+      "matched_keywords": [
+        "openai",
+        "gemini",
+        "bot",
+        "pricing"
+      ],
+      "hash": "6749d8e383b2",
+      "is_critical": false
+    },
+    {
+      "source": "rss/OpenAI Blog",
+      "title": "From model to agent: Equipping the Responses API with a computer environment",
+      "url": "https://openai.com/index/equip-responses-api-computer-environment",
+      "date": "2026-03-11",
+      "summary": "How OpenAI built an agent runtime using the Responses API, shell tool, and hosted containers to run secure, scalable agents with files, tools, and state.",
+      "relevance_score": 9,
+      "matched_keywords": [
+        "agent",
+        "openai",
+        "api"
+      ],
+      "hash": "3f1cf42b476e",
+      "is_critical": false
+    }
+  ]
+}

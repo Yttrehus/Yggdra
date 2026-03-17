@@ -1,0 +1,157 @@
+{
+  "date": "2026-03-10",
+  "items_fetched": 36,
+  "items_relevant": 28,
+  "items_critical": 0,
+  "top_items": [
+    {
+      "source": "hackernews",
+      "title": "No, it doesn't cost Anthropic $5k per Claude Code user",
+      "url": "https://martinalderson.com/posts/no-it-doesnt-cost-anthropic-5k-per-claude-code-user/",
+      "date": "2026-03-09",
+      "summary": "HN score: 95, comments: 39",
+      "hn_score": 95,
+      "relevance_score": 20,
+      "matched_keywords": [
+        "claude",
+        "anthropic",
+        "claude code",
+        "cost"
+      ],
+      "hash": "b3aa5a0530ab",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Bringing Code Review to Claude Code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rpd2pp/bringing_code_review_to_claude_code/",
+      "date": "2026-03-09",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Code Review, a new feature for Claude Code.</p> <p>When a PR opens, Claude dispatches a team of agents to hunt for bugs.</p> <p>Agents search for bugs in parallel, verify each bug to reduce false positives, and rank bugs by severity.</p> <p>You get one high-signal s",
+      "relevance_score": 17,
+      "matched_keywords": [
+        "claude",
+        "claude code",
+        "agent"
+      ],
+      "hash": "774b806dad17",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "One Model Is Enough: Native Retrieval Embeddings from LLM Agent Hidden States",
+      "url": "http://arxiv.org/abs/2603.08429v1",
+      "date": "2026-03-09",
+      "summary": "LLM agents that retrieve external knowledge typically generate a search query as text, then run a separate embedding model to encode it into a vector. This two-model pipeline adds infrastructure complexity and latency, yet is redundant: the LLM already encodes the full conversational context in its ",
+      "relevance_score": 14,
+      "matched_keywords": [
+        "embedding",
+        "retrieval",
+        "agent",
+        "pipeline"
+      ],
+      "hash": "d01fa6801791",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "Code Review for Claude Code",
+      "url": "https://claude.com/blog/code-review",
+      "date": "2026-03-09",
+      "summary": "HN score: 68, comments: 39",
+      "hn_score": 68,
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "f792fc01f2b9",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Introducing Code Review, a new feature for Claude Code.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rp9dps/introducing_code_review_a_new_feature_for_claude/",
+      "date": "2026-03-09",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rp9dps/introducing_code_review_a_new_feature_for_claude/\"> <img alt=\"Introducing Code Review, a new feature for Claude Code.\" src=\"https://external-preview.redd.it/ZDh3dXB1bndmMm9nMdh9_uv4PCt6HE6KoI-0sXJ7XpbqYNpJBHkfN66gMx_A.png?w",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "d1199bc877e7",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "Agentic Critical Training",
+      "url": "http://arxiv.org/abs/2603.08706v1",
+      "date": "2026-03-09",
+      "summary": "Training large language models (LLMs) as autonomous agents often begins with imitation learning, but it only teaches agents what to do without understanding why: agents never contrast successful actions against suboptimal alternatives and thus lack awareness of action quality. Recent approaches atte",
+      "relevance_score": 12,
+      "matched_keywords": [
+        "agent",
+        "autonomous",
+        "agentic"
+      ],
+      "hash": "7414df7d311f",
+      "is_critical": false
+    },
+    {
+      "source": "github",
+      "title": "anthropics/claude-code v2.1.72 — v2.1.72",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.72",
+      "date": "2026-03-10",
+      "summary": "## What's changed\n\n- Changed tool search to bypass the third-party proxy gate when the environment variable is set (replaces `CLAUDE_CODE_PROXY_SUPPORTS_TOOL_REFERENCE`, now removed)\n- Added `w` key in `/copy` to write the focused selection directly to a file, bypassing the clipboard (useful over SSH)\n- Added optional description argument to `/plan` (e.g., `/plan fix the auth bug`) that enters plan mode and immediately starts\n- Added `claude plugins` as an alias for `claude plugin`\n- Added `Exit",
+      "repo": "anthropics/claude-code",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "claude",
+        "anthropic"
+      ],
+      "hash": "05609893ac36",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Anthropic sues Trump administration seeking to undo 'supply chain risk' designation",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rp3mhw/anthropic_sues_trump_administration_seeking_to/",
+      "date": "2026-03-09",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rp3mhw/anthropic_sues_trump_administration_seeking_to/\"> <img alt=\"Anthropic sues Trump administration seeking to undo 'supply chain risk' designation\" src=\"https://external-preview.redd.it/Itk0d-_kRn1QnXKf1sRo3L7ZRle1dAS33qF1iLQi",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "claude",
+        "anthropic"
+      ],
+      "hash": "ef3b90f8242a",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "Fanar-Sadiq: A Multi-Agent Architecture for Grounded Islamic QA",
+      "url": "http://arxiv.org/abs/2603.08501v1",
+      "date": "2026-03-09",
+      "summary": "Large language models (LLMs) can answer religious knowledge queries fluently, yet they often hallucinate and misattribute sources, which is especially consequential in Islamic settings where users expect grounding in canonical texts (Qur'an and Hadith) and jurisprudential (fiqh) nuance. Retrieval-au",
+      "relevance_score": 8,
+      "matched_keywords": [
+        "retrieval",
+        "agent"
+      ],
+      "hash": "84c4b138d787",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/LocalLLaMA",
+      "title": "I built \"Gloss\" -- A local-first, privacy-focused NotebookLM alternative in Rust. Features hybrid search, local model support, and explicit RAG control.",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rpmwpa/i_built_gloss_a_localfirst_privacyfocused/",
+      "date": "2026-03-10",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1rpmwpa/i_built_gloss_a_localfirst_privacyfocused/\"> <img alt=\"I built &quot;Gloss&quot; -- A local-first, privacy-focused NotebookLM alternative in Rust. Features hybrid search, local model support, and explicit RAG control.\" sr",
+      "relevance_score": 7,
+      "matched_keywords": [
+        "rag",
+        "llama"
+      ],
+      "hash": "a7527364eb25",
+      "is_critical": false
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "date": "2026-03-11",
+  "items_fetched": 34,
+  "items_relevant": 24,
+  "items_critical": 0,
+  "top_items": [
+    {
+      "source": "anthropic",
+      "title": "Ask HN: Optimizing Claude Code Workflow: Subscription or API Billing?",
+      "url": "https://news.ycombinator.com/item?id=47323185",
+      "date": "2026-03-10",
+      "summary": "HN points: 3, comments: 0",
+      "relevance_score": 17,
+      "matched_keywords": [
+        "claude",
+        "claude code",
+        "api",
+        "workflow"
+      ],
+      "hash": "a5fb8049dbaf",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "I built a programming language using Claude Code",
+      "url": "https://ankursethi.com/blog/programming-language-claude-code/",
+      "date": "2026-03-10",
+      "summary": "HN score: 113, comments: 158",
+      "hn_score": 113,
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "186d3671e417",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "I used Claude Code to clean up my gmail inbox",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rqer26/i_used_claude_code_to_clean_up_my_gmail_inbox/",
+      "date": "2026-03-11",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I have to admit I have thousands of emails in my inbox and it's a daunting task to keep it pruned. When the Google Workspace (gws) CLI was released three days ago I decided to see if Claude Code could help. I installed the CLI skill and got to work. I started with a",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "6222ba7b8e07",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "AutoAgent: Evolving Cognition and Elastic Memory Orchestration for Adaptive Agents",
+      "url": "http://arxiv.org/abs/2603.09716v1",
+      "date": "2026-03-10",
+      "summary": "Autonomous agent frameworks still struggle to reconcile long-term experiential learning with real-time, context-sensitive decision-making. In practice, this gap appears as static cognition, rigid workflow dependence, and inefficient context usage, which jointly limit adaptability in open-ended and n",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "agent",
+        "autonomous",
+        "memory",
+        "workflow"
+      ],
+      "hash": "2ac94a93059f",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "One-Eval: An Agentic System for Automated and Traceable LLM Evaluation",
+      "url": "http://arxiv.org/abs/2603.09821v1",
+      "date": "2026-03-10",
+      "summary": "Reliable evaluation is essential for developing and deploying large language models, yet in practice it often requires substantial manual effort: practitioners must identify appropriate benchmarks, reproduce heterogeneous evaluation codebases, configure dataset schema mappings, and interpret aggrega",
+      "relevance_score": 9,
+      "matched_keywords": [
+        "agent",
+        "agentic",
+        "benchmark"
+      ],
+      "hash": "830fbf287e6c",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "Levels of Agentic Engineering",
+      "url": "https://www.bassimeledath.com/blog/levels-of-agentic-engineering",
+      "date": "2026-03-10",
+      "summary": "HN score: 140, comments: 73",
+      "hn_score": 140,
+      "relevance_score": 8,
+      "matched_keywords": [
+        "agent",
+        "agentic"
+      ],
+      "hash": "7e7756f75f5d",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "PRECEPT: Planning Resilience via Experience, Context Engineering & Probing Trajectories A Unified Framework for Test-Time Adaptation with Compositional Rule Learning and Pareto-Guided Prompt Evolution",
+      "url": "http://arxiv.org/abs/2603.09641v1",
+      "date": "2026-03-10",
+      "summary": "LLM agents that store knowledge as natural language suffer steep retrieval degradation as condition count grows, often struggle to compose learned rules reliably, and typically lack explicit mechanisms to detect stale or adversarial knowledge. We introduce PRECEPT, a unified framework for test-time ",
+      "relevance_score": 8,
+      "matched_keywords": [
+        "retrieval",
+        "agent"
+      ],
+      "hash": "39967dbeea58",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "Beyond Fine-Tuning: Robust Food Entity Linking under Ontology Drift with FoodOntoRAG",
+      "url": "http://arxiv.org/abs/2603.09758v1",
+      "date": "2026-03-10",
+      "summary": "Standardizing food terms from product labels and menus into ontology concepts is a prerequisite for trustworthy dietary assessment and safety reporting. The dominant approach to Named Entity Linking (NEL) in the food and nutrition domains fine-tunes Large Language Models (LLMs) on task-specific corp",
+      "relevance_score": 8,
+      "matched_keywords": [
+        "rag",
+        "fine-tuning",
+        "safety"
+      ],
+      "hash": "f4ec9d4c86d3",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "MSSR: Memory-Aware Adaptive Replay for Continual LLM Fine-Tuning",
+      "url": "http://arxiv.org/abs/2603.09892v1",
+      "date": "2026-03-10",
+      "summary": "Continual fine-tuning of large language models (LLMs) is becoming increasingly crucial as these models are deployed in dynamic environments where tasks and data distributions evolve over time. While strong adaptability enables rapid acquisition of new knowledge, it also exposes LLMs to catastrophic ",
+      "relevance_score": 7,
+      "matched_keywords": [
+        "memory",
+        "fine-tuning",
+        "api"
+      ],
+      "hash": "610d76e2d87c",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "Chow-Liu Ordering for Long-Context Reasoning in Chain-of-Agents",
+      "url": "http://arxiv.org/abs/2603.09835v1",
+      "date": "2026-03-10",
+      "summary": "Sequential multi-agent reasoning frameworks such as Chain-of-Agents (CoA) handle long-context queries by decomposing inputs into chunks and processing them sequentially using LLM-based worker agents that read from and update a bounded shared memory. From a probabilistic perspective, CoA aims to appr",
+      "relevance_score": 7,
+      "matched_keywords": [
+        "agent",
+        "memory"
+      ],
+      "hash": "2c4a273eab6f",
+      "is_critical": false
+    }
+  ]
+}

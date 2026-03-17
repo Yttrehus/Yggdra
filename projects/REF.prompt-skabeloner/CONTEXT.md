@@ -1,8 +1,8 @@
 # Prompt-skabeloner
 
 ## Metadata
-- **Status:** REF — reference-materiale. Templates, mining results, VPS handoff-skabeloner.
-- **Sidst opdateret:** 2026-03-15 (taxonomy migration)
+- **Status:** REF — v1 leveret. Syntese + arkitektur + red team + implementeringsplan. I brug-test.
+- **Sidst opdateret:** 2026-03-17 (session 25: VPS-sync, fuld prompt-arkitektur deep dive)
 - **Ejer:** Yttre + Claude
 
 ## Hvad er det
@@ -37,6 +37,20 @@ Parallelt kørte session `5f9753fe` (Skills) et MCP/Skills kompendium-projekt (`
 | **Kilde** | Web-research, mcpmarket.com | Yttres egne chatlog, sessions, arbejdsmønstre |
 
 ## Hvor er vi
+
+### Gjort (session 25, 2026-03-17)
+- VPS prompt mining absorberet (1.270 prompts, 8 skabeloner, INSIGHTS.md)
+- INVENTAR.md: komplet katalog af alt materiale (16+ kilder, vurderet guld/sølv/støj)
+- SYNTESE.md: 9 principper destilleret fra alle kilder (red team anbefaler skæring til 5)
+- ARKITEKTUR.md: filstruktur og videns-flow designet
+- RED_TEAM.md: ærlig kritik — "mønsteret er research→rapport→hylde, vil dette være anderledes?"
+- IMPLEMENTERING.md: 7 handlinger, kill condition (5 sessioner), succeskriterium
+
+### Næste
+- [ ] Opret SKABELONER.md med 4 mønstre (handling 1)
+- [ ] Flyt VPS_HANDOFF + BESKED til arkiv/ (handling 2)
+- [ ] Brug-test: 5 sessioner, 1 skabelon per session
+- [ ] Kill condition: hvis SKABELONER.md ikke bruges i 5 sessioner → arkivér projektet
 
 ### Gjort (i session 315694ad)
 - Dialektisk analyse gennemført — "katalog" forkastet, "genveje" identificeret som det reelle behov
@@ -87,6 +101,7 @@ Parallelt kørte session `5f9753fe` (Skills) et MCP/Skills kompendium-projekt (`
 - Projekt fra brief ("tag denne brief og gør den til et aktivt projekt") overlapper med `/new-project` men er mere end bare scaffolding
 
 ## Changelog
+- 2026-03-17: Session 25 — VPS-sync + fuld deep dive. 5 nye filer: INVENTAR, SYNTESE, ARKITEKTUR, RED_TEAM, IMPLEMENTERING. Kill condition sat (5 sessioner). Næste: SKABELONER.md + arkiv/.
 - 2026-03-14: Projekt oprettet. Baseret på session 315694ad's dialektiske analyse. Formålet skærpet fra "prompt-katalog" til "genanvendelige instruksskabeloner."
 
 ## Skabelon-feedback

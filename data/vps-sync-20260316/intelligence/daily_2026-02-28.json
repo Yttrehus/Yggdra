@@ -1,0 +1,159 @@
+{
+  "date": "2026-02-28",
+  "items_fetched": 39,
+  "items_relevant": 38,
+  "items_critical": 1,
+  "top_items": [
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "BREAKING: Trump orders federal agencies to stop using Anthropic AI tech 'immediately'",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rgjtmn/breaking_trump_orders_federal_agencies_to_stop/",
+      "date": "2026-02-27",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rgjtmn/breaking_trump_orders_federal_agencies_to_stop/\"> <img alt=\"BREAKING: Trump orders federal agencies to stop using Anthropic AI tech 'immediately'\" src=\"https://external-preview.redd.it/Z9iOG9wqxpcNIO4W32R5mGopd-PHHIOcQQSkM6",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "claude",
+        "anthropic"
+      ],
+      "hash": "8bdd91964517",
+      "is_critical": true
+    },
+    {
+      "source": "github",
+      "title": "anthropics/claude-code v2.1.63 — v2.1.63",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.63",
+      "date": "2026-02-28",
+      "summary": "## What's changed\n\n- Added `/simplify` and `/batch` bundled slash commands\n- Fixed local slash command output like /cost appearing as user-sent messages instead of system messages in the UI\n- Project configs & auto memory now shared across git worktrees of the same repository\n- Added `ENABLE_CLAUDEAI_MCP_SERVERS=false` env var to opt out from making claude.ai MCP servers available\n- Improved `/model` command to show the currently active model in the slash command menu\n- Added HTTP hooks, which c",
+      "repo": "anthropics/claude-code",
+      "relevance_score": 21,
+      "matched_keywords": [
+        "claude",
+        "anthropic",
+        "mcp",
+        "memory",
+        "cost"
+      ],
+      "hash": "89d9460a060a",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "Implementing a Z80 / ZX Spectrum emulator with Claude Code",
+      "url": "https://antirez.com/news/160",
+      "date": "2026-02-25",
+      "summary": "HN score: 140, comments: 67",
+      "hn_score": 140,
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "d173ca4c5cff",
+      "is_critical": false
+    },
+    {
+      "source": "anthropic",
+      "title": "Anthropic: anthropic-sdk-python v0.84.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.84.0",
+      "date": "2026-02-25",
+      "summary": "## 0.84.0 (2026-02-25)\n\nFull Changelog: [v0.83.0...v0.84.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.83.0...v0.84.0)\n\n### Features\n\n* **api:** change array_format to brackets ([925d2ad](https://github.com/anthropics/anthropic-sdk-python/commit/925d2ad6b76ad7c15de07b9b2768738775f71631))\n* **api:** remove publishing section from cli target ([7bc7ceb](https://github.com/anthropics/anthropic-sdk-python/commit/7bc7cebc68db70f08fce23e7e0b24acbc9ff37a7))\n* **helpers:** add conversi",
+      "relevance_score": 11,
+      "matched_keywords": [
+        "anthropic",
+        "api",
+        "sdk",
+        "python"
+      ],
+      "hash": "8a63eee2a9ee",
+      "is_critical": false
+    },
+    {
+      "source": "github",
+      "title": "anthropics/anthropic-sdk-python v0.84.0 — v0.84.0",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.84.0",
+      "date": "2026-02-25",
+      "summary": "## 0.84.0 (2026-02-25)\n\nFull Changelog: [v0.83.0...v0.84.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.83.0...v0.84.0)\n\n### Features\n\n* **api:** change array_format to brackets ([925d2ad](https://github.com/anthropics/anthropic-sdk-python/commit/925d2ad6b76ad7c15de07b9b2768738775f71631))\n* **api:** remove publishing section from cli target ([7bc7ceb](https://github.com/anthropics/anthropic-sdk-python/commit/7bc7cebc68db70f08fce23e7e0b24acbc9ff37a7))\n* **helpers:** add conversi",
+      "repo": "anthropics/anthropic-sdk-python",
+      "relevance_score": 11,
+      "matched_keywords": [
+        "anthropic",
+        "api",
+        "sdk",
+        "python"
+      ],
+      "hash": "4b9a3445c819",
+      "is_critical": false
+    },
+    {
+      "source": "github",
+      "title": "anthropics/claude-code v2.1.62 — v2.1.62",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.62",
+      "date": "2026-02-27",
+      "summary": "## What's changed\n\n- Fixed prompt suggestion cache regression that reduced cache hit rates\n",
+      "repo": "anthropics/claude-code",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "claude",
+        "anthropic"
+      ],
+      "hash": "e53ae6ebde74",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Looks like Anthropic's NO to the DOW has made it to Tumps twitter feed",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rgivx2/looks_like_anthropics_no_to_the_dow_has_made_it/",
+      "date": "2026-02-27",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rgivx2/looks_like_anthropics_no_to_the_dow_has_made_it/\"> <img alt=\"Looks like Anthropic's NO to the DOW has made it to Tumps twitter feed\" src=\"https://preview.redd.it/0x1ocmmqq3mg1.jpeg?width=320&amp;crop=smart&amp;auto=webp&amp",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "claude",
+        "anthropic"
+      ],
+      "hash": "64121f78d27e",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Outside Anthropic Office in SF \"Thank You\"",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rgi8im/outside_anthropic_office_in_sf_thank_you/",
+      "date": "2026-02-27",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rgi8im/outside_anthropic_office_in_sf_thank_you/\"> <img alt=\"Outside Anthropic Office in SF &quot;Thank You&quot;\" src=\"https://external-preview.redd.it/cDc3Y3I2Y2FtM21nMYbwruvvK9tIuDKlYpJ-sASH6z35C_wy-PIs1GI9gl3m.png?width=320&am",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "claude",
+        "anthropic"
+      ],
+      "hash": "d32a12b20aa0",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Thanks Anthropic for holding the line!!!",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rgluip/thanks_anthropic_for_holding_the_line/",
+      "date": "2026-02-27",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rgluip/thanks_anthropic_for_holding_the_line/\"> <img alt=\"Thanks Anthropic for holding the line!!!\" src=\"https://preview.redd.it/jhv34nnxa4mg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=8d1eca5dda4551ebc1556501183aebda62ca45",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "claude",
+        "anthropic"
+      ],
+      "hash": "af163d34a11b",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Everyone here knows what's possible, right? Thank you Anthropic for being sane.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rgm6hr/everyone_here_knows_whats_possible_right_thank/",
+      "date": "2026-02-27",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rgm6hr/everyone_here_knows_whats_possible_right_thank/\"> <img alt=\"Everyone here knows what's possible, right? Thank you Anthropic for being sane.\" src=\"https://preview.redd.it/8eiybesbd4mg1.png?width=140&amp;height=74&amp;auto=we",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "claude",
+        "anthropic"
+      ],
+      "hash": "b9a2ba43a6b9",
+      "is_critical": false
+    }
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "date": "2026-03-08",
+  "items_fetched": 32,
+  "items_relevant": 15,
+  "items_critical": 0,
+  "top_items": [
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Those of you who routinely hit usage limits, can you explain what your workflow looks like?",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rnu5dd/those_of_you_who_routinely_hit_usage_limits_can/",
+      "date": "2026-03-08",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>SWE for 16 years here. I've fully embraced agentic coding and have had AI write about 95% of my code since Opus 4.5 (now 4.6). </p> <p>I've had days where I worked through Claude Code for the entire duration of the 5 hour usage window without stopping, and I have st",
+      "relevance_score": 23,
+      "matched_keywords": [
+        "claude",
+        "claude code",
+        "agent",
+        "agentic",
+        "workflow"
+      ],
+      "hash": "039cfd0d878e",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Anthropic just made Claude Code run without you. Scheduled tasks are live. This is a big deal.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rna5mb/anthropic_just_made_claude_code_run_without_you/",
+      "date": "2026-03-07",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Claude Code now runs on a schedule. Set it once, it executes automatically. No prompting, no babysitting.</p> <p>Daily commit reviews, dependency audits, error log scans, PR reviews — Claude just runs it overnight while you’re doing other things.</p> <p>This is the ",
+      "relevance_score": 18,
+      "matched_keywords": [
+        "claude",
+        "anthropic",
+        "claude code"
+      ],
+      "hash": "95ca87d14d4a",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "my company pays for everything, should i just always use opus? (claude code)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rnpird/my_company_pays_for_everything_should_i_just/",
+      "date": "2026-03-07",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>lets just say budget is infinite, is there any reason to swap to sonnet or haiku? is opus “too advanced” for smaller tasks and more likely to produce slop?</p> <p>i guess even if i have a small prompt im scared of running it on sonnet or haiku because intuitively i ",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "6d10b4ad4ac4",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/MachineLearning",
+      "title": "[P] Combining Stanford's ACE paper with the Reflective Language Model pattern - agents that write code to analyze their own execution traces at scale",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rnebal/p_combining_stanfords_ace_paper_with_the/",
+      "date": "2026-03-07",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I combined two recent approaches, Stanford's ACE and the Reflective Language Model pattern, to build agents that write code to analyze their own execution traces.</p> <p><strong>Quick context on both:</strong></p> <ul> <li><strong>ACE</strong> (<a href=\"https://arxi",
+      "relevance_score": 6,
+      "matched_keywords": [
+        "agent",
+        "bot"
+      ],
+      "hash": "c117c3f388e3",
+      "is_critical": false
+    },
+    {
+      "source": "anthropic",
+      "title": "Show HN: AlliHat – Claude on Safari",
+      "url": "https://allihat.com",
+      "date": "2026-03-07",
+      "summary": "HN points: 1, comments: 0",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "claude"
+      ],
+      "hash": "711e8b8dada5",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "During testing, Claude realized it was being tested, found an answer key, then built software to hack it",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rnrjtm/during_testing_claude_realized_it_was_being/",
+      "date": "2026-03-08",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rnrjtm/during_testing_claude_realized_it_was_being/\"> <img alt=\"During testing, Claude realized it was being tested, found an answer key, then built software to hack it\" src=\"https://preview.redd.it/j86pvaa35qng1.png?width=640&amp",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "claude"
+      ],
+      "hash": "fb736823b948",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Claude was responsible for the only compliment my dad (75) ever gave me (41)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rnn921/claude_was_responsible_for_the_only_compliment_my/",
+      "date": "2026-03-07",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I'm in between apartments and I'm staying with my dad until next Friday with my wife. Yesterday the sunroof on my 2012 Ford Fusion blew backwards onto the roof of the car, all the inner components full of rust, while i was doing 70 with my wife on the highway. It sc",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "claude"
+      ],
+      "hash": "0864737a419b",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "Files are the interface humans and agents interact with",
+      "url": "https://madalitso.me/notes/why-everyone-is-talking-about-filesystems/",
+      "date": "2026-03-07",
+      "summary": "HN score: 200, comments: 115",
+      "hn_score": 200,
+      "relevance_score": 4,
+      "matched_keywords": [
+        "agent"
+      ],
+      "hash": "bddcf3b7c59b",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "Autoresearch: Agents researching on single-GPU nanochat training automatically",
+      "url": "https://github.com/karpathy/autoresearch",
+      "date": "2026-03-07",
+      "summary": "HN score: 83, comments: 23",
+      "hn_score": 83,
+      "relevance_score": 4,
+      "matched_keywords": [
+        "agent"
+      ],
+      "hash": "3b0c16335abd",
+      "is_critical": false
+    },
+    {
+      "source": "github",
+      "title": "danielmiessler/fabric v1.4.433 — v1.4.433",
+      "url": "https://github.com/danielmiessler/Fabric/releases/tag/v1.4.433",
+      "date": "2026-03-07",
+      "summary": "## Changes\n\n### PR [#2054](https://github.com/danielmiessler/Fabric/pull/2054) by [pretyflaco](https://github.com/pretyflaco): fix(ollama): Map thinking levels to Ollama API and convert single system-role messages\n\n- Fix(ollama): map thinking levels and convert single system-role messages\n\n### Direct commits\n\n- Fix: Manual edit of changelog.db and fixes for ChangeLog\n",
+      "repo": "danielmiessler/fabric",
+      "relevance_score": 4,
+      "matched_keywords": [
+        "llama",
+        "api"
+      ],
+      "hash": "f71b2acee0e4",
+      "is_critical": false
+    }
+  ]
+}

@@ -1,0 +1,165 @@
+{
+  "date": "2026-03-05",
+  "items_fetched": 31,
+  "items_relevant": 25,
+  "items_critical": 0,
+  "top_items": [
+    {
+      "source": "github",
+      "title": "anthropics/claude-code v2.1.68 — v2.1.68",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.68",
+      "date": "2026-03-04",
+      "summary": "## What's changed\n\n- Opus 4.6 now defaults to medium effort for Max and Team subscribers. Medium effort works well for most tasks — it's the sweet spot between speed and thoroughness. You can change this anytime with `/model`\n- Re-introduced the \"ultrathink\" keyword to enable high effort for the next turn\n- Removed Opus 4 and 4.1 from Claude Code on the first-party API — users with these models pinned are automatically moved to Opus 4.6\n",
+      "repo": "anthropics/claude-code",
+      "relevance_score": 20,
+      "matched_keywords": [
+        "claude",
+        "anthropic",
+        "claude code",
+        "api"
+      ],
+      "hash": "dc1880042242",
+      "is_critical": false
+    },
+    {
+      "source": "github",
+      "title": "anthropics/claude-code v2.1.69 — v2.1.69",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.69",
+      "date": "2026-03-05",
+      "summary": "## What's changed\n\n- Added the `/claude-api` skill for building applications with the Claude API and Anthropic SDK\n- Added Ctrl+U on an empty bash prompt (`!`) to exit bash mode, matching `escape` and `backspace`\n- Added numeric keypad support for selecting options in Claude's interview questions (previously only the number row above QWERTY worked)\n- Added optional name argument to `/remote-control` and `claude remote-control` (`/remote-control My Project` or `--name \"My Project\"`) to set a cust",
+      "repo": "anthropics/claude-code",
+      "relevance_score": 14,
+      "matched_keywords": [
+        "claude",
+        "anthropic",
+        "api",
+        "sdk"
+      ],
+      "hash": "a49d02775239",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "LabelBuddy: An Open Source Music and Audio Language Annotation Tagging Tool Using AI Assistance",
+      "url": "http://arxiv.org/abs/2603.04293v1",
+      "date": "2026-03-04",
+      "summary": "The advancement of Machine learning (ML), Large Audio Language Models (LALMs), and autonomous AI agents in Music Information Retrieval (MIR) necessitates a shift from static tagging to rich, human-aligned representation learning. However, the scarcity of open-source infrastructure capable of capturi",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "retrieval",
+        "agent",
+        "autonomous",
+        "open source"
+      ],
+      "hash": "24d5d51b2c16",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "Memex(RL): Scaling Long-Horizon LLM Agents via Indexed Experience Memory",
+      "url": "http://arxiv.org/abs/2603.04257v1",
+      "date": "2026-03-04",
+      "summary": "Large language model (LLM) agents are fundamentally bottlenecked by finite context windows on long-horizon tasks. As trajectories grow, retaining tool outputs and intermediate reasoning in-context quickly becomes infeasible: the working context becomes prohibitively long, eventually exceeds the cont",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "context window",
+        "agent",
+        "memory",
+        "bot"
+      ],
+      "hash": "25af18eea01d",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "LabelBuddy: An Open Source Music and Audio Language Annotation Tagging Tool Using AI Assistance",
+      "url": "http://arxiv.org/abs/2603.04293v1",
+      "date": "2026-03-04",
+      "summary": "The advancement of Machine learning (ML), Large Audio Language Models (LALMs), and autonomous AI agents in Music Information Retrieval (MIR) necessitates a shift from static tagging to rich, human-aligned representation learning. However, the scarcity of open-source infrastructure capable of capturi",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "retrieval",
+        "agent",
+        "autonomous",
+        "open source"
+      ],
+      "hash": "24d5d51b2c16",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Claude is my new work Husband",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rkucr3/claude_is_my_new_work_husband/",
+      "date": "2026-03-04",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Like many people, after the DOW/Anthropic show down -- I quit ChatGPT and came over to Claude. And, fuck me, I wish I had done it sooner! </p> <p>I cannot believe how much it's changed my work day in just the past 2 days. The analysis I am able to pull from Claude w",
+      "relevance_score": 12,
+      "matched_keywords": [
+        "claude",
+        "anthropic",
+        "gpt"
+      ],
+      "hash": "7dcc7d488a62",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "AgentIR: Reasoning-Aware Retrival for Deep Research Agents",
+      "url": "http://arxiv.org/abs/2603.04384v1",
+      "date": "2026-03-04",
+      "summary": "Deep Research agents are rapidly emerging as primary consumers of modern retrieval systems. Unlike human users who issue and refine queries without documenting their intermediate thought processes, Deep Research agents generate explicit natural language reasoning before each search call, revealing r",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "retrieval",
+        "agent",
+        "api"
+      ],
+      "hash": "6e234ff0e336",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "$τ$-Knowledge: Evaluating Conversational Agents over Unstructured Knowledge",
+      "url": "http://arxiv.org/abs/2603.04370v1",
+      "date": "2026-03-04",
+      "summary": "Conversational agents are increasingly deployed in knowledge-intensive settings, where correct behavior depends on retrieving and applying domain-specific knowledge from large, proprietary, and unstructured corpora during live interactions with users. Yet most existing benchmarks evaluate retrieval ",
+      "relevance_score": 9,
+      "matched_keywords": [
+        "retrieval",
+        "agent",
+        "benchmark"
+      ],
+      "hash": "3470d07f94b9",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "PRAM-R: A Perception-Reasoning-Action-Memory Framework with LLM-Guided Modality Routing for Adaptive Autonomous Driving",
+      "url": "http://arxiv.org/abs/2603.04222v1",
+      "date": "2026-03-04",
+      "summary": "Multimodal perception enables robust autonomous driving but incurs unnecessary computational cost when all sensors remain active. This paper presents PRAM-R, a unified Perception-Reasoning-Action-Memory framework with LLM-Guided Modality Routing for adaptive autonomous driving. PRAM-R adopts an asyn",
+      "relevance_score": 9,
+      "matched_keywords": [
+        "autonomous",
+        "memory",
+        "cost"
+      ],
+      "hash": "1b9529299fb7",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "$τ$-Knowledge: Evaluating Conversational Agents over Unstructured Knowledge",
+      "url": "http://arxiv.org/abs/2603.04370v1",
+      "date": "2026-03-04",
+      "summary": "Conversational agents are increasingly deployed in knowledge-intensive settings, where correct behavior depends on retrieving and applying domain-specific knowledge from large, proprietary, and unstructured corpora during live interactions with users. Yet most existing benchmarks evaluate retrieval ",
+      "relevance_score": 9,
+      "matched_keywords": [
+        "retrieval",
+        "agent",
+        "benchmark"
+      ],
+      "hash": "3470d07f94b9",
+      "is_critical": false
+    }
+  ]
+}

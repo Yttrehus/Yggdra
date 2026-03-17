@@ -1,0 +1,150 @@
+{
+  "date": "2026-03-02",
+  "items_fetched": 38,
+  "items_relevant": 23,
+  "items_critical": 0,
+  "top_items": [
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "New: Anthropic introduces a memory feature that lets users transfer their context and preferences from other AI tools into Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rhx7pq/new_anthropic_introduces_a_memory_feature_that/",
+      "date": "2026-03-01",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rhx7pq/new_anthropic_introduces_a_memory_feature_that/\"> <img alt=\"New: Anthropic introduces a memory feature that lets users transfer their context and preferences from other AI tools into Claude\" src=\"https://external-preview.re",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "anthropic",
+        "memory"
+      ],
+      "hash": "0537c23c0189",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Best practices I’ve learned after shipping multiple iOS apps with Claude Code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ridakj/best_practices_ive_learned_after_shipping/",
+      "date": "2026-03-01",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hey everyone,</p> <p>Wanted to share something that’s been on my mind lately. I’ve been using Claude Code pretty heavily over the past few months to build and ship iOS apps. It’s genuinely changed how I approach development. The speed and capability is remarkable an",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "769bb7118821",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Claude + Opus gives me a glimpse of what wealthy people have had for generations",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ri9lng/claude_opus_gives_me_a_glimpse_of_what_wealthy/",
+      "date": "2026-03-01",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I was not really onboarded into the whole AI before because when trying to incorporate GPT3, 3.5 Gemini 2, 2.5 a year or two back into work (by corporate pressure, I'm a professional software engineer). They never seem to click for me. They are messy, hallucinated l",
+      "relevance_score": 9,
+      "matched_keywords": [
+        "claude",
+        "gpt",
+        "gemini"
+      ],
+      "hash": "02d103d59ff2",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "Resources for Automated Evaluation of Assistive RAG Systems that Help Readers with News Trustworthiness Assessment",
+      "url": "http://arxiv.org/abs/2602.24277v1",
+      "date": "2026-02-27",
+      "summary": "Many readers today struggle to assess the trustworthiness of online news because reliable reporting coexists with misinformation. The TREC 2025 DRAGUN (Detection, Retrieval, and Augmented Generation for Understanding News) Track provided a venue for researchers to develop and evaluate assistive RAG ",
+      "relevance_score": 9,
+      "matched_keywords": [
+        "rag",
+        "retrieval"
+      ],
+      "hash": "4d83d12af151",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "Resources for Automated Evaluation of Assistive RAG Systems that Help Readers with News Trustworthiness Assessment",
+      "url": "http://arxiv.org/abs/2602.24277v1",
+      "date": "2026-02-27",
+      "summary": "Many readers today struggle to assess the trustworthiness of online news because reliable reporting coexists with misinformation. The TREC 2025 DRAGUN (Detection, Retrieval, and Augmented Generation for Understanding News) Track provided a venue for researchers to develop and evaluate assistive RAG ",
+      "relevance_score": 9,
+      "matched_keywords": [
+        "rag",
+        "retrieval"
+      ],
+      "hash": "4d83d12af151",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "CUDA Agent: Large-Scale Agentic RL for High-Performance CUDA Kernel Generation",
+      "url": "http://arxiv.org/abs/2602.24286v1",
+      "date": "2026-02-27",
+      "summary": "GPU kernel optimization is fundamental to modern deep learning but remains a highly specialized task requiring deep hardware expertise. Despite strong performance in general programming, large language models (LLMs) remain uncompetitive with compiler-based systems such as torch.compile for CUDA kern",
+      "relevance_score": 8,
+      "matched_keywords": [
+        "agent",
+        "agentic"
+      ],
+      "hash": "adfdc7d6d010",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "Taming Momentum: Rethinking Optimizer States Through Low-Rank Approximation",
+      "url": "http://arxiv.org/abs/2602.24283v1",
+      "date": "2026-02-27",
+      "summary": "Modern optimizers like Adam and Muon are central to training large language models, but their reliance on first- and second-order momenta introduces significant memory overhead, which constrains scalability and computational efficiency. In this work, we reframe the exponential moving average (EMA) u",
+      "relevance_score": 8,
+      "matched_keywords": [
+        "rag",
+        "memory"
+      ],
+      "hash": "55828247d4e8",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "Memory Caching: RNNs with Growing Memory",
+      "url": "http://arxiv.org/abs/2602.24281v1",
+      "date": "2026-02-27",
+      "summary": "Transformers have been established as the de-facto backbones for most recent advances in sequence modeling, mainly due to their growing memory capacity that scales with the context length. While plausible for retrieval tasks, it causes quadratic complexity and so has motivated recent studies to expl",
+      "relevance_score": 7,
+      "matched_keywords": [
+        "retrieval",
+        "memory"
+      ],
+      "hash": "4d07f8185122",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "When does MCP make sense vs CLI?",
+      "url": "https://ejholmes.github.io/2026/02/28/mcp-is-dead-long-live-the-cli.html",
+      "date": "2026-03-01",
+      "summary": "HN score: 348, comments: 225",
+      "hn_score": 348,
+      "relevance_score": 6,
+      "matched_keywords": [
+        "mcp"
+      ],
+      "hash": "4f1c53112ec6",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "WebMCP is available for early preview",
+      "url": "https://developer.chrome.com/blog/webmcp-epp",
+      "date": "2026-03-01",
+      "summary": "HN score: 242, comments: 136",
+      "hn_score": 242,
+      "relevance_score": 6,
+      "matched_keywords": [
+        "mcp"
+      ],
+      "hash": "543d93840757",
+      "is_critical": false
+    }
+  ]
+}

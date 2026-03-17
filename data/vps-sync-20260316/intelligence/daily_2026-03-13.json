@@ -1,0 +1,156 @@
+{
+  "date": "2026-03-13",
+  "items_fetched": 38,
+  "items_relevant": 30,
+  "items_critical": 0,
+  "top_items": [
+    {
+      "source": "anthropic",
+      "title": "Show HN: CloudCLI-Web/Mobile UI for Claude Code,Codex and Gemini(8.2k stars)",
+      "url": "https://github.com/siteboon/claudecodeui",
+      "date": "2026-03-12",
+      "summary": "HN points: 4, comments: 1",
+      "relevance_score": 15,
+      "matched_keywords": [
+        "claude",
+        "claude code",
+        "gemini"
+      ],
+      "hash": "8596b9e89ccc",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "IndexCache: Accelerating Sparse Attention via Cross-Layer Index Reuse",
+      "url": "http://arxiv.org/abs/2603.12201v1",
+      "date": "2026-03-12",
+      "summary": "Long-context agentic workflows have emerged as a defining use case for large language models, making attention efficiency critical for both inference speed and serving cost. Sparse attention addresses this challenge effectively, and DeepSeek Sparse Attention (DSA) is a representative production-grad",
+      "relevance_score": 14,
+      "matched_keywords": [
+        "agent",
+        "agentic",
+        "workflow",
+        "bot",
+        "cost"
+      ],
+      "hash": "99d8a0830dcd",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "LABSHIELD: A Multimodal Benchmark for Safety-Critical Reasoning and Planning in Scientific Laboratories",
+      "url": "http://arxiv.org/abs/2603.11987v1",
+      "date": "2026-03-12",
+      "summary": "Artificial intelligence is increasingly catalyzing scientific automation, with multimodal large language model (MLLM) agents evolving from lab assistants into self-driving lab operators. This transition imposes stringent safety requirements on laboratory environments, where fragile glassware, hazard",
+      "relevance_score": 14,
+      "matched_keywords": [
+        "rag",
+        "agent",
+        "automation",
+        "benchmark",
+        "safety"
+      ],
+      "hash": "954f730f5742",
+      "is_critical": false
+    },
+    {
+      "source": "anthropic",
+      "title": "Show HN: From Claude Code to OpenCode – My Evolution in Vibe AI Engineering",
+      "url": "https://news.ycombinator.com/item?id=47361303",
+      "date": "2026-03-13",
+      "summary": "HN points: 1, comments: 0",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "53058e6ce845",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Rudel – Claude Code Session Analytics",
+      "url": "https://github.com/obsessiondb/rudel",
+      "date": "2026-03-12",
+      "summary": "HN score: 129, comments: 72",
+      "hn_score": 129,
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "498677a38334",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/LocalLLaMA",
+      "title": "OmniCoder-9B | 9B coding agent fine-tuned on 425K agentic trajectories",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rs6td4/omnicoder9b_9b_coding_agent_finetuned_on_425k/",
+      "date": "2026-03-12",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><h1>Overview</h1> <p><strong>OmniCoder-9B</strong> is a 9-billion parameter coding agent model built by <a href=\"https://tesslate.com/\">Tesslate</a>, fine-tuned on top of <a href=\"https://huggingface.co/Qwen/Qwen3.5-9B\">Qwen3.5-9B</a>'s hybrid architecture (Gated Delta",
+      "relevance_score": 8,
+      "matched_keywords": [
+        "agent",
+        "agentic"
+      ],
+      "hash": "e09d24dac085",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/LocalLLaMA",
+      "title": "Qwen3.5-9B is actually quite good for agentic coding",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rrw8df/qwen359b_is_actually_quite_good_for_agentic_coding/",
+      "date": "2026-03-12",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I have to admit I am quite impressed. My hardware is an Nvidia Geforce RTX 3060 with 12 GB VRAM so it's quite limited. I have been &quot;model-hopping&quot; to see what works best for me.<br /> I mainly did my tests with Kilo Code but sometimes I tried Roo Code as w",
+      "relevance_score": 8,
+      "matched_keywords": [
+        "agent",
+        "agentic"
+      ],
+      "hash": "54c9b4538fe3",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/LocalLLaMA",
+      "title": "llama.cpp + Brave search MCP - not gonna lie, it is pretty addictive",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rrycc6/llamacpp_brave_search_mcp_not_gonna_lie_it_is/",
+      "date": "2026-03-12",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1rrycc6/llamacpp_brave_search_mcp_not_gonna_lie_it_is/\"> <img alt=\"llama.cpp + Brave search MCP - not gonna lie, it is pretty addictive\" src=\"https://external-preview.redd.it/Z21reTI2OTlubm9nMSzZNx6_j0X8Ayy90sUMSnEbHppfXeeZAs-QYQ",
+      "relevance_score": 8,
+      "matched_keywords": [
+        "mcp",
+        "llama"
+      ],
+      "hash": "228bf7d8682f",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "XSkill: Continual Learning from Experience and Skills in Multimodal Agents",
+      "url": "http://arxiv.org/abs/2603.12056v1",
+      "date": "2026-03-12",
+      "summary": "Multimodal agents can now tackle complex reasoning tasks with diverse tools, yet they still suffer from inefficient tool use and inflexible orchestration in open-ended settings. A central challenge is enabling such agents to continually improve without parameter updates by learning from past traject",
+      "relevance_score": 8,
+      "matched_keywords": [
+        "agent",
+        "tool use"
+      ],
+      "hash": "4920fbbc59c8",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "XSkill: Continual Learning from Experience and Skills in Multimodal Agents",
+      "url": "http://arxiv.org/abs/2603.12056v1",
+      "date": "2026-03-12",
+      "summary": "Multimodal agents can now tackle complex reasoning tasks with diverse tools, yet they still suffer from inefficient tool use and inflexible orchestration in open-ended settings. A central challenge is enabling such agents to continually improve without parameter updates by learning from past traject",
+      "relevance_score": 8,
+      "matched_keywords": [
+        "agent",
+        "tool use"
+      ],
+      "hash": "4920fbbc59c8",
+      "is_critical": false
+    }
+  ]
+}

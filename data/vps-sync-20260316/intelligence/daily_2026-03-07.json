@@ -1,0 +1,153 @@
+{
+  "date": "2026-03-07",
+  "items_fetched": 31,
+  "items_relevant": 17,
+  "items_critical": 0,
+  "top_items": [
+    {
+      "source": "anthropic",
+      "title": "Show HN: CC Usage Bar – Check Claude Code usage from your macOS menu bar",
+      "url": "https://github.com/lionhylra/cc-usage-bar",
+      "date": "2026-03-07",
+      "summary": "HN points: 1, comments: 1",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "878b2a00b76a",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "Tell HN: I'm 60 years old. Claude Code has ignited a passion again",
+      "url": "https://news.ycombinator.com/item?id=47282777",
+      "date": "2026-03-07",
+      "summary": "HN score: 331, comments: 203",
+      "hn_score": 331,
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "3f605ac15e16",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Claude-replay – A video-like player for Claude Code sessions",
+      "url": "https://github.com/es617/claude-replay",
+      "date": "2026-03-06",
+      "summary": "HN score: 80, comments: 28",
+      "hn_score": 80,
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "fac2e84e0472",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "I made a Claude Code plugin that plays DOOM while Claude is thinking",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rmt2gb/i_made_a_claude_code_plugin_that_plays_doom_while/",
+      "date": "2026-03-06",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rmt2gb/i_made_a_claude_code_plugin_that_plays_doom_while/\"> <img alt=\"I made a Claude Code plugin that plays DOOM while Claude is thinking\" src=\"https://external-preview.redd.it/d3Jwb2M3cHk3aW5nMZX_E9Nrlj61u_sFkEnpcsaeFM0iLhm0Ak4F",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "cbb494cc69a0",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "I built an interactive website that teaches Claude Code by letting you explore a simulated project in your browser",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rmqk0x/i_built_an_interactive_website_that_teaches/",
+      "date": "2026-03-06",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rmqk0x/i_built_an_interactive_website_that_teaches/\"> <img alt=\"I built an interactive website that teaches Claude Code by letting you explore a simulated project in your browser\" src=\"https://preview.redd.it/fw9npxmgrhng1.png?wid",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "010526a79845",
+      "is_critical": false
+    },
+    {
+      "source": "github",
+      "title": "anthropics/claude-code v2.1.71 — v2.1.71",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.71",
+      "date": "2026-03-07",
+      "summary": "## What's changed\n\n- Added `/loop` command to run a prompt or slash command on a recurring interval (e.g. `/loop 5m check the deploy`)\n- Added cron scheduling tools for recurring prompts within a session\n- Added `voice:pushToTalk` keybinding to make the voice activation key rebindable in `keybindings.json` (default: space) — modifier+letter combos like `meta+k` have zero typing interference\n- Added `fmt`, `comm`, `cmp`, `numfmt`, `expr`, `test`, `printf`, `getconf`, `seq`, `tsort`, and `pr` to t",
+      "repo": "anthropics/claude-code",
+      "relevance_score": 12,
+      "matched_keywords": [
+        "claude",
+        "anthropic",
+        "cron"
+      ],
+      "hash": "8d9fd1e8db58",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "FT: WH rule could kill Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rmxfsn/ft_wh_rule_could_kill_claude/",
+      "date": "2026-03-07",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>According to the Financial Times the White House is drafting regulations for all AI in the US. </p> <p>The rule that would be the killer for Anthropic and Claude is that they must allow government use unfettered for any legal purpose.</p> <p>Since the prohibitions o",
+      "relevance_score": 11,
+      "matched_keywords": [
+        "claude",
+        "anthropic",
+        "regulation"
+      ],
+      "hash": "d15948268e36",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "I built a Fusion 360 MCP server so Claude AI can design objects from a single chat message",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rmtc3j/i_built_a_fusion_360_mcp_server_so_claude_ai_can/",
+      "date": "2026-03-06",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rmtc3j/i_built_a_fusion_360_mcp_server_so_claude_ai_can/\"> <img alt=\"I built a Fusion 360 MCP server so Claude AI can design objects from a single chat message\" src=\"https://preview.redd.it/946tvruabing1.png?width=140&amp;height=7",
+      "relevance_score": 11,
+      "matched_keywords": [
+        "claude",
+        "mcp"
+      ],
+      "hash": "32af14c3592f",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Anthropic: In evaluating Claude Opus 4.6 on BrowseComp, we found cases where the model recognized the test, then found and decrypted answers to it—raising questions about eval integrity in web-enabled environments.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rmorhn/anthropic_in_evaluating_claude_opus_46_on/",
+      "date": "2026-03-06",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rmorhn/anthropic_in_evaluating_claude_opus_46_on/\"> <img alt=\"Anthropic: In evaluating Claude Opus 4.6 on BrowseComp, we found cases where the model recognized the test, then found and decrypted answers to it—raising questions abo",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "claude",
+        "anthropic"
+      ],
+      "hash": "3fb1932e1d03",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "Hardening Firefox with Anthropic's Red Team",
+      "url": "https://www.anthropic.com/news/mozilla-firefox-security",
+      "date": "2026-03-06",
+      "summary": "HN score: 544, comments: 153",
+      "hn_score": 544,
+      "relevance_score": 5,
+      "matched_keywords": [
+        "anthropic"
+      ],
+      "hash": "c1aa18f5ab3d",
+      "is_critical": false
+    }
+  ]
+}

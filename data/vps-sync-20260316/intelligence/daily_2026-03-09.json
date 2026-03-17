@@ -1,0 +1,150 @@
+{
+  "date": "2026-03-09",
+  "items_fetched": 23,
+  "items_relevant": 13,
+  "items_critical": 0,
+  "top_items": [
+    {
+      "source": "reddit/LocalLLaMA",
+      "title": "Qwen Models with Claude Code on 36gb vram - insights",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1roesio/qwen_models_with_claude_code_on_36gb_vram_insights/",
+      "date": "2026-03-08",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I have tried the local models Qwen3-Coder-Next 80a3b (unsloth gguf: Qwen3-Coder-Next-UD-IQ3_XXS) and Qwen3.5 35a3b (unsloth gguf: Qwen3.5-35B-A3B-UD-Q4_K_XL) with Claude Code. Both run with a context of ~132k in the 36GB combined VRAM of my RTX 3090 and RTX 5070. I ",
+      "relevance_score": 15,
+      "matched_keywords": [
+        "claude",
+        "claude code",
+        "bot"
+      ],
+      "hash": "736e3689f9f7",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "Will Claude Code ruin our team?",
+      "url": "https://justinjackson.ca/claude-code-ruin",
+      "date": "2026-03-08",
+      "summary": "HN score: 87, comments: 85",
+      "hn_score": 87,
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "485016e56483",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Claude Cowork is magical",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rok3g8/claude_cowork_is_magical/",
+      "date": "2026-03-08",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I've been using it since it was available on Mac (a few months??). Used it for a lot of technical tasks. </p> <ul> <li><p>Fixed my API website that the Replit agent kept messing up (it's literally a Replit website and the AI doesn't understand what it's doing so kep",
+      "relevance_score": 11,
+      "matched_keywords": [
+        "claude",
+        "agent",
+        "api"
+      ],
+      "hash": "377a5cf7d07f",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "Claude struggles to cope with ChatGPT exodus",
+      "url": "https://www.forbes.com/sites/barrycollins/2026/03/06/claude-struggles-to-cope-with-chatgpt-exodus/",
+      "date": "2026-03-08",
+      "summary": "HN score: 148, comments: 139",
+      "hn_score": 148,
+      "relevance_score": 7,
+      "matched_keywords": [
+        "claude",
+        "gpt"
+      ],
+      "hash": "5f874ac04cc4",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Claude is the 21st century version of a calculator for software developers",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1romuye/claude_is_the_21st_century_version_of_a/",
+      "date": "2026-03-09",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>I am into my 18th months of designing a serverless, Angular/AWS SPA/PWA. About 5 months ago I finally started using AI. First from google responses, than CoPilot, Then ChatGPT and now 90% Claude and 10% ChatGPT. </p> <p>I no longer code the way I used to. I basicall",
+      "relevance_score": 7,
+      "matched_keywords": [
+        "claude",
+        "gpt"
+      ],
+      "hash": "809ceb815c08",
+      "is_critical": false
+    },
+    {
+      "source": "anthropic",
+      "title": "Three things getting missed in the Anthropic/Dow supply chain risk story",
+      "url": "https://news.ycombinator.com/item?id=47305318",
+      "date": "2026-03-09",
+      "summary": "HN points: 1, comments: 0",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "anthropic"
+      ],
+      "hash": "ea1c0ec20994",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Claude being Claude",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1ro2f46/claude_being_claude/",
+      "date": "2026-03-08",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1ro2f46/claude_being_claude/\"> <img alt=\"Claude being Claude\" src=\"https://preview.redd.it/rfagl59i2tng1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=1cec0794bc8e30b429b02ecc3ecefab3ef3e2fe9\" title=\"Claude being Claude\" /> </a",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "claude"
+      ],
+      "hash": "96e3bffce796",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "Agent Safehouse – macOS-native sandboxing for local agents",
+      "url": "https://agent-safehouse.dev/",
+      "date": "2026-03-08",
+      "summary": "HN score: 511, comments: 113",
+      "hn_score": 511,
+      "relevance_score": 4,
+      "matched_keywords": [
+        "agent"
+      ],
+      "hash": "ca69e4bf1c67",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "We should revisit literate programming in the agent era",
+      "url": "https://silly.business/blog/we-should-revisit-literate-programming-in-the-agent-era/",
+      "date": "2026-03-08",
+      "summary": "HN score: 204, comments: 116",
+      "hn_score": 204,
+      "relevance_score": 4,
+      "matched_keywords": [
+        "agent"
+      ],
+      "hash": "ddd49feae710",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "SWE-CI: Evaluating Agent Capabilities in Maintaining Codebases via CI",
+      "url": "https://arxiv.org/abs/2603.03823",
+      "date": "2026-03-08",
+      "summary": "HN score: 115, comments: 40",
+      "hn_score": 115,
+      "relevance_score": 4,
+      "matched_keywords": [
+        "agent"
+      ],
+      "hash": "36e04541170c",
+      "is_critical": false
+    }
+  ]
+}

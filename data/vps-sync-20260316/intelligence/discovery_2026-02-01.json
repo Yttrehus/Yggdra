@@ -1,0 +1,302 @@
+{
+  "timestamp": "2026-02-01T08:00:23.020212",
+  "upstream_sources": [
+    {
+      "name": "YouTube",
+      "type": "website",
+      "count": 1,
+      "contexts": [
+        "Video platform hvor kanalen 'Nate B Jones' er nævnt eller vurderet"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Nate B Jones",
+      "type": "person",
+      "count": 1,
+      "contexts": [
+        "Kanalnavn på YouTube hvor videoen er placeret"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Ikke specificeret, sandsynligvis YouTube",
+      "type": "channel",
+      "count": 1,
+      "contexts": [
+        "Kilder nævnt i analysen nævnes som en kanal, sandsynligvis YouTube, uden navn eller yderligere detal"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "the $125 Billion Secret: Amazon Told Wall Street One Thing and Employees Another. Here's the Truth.",
+      "type": "website",
+      "count": 1,
+      "contexts": [
+        "Video: 'the $125 Billion Secret: Amazon Told Wall Street One Thing and Employees Another. Here's the"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Ukendt kanal",
+      "type": "channel",
+      "count": 1,
+      "contexts": [
+        "Kanal: Ukendt (muligvis en ny kanal, ingen navn givet)."
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Cole Medin",
+      "type": "channel",
+      "count": 1,
+      "contexts": [
+        "Videoens kanal: Cole Medin (Build a Robust AI Driven Data Pipeline in Minutes (No Code))"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "n8n",
+      "type": "tool",
+      "count": 1,
+      "contexts": [
+        "Tool-navn: n8n — nævnt som et eksempel på no-code/low-code værktøj til dataintegration."
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Airbyte",
+      "type": "tool",
+      "count": 1,
+      "contexts": [
+        "Tool-navn: Airbyte — nævnt som et eksempel på no-code/low-code værktøj til dataintegration."
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Zapier",
+      "type": "tool",
+      "count": 1,
+      "contexts": [
+        "Tool-navn: Zapier — nævnt som et eksempel på no-code/low-code værktøj til dataintegration."
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Notion AI",
+      "type": "tool",
+      "count": 1,
+      "contexts": [
+        "Nævnt som AI-assistent i Notion, der kan fungere som 'Workspace Brain' og udtrække handlinger fra da"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Manus",
+      "type": "person/channel",
+      "count": 1,
+      "contexts": [
+        "Nævnt som en agent der finder information."
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Meta",
+      "type": "company",
+      "count": 1,
+      "contexts": [
+        "Virksomhed nævnt i forbindelse med markedsværdier og aktiekurser"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "type": "company",
+      "count": 1,
+      "contexts": [
+        "Virksomhed nævnt i forbindelse med markedsværdier og aktiekurser"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Tesla",
+      "type": "company",
+      "count": 1,
+      "contexts": [
+        "Virksomhed nævnt i forbindelse med markedsværdier, aktiekurser og Tesla-konflikten"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "The $125 Billion Secret: Amazon Told Wall Street One Thing and Employees Another. Here's the Truth",
+      "type": "channel",
+      "count": 1,
+      "contexts": [
+        "Titel på video, nævnt som kilde til emnet om Amazon og Wall Street's skjulte information"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "AI Coding Hackathon",
+      "type": "channel",
+      "count": 1,
+      "contexts": [
+        "Titlen indikerer et live hackathon, muligvis på platforme som Twitch, YouTube Live eller tilsvarende"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Tools/Platforms",
+      "type": "tool",
+      "count": 1,
+      "contexts": [
+        "Nævnes muligvis som værktøjer eller frameworks brugt til konkurrencen, selvom ingen specifikke navne"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "prize",
+      "type": "paper",
+      "count": 1,
+      "contexts": [
+        "Nævnt som information om præmien ($17K), hvilket antyder en ekstern ressource eller konkurrenceeleme"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "IBM WatsonX Data Integration",
+      "type": "tool",
+      "count": 1,
+      "contexts": [
+        "Nævnt som en potentiel løsning til dataindsamling og integration, samt vurderet til at kunne bruges "
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "StreamSets",
+      "type": "tool",
+      "count": 1,
+      "contexts": [
+        "Nævnt som en data streaming tool i videoen og vurderet til at kunne have relevans for dataflow og pi"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    }
+  ],
+  "hot_sources": [],
+  "github_activity": [
+    {
+      "repo": "anthropics/claude-code",
+      "type": "release",
+      "tag": "v2.1.29",
+      "name": "v2.1.29",
+      "published": "2026-01-31T23:37:51Z",
+      "body_preview": "## What's changed\n\n- Fixed startup performance issues when resuming sessions that have `saved_hook_context`\n",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.29"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "type": "release",
+      "tag": "v2.1.27",
+      "name": "v2.1.27",
+      "published": "2026-01-30T20:38:53Z",
+      "body_preview": "## What's changed\n\n- Added tool call failures and denials to debug logs\n- Fixed context management validation error for gateway users, ensuring `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1` avoids the error\n- Added `--from-pr` flag to resume sessions linked to a specific GitHub PR number or URL\n- Sessi",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.27"
+    },
+    {
+      "repo": "danielmiessler/fabric",
+      "type": "release",
+      "tag": "v1.4.397",
+      "name": "v1.4.397",
+      "published": "2026-01-31T21:37:32Z",
+      "body_preview": "## Changes\n\n### PR [#1979](https://github.com/danielmiessler/Fabric/pull/1979) by [ksylvan](https://github.com/ksylvan): Update Anthropic SDK to v1.20.0 and reorganize model definitions\n\n- Feat: update Anthropic SDK to v1.20.0 and reorganize model definitions\n- Bump `anthropic-sdk-go` dependency fro",
+      "url": "https://github.com/danielmiessler/Fabric/releases/tag/v1.4.397"
+    },
+    {
+      "repo": "danielmiessler/fabric",
+      "type": "release",
+      "tag": "v1.4.396",
+      "name": "v1.4.396",
+      "published": "2026-01-30T06:19:23Z",
+      "body_preview": "## Changes\n\n### PR [#1975](https://github.com/danielmiessler/Fabric/pull/1975) by [koriyoshi2041](https://github.com/koriyoshi2041): feat: add suggest_moltbot_command pattern for Moltbot (formerly Clawdbot) CLI\n\n- Added new pattern for suggesting Moltbot CLI commands based on natural language intent",
+      "url": "https://github.com/danielmiessler/Fabric/releases/tag/v1.4.396"
+    },
+    {
+      "repo": "qdrant/qdrant",
+      "type": "release",
+      "tag": "v1.16.3",
+      "name": "v1.16.3",
+      "published": "2025-12-19T17:45:42Z",
+      "body_preview": "# Change log\r\n\r\n## Improvements\r\n\r\n- https://github.com/qdrant/qdrant/pull/7755, https://github.com/qdrant/qdrant/pull/7588 - Respect search and point retrieve timeout when trying to access segments\r\n- https://github.com/qdrant/qdrant/pull/7685 - Respect telemetry timeout when fetching shard statist",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.16.3"
+    },
+    {
+      "repo": "qdrant/qdrant",
+      "type": "release",
+      "tag": "v1.16.2",
+      "name": "v1.16.2",
+      "published": "2025-12-04T11:03:49Z",
+      "body_preview": "# Change log\r\n\r\n## Improvements\r\n\r\n- https://github.com/qdrant/qdrant/pull/7607 - Improve request timeout handling for telemetry and metrics\r\n- https://github.com/qdrant/qdrant/pull/7623 - Add user agent to HTTP requests sent by Qdrant server\r\n\r\n## Bug fixes\r\n\r\n- https://github.com/qdrant/qdrant/pul",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.16.2"
+    },
+    {
+      "repo": "picovoice/porcupine",
+      "type": "release",
+      "tag": "v4.0",
+      "name": "v4.0",
+      "published": "2025-12-11T18:45:45Z",
+      "body_preview": "- Improved engine performance\r\n- Added support for running on GPU or multiple CPU cores\r\n- Node.js min version bumped to 18\r\n- iOS min version bumped to 16\r\n- Flutter min version bumped to 3.10\r\n- React Native min version bumped to 0.73\r\n- Ended support for Unity",
+      "url": "https://github.com/Picovoice/porcupine/releases/tag/v4.0"
+    },
+    {
+      "repo": "picovoice/porcupine",
+      "type": "release",
+      "tag": "v3.0",
+      "name": "v3.0",
+      "published": "2023-10-26T19:17:54Z",
+      "body_preview": "- Improvements to error reporting\r\n- Upgrades to authorization and authentication system\r\n- Various bug fixes and improvements\r\n- Added Farsi support for microcontrollers\r\n- Node min support bumped to 16\r\n- Unity editor min support bumped to 2021\r\n- Patches to .NET support",
+      "url": "https://github.com/Picovoice/porcupine/releases/tag/v3.0"
+    }
+  ],
+  "new_source_suggestions": [],
+  "briefing": "YDRASIL DAGLIG BRIEFING\n\n1. TOP SIGNAL:\nDer er fortsat intensiv fokus på forbedring af retrieval-baserede AI-løsninger med nye RAG-mønstre og pipeline-arkitekturer. Især er de 8-modul RAG pipelines og Knowledge Graphs i høj kurs, hvilket kan øge vores muligheder for mere kontekstfuld og effektiv databehandling. Samtidig er værktøjsopdateringer fra Claude-code og Qdrant vigtige – de kan styrke vores existing setup eller give os hurtigere integrationsmuligheder.\n\n2. UPSTREAM ALERT:\nVi kan allerede nu følge med i opdateringer fra GitHub, især release-notes fra Claude-code (seneste version v2.1.29) og Qdrant (v1.16.3). Disse giver os tidlig indsigt i performance-forbedringer og nye funktioner, før markedet eventuelt opdager eller anvender dem. Derudover kan kanaler som Nate B Jones på YouTube give hurtigere indsigt i nye AI-howtoer om hierarkier og kontekstengineering, hvilket kan påvirke vores strategiske retning.\n\n3. TECH RADAR:\nDe væsentligste nye tools er:\n- Claude-code v2.1.29: forbedret startup og session management\n- Qdrant v1.16.3: forbedret timeout-styring og stabilitet\nDisse kan integreres for at optimere vores pipeline og modelperformance. Derudover er low-code værktøjer som n8n, Airbyte og Zapier stadig relevante for data-integration og automatisering, som kan effektivisere vores dataflows.\n\n4. ANBEFALEDE HANDLINGER:\n- Overvåg og test de nye releases fra Claude og Qdrant for at vurdere performance og integration.\n- Uddan teamet i de nyeste RAG-arkitekturer og knowledge graph-teknikker, især fra de analyserede videoer.\n- Evaluér mulighederne for at implementere eller forbedre automatisering med n8n, Airbyte og Zapier for hurtigere dataintegration.\n\n5. NYE KILDER AT FØLGE:\n- Nate B Jones’ YouTube-kanal: Han deler vigtige perspektiver om hierarkier, kontekst engineering og AI-udvikling, hvilket kan give os strategiske indsigter.\n- Claude-code GitHub: Vigtig for at følge softwareopdateringer og performance-ændringer, så vi kan tilpasse vores codebases i tide.\n- Qdrant’s GitHub: Kritisk for at følge tekniske forbedringer i vores vector database.\n\nDisse kilder vil styrke vores kompetencer og sikre, at Ydrasil altid er foran i udviklingen."
+}

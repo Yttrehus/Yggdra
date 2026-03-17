@@ -1,21 +1,43 @@
 # Yggdra
 
 ## Metadata
-- **Status:** Session 23. V6 research-konsolidering gennemført. LIB.ydrasil reduceret 91→8 filer. 14 destillater hentet til 2_research/.
-- **Sidst opdateret:** 2026-03-16 (session 23)
+- **Status:** Session 24. Hukommelsesarkitektur v1 implementeret. Qdrant genstartet fra scratch (knowledge + episodes). Voice memo pipeline testet. VPS overlevering analyseret.
+- **Sidst opdateret:** 2026-03-16 (session 24)
 
 ## Hvad er det
 Personligt udvikler-fundament. Startede som "Basic Setup" (Windows-opsætning), vokset til framework for hvordan Yttre arbejder med AI og kode.
 
 ## Hvor er vi
 
-### Seneste session (23 — 2026-03-16)
-V6 research-konsolidering — VPS destillater hentet, gamle filer slettet.
-- **14 nye filer hentet fra VPS** → `projects/2_research/` (2 destillater, 5 standalone, 3 psykologi, 2 transport/økonomi, catalog+deep study+red team)
-- **83 filer slettet fra LIB.ydrasil/research/** (91→8): absorberede memory/agent-filer, CH-kapitler (bog-projekt), duplikater, LaTeX-artefakter, forældede snapshots
-- **8 filer beholdt:** 4 visualization, 2 voice, 1 notion, sources/ — understøtter aktive briefs
-- **ARCHITECTURE_CONTINUOUS_MEMORY.md** slettet fra docs/ (absorberet i destillat)
-- **State opdateret:** REF.vps-sandbox/CONTEXT.md (V6-sektion), TRIAGE.md (V6 afsluttet)
+### Seneste session (24 — 2026-03-16)
+Hukommelsesarkitektur v1 bygget. Voice memo transkriberet og renskrevet. VPS overlevering analyseret og hentet.
+
+**Hukommelsesarkitektur:**
+- **`scripts/memory.py`** — CLI: setup, ingest, search, status, nuke
+- **To collections:** `knowledge` (984 points, 62 research-filer) + `episodes` (59 points, chatlogs + voice memo)
+- **Hybrid search:** dense (text-embedding-3-small) + sparse (BM25-approksimation) + RRF fusion
+- **Temporal decay** i søgning, content hashing for dedup, kontekstuel chunking
+- Kører på PC via SSH-tunnel til VPS Qdrant (localhost:6333)
+- Legacy collections (sessions, advisor_brain, docs, miessler_bible, conversations) urørt — venter på cleanup
+- `routes` (40K, TransportIntra) bevaret
+
+**Voice memo pipeline:**
+- `Voice 260316_053647.m4a` (60 min) transkriberet via Groq Whisper på VPS
+- Renskrevet i 8 kapitler af subagent → `voice_memos/voice_260316_053647.md`
+- Indhold: hukommelsesarkitektur, automatiseret vedligehold, backlog-reform, research-kvalitet, mappestruktur, OpenClaw mini-claws
+
+**VPS overlevering:**
+- Hentet og analyseret: INDEX.md, REFLEKSION.md, context.md, 17 research-filer, 12 session JSONL-filer
+- Alle MD-filer kopieret til `projects/2_research/`
+- VPS Obsidian-research hentet: `OBSIDIAN_BRO_ANALYSE.md` — betinget ja, parkeret til hukommelse kører
+
+**Beslutninger:**
+- Qdrant startes fra scratch — kun `knowledge` + `episodes`. Ikke advisor_brain eller andre legacy-collections
+- Obsidian parkeret — fundamentet (Qdrant hybrid search) skal virke først
+- Chatlogs hører under `episodes` (source: "chatlog"), ikke egen collection
+
+### Session 23 (2026-03-16)
+V6 research-konsolidering — 14 VPS destillater hentet, 83 filer slettet fra LIB.ydrasil/research/ (91→8).
 
 ### Session 22 (2026-03-15)
 Backlog burn planlagt. VPS V6 deployet (7 iter: RSS+heartbeat+decay+reranking+healthcheck+feeds+inventory). PC-plan klar (8 briefs).
@@ -62,7 +84,8 @@ Yggdra/
 ├── CONTEXT.md, PROGRESS.md, CLAUDE.md, BLUEPRINT.md, README.md
 ├── chatlog.md                ← genereret af auto-chatlog engine
 ├── data/                     ← data-filer
-├── scripts/                  ← utility scripts
+├── voice_memos/              ← transkriberede voice memos
+├── scripts/                  ← memory.py + utility scripts
 ├── projects/
 │   ├── 0_backlog/                ← raw./brief./r2g. briefs + TRIAGE.md
 │   ├── 9_archive/                ← døde projekter
@@ -79,8 +102,9 @@ Yggdra/
 ```
 
 ### Aktive projekter
+- **Hukommelsesarkitektur:** v1 kører. `scripts/memory.py`. Qdrant: knowledge (984) + episodes (59). → næste: eval-suite, auto-ingest, legacy cleanup
 - **REF.vps-sandbox:** v1-v6 gennemført. V6: research-konsolidering, 14 filer hentet. → `projects/REF.vps-sandbox/CONTEXT.md`
-- **2_research:** V4+V6 destillater (llm-landskab, ai-frontier, videns-vedligeholdelse, memory+agents destillater). → `projects/2_research/`
+- **2_research:** V4+V6 destillater + VPS overlevering + Obsidian-analyse. → `projects/2_research/`
 - **BMS.auto-chatlog:** v3 fungerer (~3000 beskeder, 39 sessions). → `projects/BMS.auto-chatlog/CONTEXT.md`
 - **REF.transportintra:** Komplet arkiv. → `projects/REF.transportintra/CONTEXT.md`
 
@@ -120,14 +144,20 @@ Yggdra/
 - Hvert projekt har sin egen CONTEXT.md (samme format, rekursivt design)
 
 ## Åbne tråde
+- Qdrant legacy cleanup: slet sessions, advisor_brain, docs, miessler_bible, conversations
+- memory.py eval-suite: 20 test-queries med forventede svar
+- memory.py auto-ingest: hook eller cron ved filændringer
+- OpenClaw evaluering + mini-claw arkitektur planlægningssession (fra voice memo)
+- Voice memo pipeline: VPS scripts virker, men kræver manuelt SCP + SSH
+- Obsidian: parkeret, research i `projects/2_research/OBSIDIAN_BRO_ANALYSE.md`
 - Prettier mangler .prettierrc
 - /new-project utestet i praksis
-- chatlog-search: for tidligt at evaluere
 
 ## Changelog
 Komprimeret overblik. Fuld detalje i PROGRESS.md.
 
-- **Session 23** (2026-03-16): V6 research-konsolidering. 14 destillater hentet fra VPS. 83 filer slettet fra LIB.ydrasil/research/ (91→8). CH-kapitler, duplikater, LaTeX, forældede snapshots fjernet. → PROGRESS.md#session-23
+- **Session 24** (2026-03-16): Hukommelsesarkitektur v1: memory.py bygget, Qdrant genstartet (knowledge 984 + episodes 59), hybrid search+decay. Voice memo transkriberet (60 min, Groq Whisper) og renskrevet i 8 kapitler. VPS overlevering analyseret og hentet. Obsidian-research hentet og parkeret. → PROGRESS.md#session-24
+- **Session 23** (2026-03-16): V6 research-konsolidering. 14 destillater hentet fra VPS. 83 filer slettet fra LIB.ydrasil/research/ (91→8). → PROGRESS.md#session-23
 - **Session 22** (2026-03-15): Backlog burn planlagt. VPS V6 deployet (7 iter: RSS+heartbeat+decay+reranking+healthcheck+feeds+inventory). PC-plan: 8 briefs lukkes. RDY.backlog-burn.md skrevet. → PROGRESS.md#session-22
 - **Session 21** (2026-03-15): VPS V4 (4 loops, 30 iter) evalueret og hentet. 19 research-filer: llm-landskab (7 profiler+COMPARISON+RECOMMENDATION), ai-frontier (5 topics+GAPS+WHAT_IF), videns-vedligeholdelse (6 filer inkl. HOLISTIC_EVALUATION). TRIAGE.md opdateret med 7 handlinger. 9 forbrugte backlog-filer arkiveret. → PROGRESS.md#session-21
 - **Session 20** (2026-03-14): VPS v2+v3 evalueret, output hentet til PC. 3 skills, TI-projekt, research INDEX v3, BLUEPRINT.md, TRIAGE.md, vps-sandbox CONTEXT.md. → PROGRESS.md#session-20

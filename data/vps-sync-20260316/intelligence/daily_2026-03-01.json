@@ -1,0 +1,153 @@
+{
+  "date": "2026-03-01",
+  "items_fetched": 38,
+  "items_relevant": 16,
+  "items_critical": 0,
+  "top_items": [
+    {
+      "source": "hackernews",
+      "title": "MCP server that reduces Claude Code context consumption by 98%",
+      "url": "https://mksg.lu/blog/context-mode",
+      "date": "2026-02-28",
+      "summary": "HN score: 317, comments: 71",
+      "hn_score": 317,
+      "relevance_score": 19,
+      "matched_keywords": [
+        "claude",
+        "claude code",
+        "mcp"
+      ],
+      "hash": "f764518e3b24",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "I vibe coded a 3D city with Claude Code in 1 day. every GitHub developer is a building. 500k+ views, 400+ stars.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rhf4s4/i_vibe_coded_a_3d_city_with_claude_code_in_1_day/",
+      "date": "2026-02-28",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rhf4s4/i_vibe_coded_a_3d_city_with_claude_code_in_1_day/\"> <img alt=\"I vibe coded a 3D city with Claude Code in 1 day. every GitHub developer is a building. 500k+ views, 400+ stars.\" src=\"https://external-preview.redd.it/ODB6dmR3Y",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "417f71d16afc",
+      "is_critical": false
+    },
+    {
+      "source": "anthropic",
+      "title": "Show HN: Bridge your Claude/OpenAI subs into a team API with per-key cost caps",
+      "url": "https://github.com/Shreyas-Dayal/ai-cli-bridge",
+      "date": "2026-02-28",
+      "summary": "HN points: 1, comments: 2",
+      "relevance_score": 12,
+      "matched_keywords": [
+        "claude",
+        "openai",
+        "api",
+        "cost"
+      ],
+      "hash": "55850c92beb5",
+      "is_critical": false
+    },
+    {
+      "source": "anthropic",
+      "title": "Show HN: Claude-powered Chrome sidebar and Python automation scripts",
+      "url": "https://nexiolabs.gumroad.com/l/nexio-ai",
+      "date": "2026-02-28",
+      "summary": "HN points: 2, comments: 0",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "claude",
+        "automation",
+        "python"
+      ],
+      "hash": "a816077cca80",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Anthropic has opened up its entire educational curriculum for free",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rh92yp/anthropic_has_opened_up_its_entire_educational/",
+      "date": "2026-02-28",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rh92yp/anthropic_has_opened_up_its_entire_educational/\"> <img alt=\"Anthropic has opened up its entire educational curriculum for free\" src=\"https://external-preview.redd.it/GQIZlKCQpxdYfvsNNrRJet19hbe4PieUfzJyjGLJT2M.png?width=140",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "claude",
+        "anthropic"
+      ],
+      "hash": "70f98030e205",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "U.S. Strikes in Middle East Use Anthropic, Hours After Trump Ban",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rhlqoz/us_strikes_in_middle_east_use_anthropic_hours/",
+      "date": "2026-03-01",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rhlqoz/us_strikes_in_middle_east_use_anthropic_hours/\"> <img alt=\"U.S. Strikes in Middle East Use Anthropic, Hours After Trump Ban\" src=\"https://external-preview.redd.it/frkfXwAoPAOfbIv0Vsnjl576dHTh9GokxjanHISckS8.jpeg?width=640&a",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "claude",
+        "anthropic"
+      ],
+      "hash": "5a4a8ffee9c4",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Claude has overtaken ChatGPT in the Apple App Store",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rhgsjz/claude_has_overtaken_chatgpt_in_the_apple_app/",
+      "date": "2026-02-28",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rhgsjz/claude_has_overtaken_chatgpt_in_the_apple_app/\"> <img alt=\"Claude has overtaken ChatGPT in the Apple App Store\" src=\"https://preview.redd.it/osn6yzbfgbmg1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=a48b6c932fb778a061",
+      "relevance_score": 7,
+      "matched_keywords": [
+        "claude",
+        "gpt"
+      ],
+      "hash": "23b2b8e36d60",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "We do not think Anthropic should be designated as a supply chain risk",
+      "url": "https://twitter.com/OpenAI/status/2027846016423321831",
+      "date": "2026-02-28",
+      "summary": "HN score: 440, comments: 196",
+      "hn_score": 440,
+      "relevance_score": 5,
+      "matched_keywords": [
+        "anthropic"
+      ],
+      "hash": "7d7f6f66b585",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Claude-File-Recovery, recover files from your ~/.claude sessions",
+      "url": "https://github.com/hjtenklooster/claude-file-recovery",
+      "date": "2026-02-27",
+      "summary": "HN score: 94, comments: 39",
+      "hn_score": 94,
+      "relevance_score": 5,
+      "matched_keywords": [
+        "claude"
+      ],
+      "hash": "3e268bbb51ec",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/LocalLLaMA",
+      "title": "OpenAI pivot investors love",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rh2lew/openai_pivot_investors_love/",
+      "date": "2026-02-28",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/LocalLLaMA/comments/1rh2lew/openai_pivot_investors_love/\"> <img alt=\"OpenAI pivot investors love\" src=\"https://preview.redd.it/wfho2ytml8mg1.jpeg?width=640&amp;crop=smart&amp;auto=webp&amp;s=c93cb65e111030d26cc8300d3d750ce3552a15a9\" title=\"OpenAI pi",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "openai",
+        "llama"
+      ],
+      "hash": "af03adf56907",
+      "is_critical": false
+    }
+  ]
+}

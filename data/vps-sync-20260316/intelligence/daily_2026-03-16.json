@@ -1,0 +1,158 @@
+{
+  "date": "2026-03-16",
+  "items_fetched": 62,
+  "items_relevant": 30,
+  "items_critical": 0,
+  "top_items": [
+    {
+      "source": "rss/Simon Willison",
+      "title": "What is agentic engineering?",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/#atom-everything",
+      "date": "2026-03-15",
+      "summary": "   Agentic Engineering Patterns  &gt;  \n     I use the term  agentic engineering  to describe the practice of developing software with the assistance of coding agents. \n What are  coding agents ? They're agents that can both write and execute code. Popular examples include  Claude Code ,  OpenAI Cod",
+      "relevance_score": 26,
+      "matched_keywords": [
+        "claude",
+        "claude code",
+        "agent",
+        "agentic",
+        "openai",
+        "bot"
+      ],
+      "hash": "3c20a476b994",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "I fed 14 years of daily journals into Claude Code",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rumjhd/i_fed_14_years_of_daily_journals_into_claude_code/",
+      "date": "2026-03-15",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rumjhd/i_fed_14_years_of_daily_journals_into_claude_code/\"> <img alt=\"I fed 14 years of daily journals into Claude Code\" src=\"https://preview.redd.it/4scvdr4ta9pg1.png?width=640&amp;crop=smart&amp;auto=webp&amp;s=91bc32fdc0b1e9779",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "7c81f4ca3ab8",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "Semantic Invariance in Agentic AI",
+      "url": "http://arxiv.org/abs/2603.13173v1",
+      "date": "2026-03-13",
+      "summary": "Large Language Models (LLMs) increasingly serve as autonomous reasoning agents in decision support, scientific problem-solving, and multi-agent coordination systems. However, deploying LLM agents in consequential applications requires assurance that their reasoning remains stable under semantically ",
+      "relevance_score": 12,
+      "matched_keywords": [
+        "agent",
+        "autonomous",
+        "agentic"
+      ],
+      "hash": "21e25dfc7d28",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "Structured Distillation for Personalized Agent Memory: 11x Token Reduction with Retrieval Preservation",
+      "url": "http://arxiv.org/abs/2603.13017v1",
+      "date": "2026-03-13",
+      "summary": "Long conversations with an AI agent create a simple problem for one user: the history is useful, but carrying it verbatim is expensive. We study personalized agent memory: one user's conversation history with an agent, distilled into a compact retrieval layer for later search. Each exchange is compr",
+      "relevance_score": 11,
+      "matched_keywords": [
+        "retrieval",
+        "agent",
+        "memory"
+      ],
+      "hash": "91b548c5e8f7",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "What is agentic engineering?",
+      "url": "https://simonwillison.net/guides/agentic-engineering-patterns/what-is-agentic-engineering/",
+      "date": "2026-03-16",
+      "summary": "HN score: 120, comments: 72",
+      "hn_score": 120,
+      "relevance_score": 8,
+      "matched_keywords": [
+        "agent",
+        "agentic"
+      ],
+      "hash": "d021f940e505",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "AI Planning Framework for LLM-Based Web Agents",
+      "url": "http://arxiv.org/abs/2603.12710v1",
+      "date": "2026-03-13",
+      "summary": "Developing autonomous agents for web-based tasks is a core challenge in AI. While Large Language Model (LLM) agents can interpret complex user requests, they often operate as black boxes, making it difficult to diagnose why they fail or how they plan. This paper addresses this gap by formally treati",
+      "relevance_score": 8,
+      "matched_keywords": [
+        "agent",
+        "autonomous"
+      ],
+      "hash": "4d0a7c1b8888",
+      "is_critical": false
+    },
+    {
+      "source": "mcp",
+      "title": "MCP: feat(time): add tool annotations to get_current_time and convert_time (#3574) (#3581)",
+      "url": "https://github.com/modelcontextprotocol/servers/commit/81f8301cd2b4a9c32d925083b86c0885b1ba9fbf",
+      "date": "2026-03-15",
+      "summary": "feat(time): add tool annotations to get_current_time and convert_time (#3574) (#3581)\n\nfeat(time): add tool annotations\n\nAdds MCP ToolAnnotations to both time server tools (get_current_time, convert_time). Both are read-only, non-destructive, idempotent, and closed-world.\n\nFixes #3574",
+      "relevance_score": 8,
+      "matched_keywords": [
+        "mcp",
+        "bot"
+      ],
+      "hash": "63cea2c33bea",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "Show HN: Free OpenAI API Access with ChatGPT Account",
+      "url": "https://github.com/EvanZhouDev/openai-oauth",
+      "date": "2026-03-15",
+      "summary": "HN score: 39, comments: 16",
+      "hn_score": 39,
+      "relevance_score": 7,
+      "matched_keywords": [
+        "openai",
+        "gpt",
+        "api"
+      ],
+      "hash": "37798529030e",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/MachineLearning",
+      "title": "[P] QORE - a normalized pricing unit (NTU) of cross provider AI comparison and routing",
+      "url": "https://www.reddit.com/r/MachineLearning/comments/1rv0lph/p_qore_a_normalized_pricing_unit_ntu_of_cross/",
+      "date": "2026-03-16",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>One unit across every provider and modality. Price, route, and audit </p> <p>AI calls without converting between incompatible token systems.</p> <p>pip install qore</p> <p>$ qore price list</p> <p>$ qore usage simulate --provider openai --model gpt-4o --input-tokens",
+      "relevance_score": 7,
+      "matched_keywords": [
+        "openai",
+        "gpt",
+        "pricing"
+      ],
+      "hash": "6e0540fa74fd",
+      "is_critical": false
+    },
+    {
+      "source": "arxiv",
+      "title": "Competition-Aware CPC Forecasting with Near-Market Coverage",
+      "url": "http://arxiv.org/abs/2603.13059v1",
+      "date": "2026-03-13",
+      "summary": "Cost-per-click (CPC) in paid search is a volatile auction outcome generated by a competitive landscape that is only partially observable from any single advertiser's history. Using Google Ads auction logs from a concentrated car-rental market (2021--2023), we forecast weekly CPC for 1,811 keyword se",
+      "relevance_score": 7,
+      "matched_keywords": [
+        "rag",
+        "cost"
+      ],
+      "hash": "1fe86c1e96bf",
+      "is_critical": false
+    }
+  ]
+}

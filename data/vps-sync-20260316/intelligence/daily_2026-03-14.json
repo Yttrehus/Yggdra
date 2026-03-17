@@ -1,0 +1,148 @@
+{
+  "date": "2026-03-14",
+  "items_fetched": 30,
+  "items_relevant": 12,
+  "items_critical": 0,
+  "top_items": [
+    {
+      "source": "github",
+      "title": "anthropics/claude-code v2.1.76 — v2.1.76",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.76",
+      "date": "2026-03-14",
+      "summary": "## What's changed\n\n- Added MCP elicitation support — MCP servers can now request structured input mid-task via an interactive dialog (form fields or browser URL)\n- Added new `Elicitation` and `ElicitationResult` hooks to intercept and override responses before they're sent back\n- Added `-n` / `--name <name>` CLI flag to set a display name for the session at startup\n- Added `worktree.sparsePaths` setting for `claude --worktree` in large monorepos to check out only the directories you need via git",
+      "repo": "anthropics/claude-code",
+      "relevance_score": 16,
+      "matched_keywords": [
+        "claude",
+        "anthropic",
+        "mcp"
+      ],
+      "hash": "cccbe726900f",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/LocalLLaMA",
+      "title": "I'm fully blind, and AI is a game changer for me. Are there any local LLMS that can rival claude code and codex?",
+      "url": "https://www.reddit.com/r/LocalLLaMA/comments/1rsuhwl/im_fully_blind_and_ai_is_a_game_changer_for_me/",
+      "date": "2026-03-13",
+      "summary": "<!-- SC_OFF --><div class=\"md\"><p>Hi guys,</p> <p>So, I am fully blind.</p> <p>Since AI was released to the public, I have been a max user.</p> <p>Why?</p> <p>Because it has changed my life.</p> <p>Suddenly, I am able to get very accurate image descriptions, when I get an inaccessible document, an A",
+      "relevance_score": 13,
+      "matched_keywords": [
+        "claude",
+        "claude code"
+      ],
+      "hash": "0b35beb4c740",
+      "is_critical": false
+    },
+    {
+      "source": "github",
+      "title": "anthropics/claude-code v2.1.75 — v2.1.75",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.75",
+      "date": "2026-03-13",
+      "summary": "\n",
+      "repo": "anthropics/claude-code",
+      "relevance_score": 10,
+      "matched_keywords": [
+        "claude",
+        "anthropic"
+      ],
+      "hash": "b92892e4c5dd",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "1 million context window is now generally available for Claude Opus 4.6 and Claude Sonnet 4.6.",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rsubm0/1_million_context_window_is_now_generally/",
+      "date": "2026-03-13",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rsubm0/1_million_context_window_is_now_generally/\"> <img alt=\"1 million context window is now generally available for Claude Opus 4.6 and Claude Sonnet 4.6.\" src=\"https://preview.redd.it/o7jrde2tnuog1.png?width=640&amp;crop=smart&",
+      "relevance_score": 9,
+      "matched_keywords": [
+        "claude",
+        "context window"
+      ],
+      "hash": "e24497f85eb0",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Opus 4.6 now defaults to 1M context! (same pricing)",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rst3zv/opus_46_now_defaults_to_1m_context_same_pricing/",
+      "date": "2026-03-13",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rst3zv/opus_46_now_defaults_to_1m_context_same_pricing/\"> <img alt=\"Opus 4.6 now defaults to 1M context! (same pricing)\" src=\"https://preview.redd.it/b2cevi6nguog1.png?width=320&amp;crop=smart&amp;auto=webp&amp;s=35346959898fce295",
+      "relevance_score": 7,
+      "matched_keywords": [
+        "claude",
+        "pricing"
+      ],
+      "hash": "14fbd7060ed6",
+      "is_critical": false
+    },
+    {
+      "source": "anthropic",
+      "title": "Ask HN: Is Rust coming to the Anthropic sandbox?",
+      "url": "https://news.ycombinator.com/item?id=47366514",
+      "date": "2026-03-13",
+      "summary": "HN points: 1, comments: 0",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "anthropic"
+      ],
+      "hash": "21dcb58d1402",
+      "is_critical": false
+    },
+    {
+      "source": "anthropic",
+      "title": "Show HN: VibeTrade – Trading Harness for Claude",
+      "url": "https://github.com/vibetrade-ai/vibe-trade",
+      "date": "2026-03-13",
+      "summary": "HN points: 2, comments: 0",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "claude"
+      ],
+      "hash": "ab4806c8081e",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Captain (YC W26) – Automated RAG for Files",
+      "url": "https://www.runcaptain.com/",
+      "date": "2026-03-13",
+      "summary": "HN score: 50, comments: 35",
+      "hn_score": 50,
+      "relevance_score": 5,
+      "matched_keywords": [
+        "rag"
+      ],
+      "hash": "bd29e920000f",
+      "is_critical": false
+    },
+    {
+      "source": "reddit/ClaudeAI",
+      "title": "Asked Claude for winning lottery numbers",
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1rss5mh/asked_claude_for_winning_lottery_numbers/",
+      "date": "2026-03-13",
+      "summary": "<table> <tr><td> <a href=\"https://www.reddit.com/r/ClaudeAI/comments/1rss5mh/asked_claude_for_winning_lottery_numbers/\"> <img alt=\"Asked Claude for winning lottery numbers\" src=\"https://preview.redd.it/evwo1cy4buog1.png?width=140&amp;height=123&amp;auto=webp&amp;s=1fd013a4eb7621564dfe8edb2d622b7c9d0",
+      "relevance_score": 5,
+      "matched_keywords": [
+        "claude"
+      ],
+      "hash": "43ab71be7d77",
+      "is_critical": false
+    },
+    {
+      "source": "hackernews",
+      "title": "Launch HN: Spine Swarm (YC S23) – AI agents that collaborate on a visual canvas",
+      "url": "https://www.getspine.ai/",
+      "date": "2026-03-13",
+      "summary": "HN score: 92, comments: 66",
+      "hn_score": 92,
+      "relevance_score": 4,
+      "matched_keywords": [
+        "agent"
+      ],
+      "hash": "b835d223d9d0",
+      "is_critical": false
+    }
+  ]
+}

@@ -1,0 +1,372 @@
+{
+  "timestamp": "2026-03-01T08:00:23.323908",
+  "upstream_sources": [
+    {
+      "name": "YouTube",
+      "type": "website",
+      "count": 1,
+      "contexts": [
+        "Video platform hvor kanalen 'Nate B Jones' er nævnt eller vurderet"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Nate B Jones",
+      "type": "person",
+      "count": 1,
+      "contexts": [
+        "Kanalnavn på YouTube hvor videoen er placeret"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Ikke specificeret, sandsynligvis YouTube",
+      "type": "channel",
+      "count": 1,
+      "contexts": [
+        "Kilder nævnt i analysen nævnes som en kanal, sandsynligvis YouTube, uden navn eller yderligere detal"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "the $125 Billion Secret: Amazon Told Wall Street One Thing and Employees Another. Here's the Truth.",
+      "type": "website",
+      "count": 1,
+      "contexts": [
+        "Video: 'the $125 Billion Secret: Amazon Told Wall Street One Thing and Employees Another. Here's the"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Ukendt kanal",
+      "type": "channel",
+      "count": 1,
+      "contexts": [
+        "Kanal: Ukendt (muligvis en ny kanal, ingen navn givet)."
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Cole Medin",
+      "type": "channel",
+      "count": 1,
+      "contexts": [
+        "Videoens kanal: Cole Medin (Build a Robust AI Driven Data Pipeline in Minutes (No Code))"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "n8n",
+      "type": "tool",
+      "count": 1,
+      "contexts": [
+        "Tool-navn: n8n — nævnt som et eksempel på no-code/low-code værktøj til dataintegration."
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Airbyte",
+      "type": "tool",
+      "count": 1,
+      "contexts": [
+        "Tool-navn: Airbyte — nævnt som et eksempel på no-code/low-code værktøj til dataintegration."
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Zapier",
+      "type": "tool",
+      "count": 1,
+      "contexts": [
+        "Tool-navn: Zapier — nævnt som et eksempel på no-code/low-code værktøj til dataintegration."
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Notion AI",
+      "type": "tool",
+      "count": 1,
+      "contexts": [
+        "Nævnt som AI-assistent i Notion, der kan fungere som 'Workspace Brain' og udtrække handlinger fra da"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Manus",
+      "type": "person/channel",
+      "count": 1,
+      "contexts": [
+        "Nævnt som en agent der finder information."
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Meta",
+      "type": "company",
+      "count": 1,
+      "contexts": [
+        "Virksomhed nævnt i forbindelse med markedsværdier og aktiekurser"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "type": "company",
+      "count": 1,
+      "contexts": [
+        "Virksomhed nævnt i forbindelse med markedsværdier og aktiekurser"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Tesla",
+      "type": "company",
+      "count": 1,
+      "contexts": [
+        "Virksomhed nævnt i forbindelse med markedsværdier, aktiekurser og Tesla-konflikten"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "The $125 Billion Secret: Amazon Told Wall Street One Thing and Employees Another. Here's the Truth",
+      "type": "channel",
+      "count": 1,
+      "contexts": [
+        "Titel på video, nævnt som kilde til emnet om Amazon og Wall Street's skjulte information"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "AI Coding Hackathon",
+      "type": "channel",
+      "count": 1,
+      "contexts": [
+        "Titlen indikerer et live hackathon, muligvis på platforme som Twitch, YouTube Live eller tilsvarende"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "Tools/Platforms",
+      "type": "tool",
+      "count": 1,
+      "contexts": [
+        "Nævnes muligvis som værktøjer eller frameworks brugt til konkurrencen, selvom ingen specifikke navne"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "prize",
+      "type": "paper",
+      "count": 1,
+      "contexts": [
+        "Nævnt som information om præmien ($17K), hvilket antyder en ekstern ressource eller konkurrenceeleme"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "IBM WatsonX Data Integration",
+      "type": "tool",
+      "count": 1,
+      "contexts": [
+        "Nævnt som en potentiel løsning til dataindsamling og integration, samt vurderet til at kunne bruges "
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    },
+    {
+      "name": "StreamSets",
+      "type": "tool",
+      "count": 1,
+      "contexts": [
+        "Nævnt som en data streaming tool i videoen og vurderet til at kunne have relevans for dataflow og pi"
+      ],
+      "discovered_via": [
+        "youtube_monitor"
+      ]
+    }
+  ],
+  "hot_sources": [],
+  "github_activity": [
+    {
+      "repo": "anthropics/claude-code",
+      "type": "release",
+      "tag": "v2.1.63",
+      "name": "v2.1.63",
+      "published": "2026-02-28T03:45:37Z",
+      "body_preview": "## What's changed\n\n- Added `/simplify` and `/batch` bundled slash commands\n- Fixed local slash command output like /cost appearing as user-sent messages instead of system messages in the UI\n- Project configs & auto memory now shared across git worktrees of the same repository\n- Added `ENABLE_CLAUDEA",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.63"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "type": "release",
+      "tag": "v2.1.62",
+      "name": "v2.1.62",
+      "published": "2026-02-27T01:56:19Z",
+      "body_preview": "## What's changed\n\n- Fixed prompt suggestion cache regression that reduced cache hit rates\n",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.62"
+    },
+    {
+      "repo": "danielmiessler/fabric",
+      "type": "release",
+      "tag": "v1.4.427",
+      "name": "v1.4.427",
+      "published": "2026-03-01T02:17:06Z",
+      "body_preview": "## Changes\n\n### PR [#2038](https://github.com/danielmiessler/Fabric/pull/2038) by [ksylvan](https://github.com/ksylvan): Add Git CLI Fallback to `FetchFilesFromRepo`\n\n- Feat: add git CLI fallback to `FetchFilesFromRepo` for improved compatibility\n- Add git CLI fallback when go-git in-memory clone fa",
+      "url": "https://github.com/danielmiessler/Fabric/releases/tag/v1.4.427"
+    },
+    {
+      "repo": "danielmiessler/fabric",
+      "type": "release",
+      "tag": "v1.4.426",
+      "name": "v1.4.426",
+      "published": "2026-02-28T23:44:47Z",
+      "body_preview": "## Changes\n\n### PR [#2036](https://github.com/danielmiessler/Fabric/pull/2036) by [ksylvan](https://github.com/ksylvan): WebUI: YouTube URL Processing Refactor & Dependency Updates\n\n- Feat: Inline YouTube transcripts into the chat flow, replacing YouTube URLs with fetched transcript blocks and suppo",
+      "url": "https://github.com/danielmiessler/Fabric/releases/tag/v1.4.426"
+    },
+    {
+      "repo": "danielmiessler/fabric",
+      "type": "hot_issue",
+      "title": "[Feature request]: Fabric CLI has become too cluttered",
+      "comments": 7,
+      "url": "https://github.com/danielmiessler/Fabric/issues/1974",
+      "updated": "2026-02-28T17:13:30Z"
+    },
+    {
+      "repo": "qdrant/qdrant",
+      "type": "release",
+      "tag": "v1.17.0",
+      "name": "v1.17.0",
+      "published": "2026-02-20T11:11:50Z",
+      "body_preview": "# Change log\r\n\r\n## Features 🏋️\r\n\r\n* [milestone#38](https://github.com/qdrant/qdrant/milestone/38?closed=1) - Relevance Feedback ([docs](https://qdrant.tech/documentation/concepts/search-relevance/#relevance-feedback))\r\n* [milestone#44](https://github.com/qdrant/qdrant/milestone/44?closed=1) - API fo",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.17.0"
+    },
+    {
+      "repo": "qdrant/qdrant",
+      "type": "release",
+      "tag": "v1.16.3",
+      "name": "v1.16.3",
+      "published": "2025-12-19T17:45:42Z",
+      "body_preview": "# Change log\r\n\r\n## Improvements\r\n\r\n- https://github.com/qdrant/qdrant/pull/7755, https://github.com/qdrant/qdrant/pull/7588 - Respect search and point retrieve timeout when trying to access segments\r\n- https://github.com/qdrant/qdrant/pull/7685 - Respect telemetry timeout when fetching shard statist",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.16.3"
+    },
+    {
+      "repo": "qdrant/qdrant",
+      "type": "hot_issue",
+      "title": "Allow Qdrant to run on read-only FS",
+      "comments": 23,
+      "url": "https://github.com/qdrant/qdrant/issues/3321",
+      "updated": "2026-03-01T04:48:22Z"
+    },
+    {
+      "repo": "picovoice/porcupine",
+      "type": "release",
+      "tag": "v4.0",
+      "name": "v4.0",
+      "published": "2025-12-11T18:45:45Z",
+      "body_preview": "- Improved engine performance\r\n- Added support for running on GPU or multiple CPU cores\r\n- Node.js min version bumped to 18\r\n- iOS min version bumped to 16\r\n- Flutter min version bumped to 3.10\r\n- React Native min version bumped to 0.73\r\n- Ended support for Unity",
+      "url": "https://github.com/Picovoice/porcupine/releases/tag/v4.0"
+    },
+    {
+      "repo": "picovoice/porcupine",
+      "type": "release",
+      "tag": "v3.0",
+      "name": "v3.0",
+      "published": "2023-10-26T19:17:54Z",
+      "body_preview": "- Improvements to error reporting\r\n- Upgrades to authorization and authentication system\r\n- Various bug fixes and improvements\r\n- Added Farsi support for microcontrollers\r\n- Node min support bumped to 16\r\n- Unity editor min support bumped to 2021\r\n- Patches to .NET support",
+      "url": "https://github.com/Picovoice/porcupine/releases/tag/v3.0"
+    },
+    {
+      "repo": "modelcontextprotocol/servers",
+      "type": "release",
+      "tag": "2026.1.26",
+      "name": "Release 2026.1.26",
+      "published": "2026-01-27T12:11:26Z",
+      "body_preview": "# Release : v2026.1.26\n\n## Updated packages\n- @modelcontextprotocol/server-everything@2026.1.26\n- @modelcontextprotocol/server-memory@2026.1.26\n- mcp-server-time@2026.1.26\n",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.1.26"
+    },
+    {
+      "repo": "modelcontextprotocol/servers",
+      "type": "release",
+      "tag": "2026.1.14",
+      "name": "Release 2026.1.14",
+      "published": "2026-01-14T16:35:35Z",
+      "body_preview": "# Release : v2026.1.14\n\n## Updated packages\n- @modelcontextprotocol/server-everything@2026.1.14\n- @modelcontextprotocol/server-filesystem@2026.1.14\n- mcp-server-git@2026.1.14\n",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/2026.1.14"
+    },
+    {
+      "repo": "modelcontextprotocol/specification",
+      "type": "release",
+      "tag": "2025-11-25",
+      "name": "2025-11-25",
+      "published": "2025-11-25T21:17:42Z",
+      "body_preview": "This release marks the **stable release** of the `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available on the [official Model Context Protocol website](https://modelcontextprotocol.io/specification/2025-11-25).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 c",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25"
+    },
+    {
+      "repo": "modelcontextprotocol/specification",
+      "type": "release",
+      "tag": "2025-11-25-RC",
+      "name": "2025-11-25-RC",
+      "published": "2025-11-15T06:06:55Z",
+      "body_preview": "This release marks the **release candidate (RC)** `2025-11-25` revision of the Model Context Protocol.\r\n\r\nThe specification is available in [draft form](https://modelcontextprotocol.io/specification/draft).\r\n\r\nFor a detailed overview of changes, see [2025-11-25 draft changelog](https://modelcontextp",
+      "url": "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/2025-11-25-RC"
+    },
+    {
+      "repo": "anthropics/anthropic-sdk-python",
+      "type": "release",
+      "tag": "v0.84.0",
+      "name": "v0.84.0",
+      "published": "2026-02-25T05:22:10Z",
+      "body_preview": "## 0.84.0 (2026-02-25)\n\nFull Changelog: [v0.83.0...v0.84.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.83.0...v0.84.0)\n\n### Features\n\n* **api:** change array_format to brackets ([925d2ad](https://github.com/anthropics/anthropic-sdk-python/commit/925d2ad6b76ad7c15de07b9b2768738775f",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.84.0"
+    },
+    {
+      "repo": "anthropics/anthropic-sdk-python",
+      "type": "release",
+      "tag": "v0.83.0",
+      "name": "v0.83.0",
+      "published": "2026-02-19T19:26:11Z",
+      "body_preview": "## 0.83.0 (2026-02-19)\n\nFull Changelog: [v0.82.0...v0.83.0](https://github.com/anthropics/anthropic-sdk-python/compare/v0.82.0...v0.83.0)\n\n### Features\n\n* **api:** Add top-level cache control (automatic caching) ([a940123](https://github.com/anthropics/anthropic-sdk-python/commit/a940123da34ac33f0b6",
+      "url": "https://github.com/anthropics/anthropic-sdk-python/releases/tag/v0.83.0"
+    }
+  ],
+  "new_source_suggestions": [],
+  "briefing": "Ydrasil Briefing – Dagsstatus (27. februar 2026)\n\n1. TOP SIGNAL\nDer er stærk vækst i interessen for avanceret retrieval-engineering og RAG-mønstre, især set i de mange videoer fra AI Automators, som viser forskellige RAG-arkitekturer og progressive kompleksitetsniveauer. Samtidig er der fokus på at forbedre agenters selvopdatering og kontekststyring, hvilket kan hjælpe os med at optimere vores handlingsplan.\n\n2. UPSTREAM ALERT\nVi observerer, at væsentlige kilder som Nate B Jones’ kanal og Cole Medin fortsætter med at drøfte state-of-the-art i agent- og RAG-udvikling. Især bør vi holde øje med Jones’ videoer omkring time-baserede hierarkier, kontekst engineering og byggesten til agenter, da disse slet kan påvirke vores strategi med mere robuste, selvforvaltende AI-systemer.\n\n3. TECH RADAR\n- Oprettelsen af nye releases i Claude-code (seneste version v2.1.63) tyder på kontinuerlig forbedring i AI-kodeværktøjer, hvilket kan optimere vores integrationsprocesser.\n- GitHub-releases fra Daniel Miessler’s Fabric viser workflows, der kan strømline dataintegration og transcript-udtræk i vores systemer.\n- Der er også fokus på no-code værktøjer som n8n, Airbyte og Zapier, hvilket indikerer en samlet trend mod mere brugervenlige, hurtige integrationsmuligheder til datakilder.\n\n4. ANBEFALEDE HANDLINGER\n- Gennemgå aktuelle RAG-arkitekturer og hierarkier fra videoer for at afklare, hvilke metoder der bedst kan tilpasses Ydrasil.\n- Integrer nye versionsopdateringer i Claude-koden og Fabric for at forbedre effektivitet og stabilitet.\n- Overvej at pilotere no-code/low-code integrationsværktøjer til hurtigere dataindsamling og storytelling uden tung kodeudvikling.\n\n5. NYE KILDER AT FØLGE\n- Nate B Jones’ kanal: fortsat fokus på hierarki, kontekst engineering og agenter, da det kan skubbe vores udvikling fremad.\n- Cole Medin: hans opdateringer om progressiv disclosure og datapipeline-arkitektur kan give os nye metoder til datahåndtering.\n- GitHub (særligt Fabric og Claude-code): følg udviklingen for at holde trit med muligheder for forbedret automatisering og kodeintegration.\n\nKort opsummering: Vores fokus skal være på at følge med i RAG-arkitekturer, integrere ny kode-teknologi og udnytte no-code værktøjer for at fastholde et innovativt forspring."
+}

@@ -1,0 +1,89 @@
+{
+  "timestamp": "2026-01-31T23:09:13.822063",
+  "upstream_sources": [],
+  "hot_sources": [],
+  "github_activity": [
+    {
+      "repo": "anthropics/claude-code",
+      "type": "release",
+      "tag": "v2.1.27",
+      "name": "v2.1.27",
+      "published": "2026-01-30T20:38:53Z",
+      "body_preview": "## What's changed\n\n- Added tool call failures and denials to debug logs\n- Fixed context management validation error for gateway users, ensuring `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1` avoids the error\n- Added `--from-pr` flag to resume sessions linked to a specific GitHub PR number or URL\n- Sessi",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.27"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "type": "release",
+      "tag": "v2.1.25",
+      "name": "v2.1.25",
+      "published": "2026-01-29T21:13:33Z",
+      "body_preview": "## What's changed\n\n- Fixed beta header validation error for gateway users on Bedrock and Vertex, ensuring `CLAUDE_CODE_DISABLE_EXPERIMENTAL_BETAS=1` avoids the error\n",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.25"
+    },
+    {
+      "repo": "anthropics/claude-code",
+      "type": "hot_issue",
+      "title": "Support shift+enter in most terminals",
+      "comments": 5,
+      "url": "https://github.com/anthropics/claude-code/issues/1758",
+      "updated": "2026-01-31T23:05:01Z"
+    },
+    {
+      "repo": "danielmiessler/fabric",
+      "type": "release",
+      "tag": "v1.4.397",
+      "name": "v1.4.397",
+      "published": "2026-01-31T21:37:32Z",
+      "body_preview": "## Changes\n\n### PR [#1979](https://github.com/danielmiessler/Fabric/pull/1979) by [ksylvan](https://github.com/ksylvan): Update Anthropic SDK to v1.20.0 and reorganize model definitions\n\n- Feat: update Anthropic SDK to v1.20.0 and reorganize model definitions\n- Bump `anthropic-sdk-go` dependency fro",
+      "url": "https://github.com/danielmiessler/Fabric/releases/tag/v1.4.397"
+    },
+    {
+      "repo": "danielmiessler/fabric",
+      "type": "release",
+      "tag": "v1.4.396",
+      "name": "v1.4.396",
+      "published": "2026-01-30T06:19:23Z",
+      "body_preview": "## Changes\n\n### PR [#1975](https://github.com/danielmiessler/Fabric/pull/1975) by [koriyoshi2041](https://github.com/koriyoshi2041): feat: add suggest_moltbot_command pattern for Moltbot (formerly Clawdbot) CLI\n\n- Added new pattern for suggesting Moltbot CLI commands based on natural language intent",
+      "url": "https://github.com/danielmiessler/Fabric/releases/tag/v1.4.396"
+    },
+    {
+      "repo": "qdrant/qdrant",
+      "type": "release",
+      "tag": "v1.16.3",
+      "name": "v1.16.3",
+      "published": "2025-12-19T17:45:42Z",
+      "body_preview": "# Change log\r\n\r\n## Improvements\r\n\r\n- https://github.com/qdrant/qdrant/pull/7755, https://github.com/qdrant/qdrant/pull/7588 - Respect search and point retrieve timeout when trying to access segments\r\n- https://github.com/qdrant/qdrant/pull/7685 - Respect telemetry timeout when fetching shard statist",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.16.3"
+    },
+    {
+      "repo": "qdrant/qdrant",
+      "type": "release",
+      "tag": "v1.16.2",
+      "name": "v1.16.2",
+      "published": "2025-12-04T11:03:49Z",
+      "body_preview": "# Change log\r\n\r\n## Improvements\r\n\r\n- https://github.com/qdrant/qdrant/pull/7607 - Improve request timeout handling for telemetry and metrics\r\n- https://github.com/qdrant/qdrant/pull/7623 - Add user agent to HTTP requests sent by Qdrant server\r\n\r\n## Bug fixes\r\n\r\n- https://github.com/qdrant/qdrant/pul",
+      "url": "https://github.com/qdrant/qdrant/releases/tag/v1.16.2"
+    },
+    {
+      "repo": "picovoice/porcupine",
+      "type": "release",
+      "tag": "v4.0",
+      "name": "v4.0",
+      "published": "2025-12-11T18:45:45Z",
+      "body_preview": "- Improved engine performance\r\n- Added support for running on GPU or multiple CPU cores\r\n- Node.js min version bumped to 18\r\n- iOS min version bumped to 16\r\n- Flutter min version bumped to 3.10\r\n- React Native min version bumped to 0.73\r\n- Ended support for Unity",
+      "url": "https://github.com/Picovoice/porcupine/releases/tag/v4.0"
+    },
+    {
+      "repo": "picovoice/porcupine",
+      "type": "release",
+      "tag": "v3.0",
+      "name": "v3.0",
+      "published": "2023-10-26T19:17:54Z",
+      "body_preview": "- Improvements to error reporting\r\n- Upgrades to authorization and authentication system\r\n- Various bug fixes and improvements\r\n- Added Farsi support for microcontrollers\r\n- Node min support bumped to 16\r\n- Unity editor min support bumped to 2021\r\n- Patches to .NET support",
+      "url": "https://github.com/Picovoice/porcupine/releases/tag/v3.0"
+    }
+  ],
+  "new_source_suggestions": [],
+  "briefing": "**Ydrasil Daglig Briefing**\n\n**TOP SIGNAL:**  \nOpdateringer af Claude-code (version 2.1.25 og 2.1.27) viser fortsat aktiv udvikling med forbedringer i debugging og quizfunktioner. Det indikerer, at AI-kodeintegration og workflow-udvikling er centrale, og vi bør følge disse releases tæt for at tilpasse vores implementering hurtigt.\n\n**UPSTREAM ALERT:**  \nVores primære kilder bruger GitHub-releases fra antropics/claude-code og danielmiessler/fabric. Især vigtige er de seneste opdateringer:  \n- Claude-code v2.1.25 og v2.1.27, der forbedrer fejlhåndtering.  \n- Fabric version 1.4.397 med opdateringer til AI SDK- integrationer.  \nDisse giver os tidlig indsigt i kommende funktioner og fejlrettelser, langt før de når offentligheden.\n\n**TECH RADAR:**  \n- Nye releases af Claude-code (specielt v2.1.27) forbedrer support til fejl-logging og session management.  \n- Fabric 1.4.397 introducerer opgraderinger i Anthropic SDK, hvilket kan forbedre vores AI-kodearbejde.  \nIngen større nye værktøjer er identificeret, men API-forbedringer signalerer, at integration med AI-kode bør prioriteres.\n\n**ANBEFALEDE HANDLINGER:**  \n1. Tilmeld os GitHub-notifikationer fra Claude-code og Fabric for at reagere hurtigt på opdateringer.  \n2. Test de nye versioner af Claude-code i vores miljø for at vurdere forbedringer i debug og session-funktioner.  \n3. Forstå og inkorporer de nye SDK-opdateringer i vores kodegenerering og pipeline-processer for at holde os foran.\n\n**NYE KILDER AT FØLGE:**  \n- **Claude-code repositories** (især releases) – vigtig for forbedringer i kodestyring og debugging.  \n- **Fabric SDK-udviklinger** – afgørende for at optimere vores integrationer med AI-værktøjer.  \nDisse kilder giver os tidlig indsigt og mulighed for proaktiv tilpasning, hvilket er essentielt for et udviklingsprojekt som Ydrasil.\n\n**Kort opsummering:**  \nFølg med i Claude-code og Fabric-opdateringer, test nye versioner straks og tilpas vores workflows derefter for at sikre et forspring i udviklingen."
+}

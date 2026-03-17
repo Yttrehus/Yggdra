@@ -1,0 +1,46 @@
+bind [127.0.0.1]:6333: Address already in use
+channel_setup_fwd_listener_tcpip: cannot listen to port: 6333
+Could not request local forwarding.
+# 0 6 * * * /root/Yggdra/scripts/venv/bin/python3 /root/Yggdra/scripts/navigator.py >> /var/log/ydrasil/navigator.log 2>&1
+0 7 * * * /root/Yggdra/scripts/cron_guard.sh 300 youtube_monitor /root/Yggdra/scripts/venv/bin/python3 /root/Yggdra/scripts/youtube_monitor.py
+0 8 * * 0 /root/Yggdra/scripts/cron_guard.sh 300 source_discovery /root/Yggdra/scripts/venv/bin/python3 /root/Yggdra/scripts/source_discovery.py
+# Advisor brain re-embedding — ugentligt soendag kl 05:00
+# Auto-dagbog — daglig kl 23:55
+# Backup - dagligt kl 04:00
+# Hourly pipe-pane rotation — sikrer logging altid kører med time-baseret fil
+# Huskeliste scanner — hver time kl :30
+# Logbog — nyt dagskort kl 00:05
+# Logbog — time-for-time log
+# Navigator - DEAKTIVERET 2026-02-01 (genaktivér når Fase 1 er færdig)
+# Session log processering - hver time
+# Source discovery — reaktiveret 2026-02-28
+# Ugentlig system-audit — søndag kl 06:00
+# Videns-scoring — hver time kl :15 (scorer 400 chunks, done på ~24 timer)
+# YouTube monitor — reaktiveret 2026-02-28
+# tmux logging ved reboot
+# DISABLED 2026-03-15 (logs nobody reads): 0 * * * * tmux pipe-pane -t claude -o "cat >> /var/log/ydrasil/tmux-$(date +\%Y-\%m-\%d-\%H).log" 2>/dev/null
+0 */6 * * * /root/Yggdra/scripts/cron_guard.sh 600 session_log /root/Yggdra/scripts/venv/bin/python3 /root/Yggdra/scripts/process_session_log.py
+0 4 * * * /root/Yggdra/scripts/backup_offsite.sh >> /var/log/ydrasil/backup.log 2>&1
+0 5 * * 0 /root/Yggdra/scripts/venv/bin/python3 /root/Yggdra/scripts/embed_advisor_brain.py >> /var/log/ydrasil/cron.log 2>&1
+# DISABLED 2026-03-16 (docs migreret til knowledge): 0 5 * * 0 /root/Yggdra/scripts/venv/bin/python3 /root/Yggdra/scripts/embed_docs.py >> /var/log/ydrasil/cron.log 2>&1
+0 6 * * 0 /root/Yggdra/scripts/venv/bin/python3 /root/Yggdra/scripts/weekly_audit.py >> /var/log/ydrasil/audit.log 2>&1
+0 7 * * * /root/Yggdra/scripts/cron_guard.sh 300 morning_brief /root/Yggdra/scripts/venv/bin/python3 /root/Yggdra/scripts/morning_brief.py
+# DISABLED session3: 15 * * * * cd /root/Yggdra/scripts && /usr/bin/python3 -u score_knowledge_batch.py --limit 400 >> /var/log/ydrasil/scoring.log 2>&1
+# DISABLED 2026-03-14 (Trello droppet): 5 7 * * * /root/Yggdra/scripts/venv/bin/python3 /root/Yggdra/scripts/integrations/sync_inbox.py >> /var/log/ydrasil/cron.log 2>&1
+55 23 * * * /root/Yggdra/scripts/venv/bin/python3 /root/Yggdra/scripts/auto_dagbog.py >> /var/log/ydrasil/cron.log 2>&1
+# Voice memo auto-pipeline — hvert 2. minut
+# DISABLED 2026-03-14 (voice memos ikke aktive): */2 * * * * cd /root/Yggdra && python3 scripts/voice_memo_pipeline.py >> /tmp/voice_pipeline.log 2>&1
+# Hotmail auto-sort — hver time kl :45
+45 8,13,18 * * * cd /root/Yggdra && /root/Yggdra/scripts/venv/bin/python3 scripts/integrations/hotmail_autosort.py >> /var/log/ydrasil/hotmail.log 2>&1
+0 8 * * * /root/Yggdra/scripts/cron_guard.sh 300 daily_sweep /root/Yggdra/scripts/venv/bin/python3 /root/Yggdra/scripts/daily_sweep.py
+# Heartbeat daemon — hvert 30. min, 08-21 dansk tid
+*/30 8-21 * * * /root/Yggdra/scripts/cron_guard.sh 120 heartbeat /root/Yggdra/scripts/venv/bin/python3 /root/Yggdra/scripts/heartbeat.py
+# AI Intelligence — daglig kl 06:30, ugentlig søndag kl 06:15
+30 6 * * * /root/Yggdra/scripts/cron_guard.sh 600 ai_intelligence /root/Yggdra/scripts/venv/bin/python3 /root/Yggdra/scripts/ai_intelligence.py
+15 6 * * 0 /root/Yggdra/scripts/cron_guard.sh 900 ai_intel_weekly /root/Yggdra/scripts/venv/bin/python3 /root/Yggdra/scripts/ai_intelligence.py --weekly
+# Cruft detector — ugentlig soendag kl 06:30. Kill condition: fjern naar bedre monitoring er paa plads
+30 6 * * 0 cd /root/Yggdra && /root/Yggdra/scripts/venv/bin/python3 scripts/cruft_detector.py >> /var/log/ydrasil/cruft.log 2>&1
+# Prompt miner — daglig kl 06:30. Kill condition: fjern hvis last_used.txt > 14 dage
+30 6 * * * /root/Yggdra/scripts/cron_guard.sh 300 prompt_miner /root/Yggdra/scripts/venv/bin/python3 /root/Yggdra/scripts/prompt_miner.py daily
+# Episodes rotation — ugentlig soendag kl 05:30. Kill condition: fjern hvis episode-systemet erstattes
+30 5 * * 0 /root/Yggdra/scripts/cron_guard.sh 120 rotate_episodes /root/Yggdra/scripts/venv/bin/python3 /root/Yggdra/scripts/rotate_episodes.py

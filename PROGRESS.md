@@ -4,6 +4,40 @@ Fortællende dagbog. Formålet er at en ny Claude-session kan læse dette og for
 
 ---
 
+## Session 24 (2026-03-16)
+
+Hukommelsesarkitektur v1 implementeret. Voice memo pipeline testet. VPS overlevering analyseret.
+
+**Voice memo transkription.** `Voice 260316_053647.m4a` (60 min, 56.5 MB) uploadet til VPS via SCP, komprimeret med ffmpeg (56→14 MB), transkriberet via Groq Whisper API (whisper-large-v3). 28.505 tegn dansk tekst. VPS har to scripts: `voice_memo_pipeline.py` (Groq, watch mode, Telegram-notifikation) og `voice_pipeline.py` (OpenAI Whisper + Fabric classify_intent + Qdrant embedding + huskeliste routing). Subagent renskrev transkriptionen i 8 kapitler → `voice_memos/voice_260316_053647.md`.
+
+**Indhold af voice memoen:** 60 minutters brainstorm om: (1) hukommelsesarkitektur skal implementeres nu — blokerende for alt andet, (2) OpenClaw mini-claw agents med dagbog/logbog og read-only sandbox, (3) backlog-strukturreform med kapitel-nummerering og opløsning af projects/, (4) APA-referencer som standard for research, (5) projektmapper som selvstændige workspaces, (6) max 2-3 mappeniveauer (Miessler), (7) VPS overlevering hent og analysér, (8) Obsidian gem til senere.
+
+**Hukommelsesarkitektur v1 bygget.** `scripts/memory.py` — Python CLI med 5 kommandoer: setup (opret collections), ingest (markdown → chunks → embeddings → Qdrant), search (hybrid + decay), status, nuke. To collections: `knowledge` (etableret viden, research) og `episodes` (sessions, voice memos, chatlogs). Hybrid search via dense vectors (text-embedding-3-small, 1536 dim) + sparse vectors (term-frequency BM25-approksimation) + Reciprocal Rank Fusion. Temporal decay i scoring (nyere vejer tungere). Content hashing (SHA256) for idempotent re-ingest. Kontekstuel chunking (titel + heading prepended før embedding). Heading-aware splitting med sætnings-fallback for headingless tekst (Whisper output). Kører på PC via SSH-tunnel til VPS Qdrant (port 6333). Dependencies: qdrant-client, openai i `.venv/`.
+
+**Ingest gennemført.** 62 research-filer → 984 chunks i `knowledge`. 1 voice memo + chatlogs + progress → 59 chunks i `episodes`. Test-søgninger bekræfter at hybrid search returnerer relevante resultater.
+
+**VPS overlevering analyseret.** `/root/Yggdra/yggdra-pc/overlevering-fra-vps/` indeholder: INDEX.md (komplet fil-manifest), REFLEKSION.md (VPS-Claudes personlige vurdering af Yttre), context.md (VPS infrastruktur-state), progress.md (narrativ dagbog), chatlog.md, SESSION_22_PLAN.md, 17 research-filer, 12 session JSONL-filer. Alle MD-filer kopieret til `projects/2_research/`. Qdrant-analyse: 7 collections, 85K+ vektorer — `routes` (40K, TI) og `sessions` (43K) udgør 98%. Reel videnbase (`knowledge` + `docs` + `advisor_brain`) kun 2.165 points. Yttre besluttede: start fra scratch, kun knowledge + episodes.
+
+**VPS Obsidian-research hentet.** `OBSIDIAN_BRO_ANALYSE.md` (26K, adversarial analyse). Konklusion: betinget ja — 5 min fase 0 test, kun hvis hukommelsen kører først. Red team: "Obsidian løser et problem Kristoffer ikke har bevist at han har." Parkeret.
+
+**Beslutninger:**
+- Qdrant startes fra scratch med to collections (knowledge + episodes)
+- Chatlogs under episodes, ikke egen collection (source-tag filtrerer)
+- Obsidian parkeret til hukommelsesarkitekturen er afprøvet
+- Legacy collections (sessions, advisor_brain, docs, miessler_bible, conversations) slettes senere
+- OpenClaw evaluering + mini-claw arkitektur → næste planlægningssession
+
+**Mangler/næste skridt:**
+- Eval-suite (20 test-queries)
+- Auto-ingest (hook/cron)
+- Legacy Qdrant cleanup
+- OpenClaw evaluering + mini-claw design
+- memory.py alias (`mem search "query"`)
+
+**Session-fil:** `a833d545-ac8f-41df-958f-439ff6c22761.jsonl` (PC: `~/.claude/projects/c--Users-Krist-dev-projects-Yggdra/`)
+
+---
+
 ## Session 23 (2026-03-16)
 
 V6 research-konsolidering gennemført. Opgaven: hent VPS-destillater, slet absorberede filer fra PC.
